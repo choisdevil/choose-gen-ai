@@ -33,7 +33,8 @@ API는 쓰지 않는다. 웹 검색·웹 페이지 확인으로 **오늘 확인�
 | xAI / Microsoft / Perplexity / DeepSeek 등 | 각 사 공식 블로그·도움말 |
 | 국내(네이버·LG·업스테이지·카카오 등) | 각 사 공식 보도자료·서비스 공지 |
 
-- 새 모델이 소비자용 앱(웹/모바일)에서 선택 가능해졌으면 항목을 추가한다(API 전용 모델은 추가하지 않음).
+- 새 모델이 소비자용 앱(웹/모바일/데스크톱)에서 선택 가능해졌으면 항목을 추가한다. **일반 채팅 창이 아니라 앱 안의 다른 모드(예: ChatGPT Work, Codex, Gemini의 Deep Think, Claude의 Research)에서만 제공되는 모델도 포함**하고, `name`·`product`·`summary`·`effortGuide`에 어디서 고르는지 적는다. API 전용 모델만 제외한다.
+- 각 회사의 **최신 발표 모델이 모두 목록에 있는지** 마지막에 한 번 더 대조한다(예: OpenAI GPT-6 Astra·6.1 Sol·Sol·Luna, Anthropic Opus·Sonnet·Fable, Google Pro·Flash).
 - 앱에서 내려간 모델은 삭제하고, 그 모델을 쓰던 추천을 3단계에서 다시 정한다.
 - 각 모델의 `effortGuide`(low·medium·high·xhigh·max를 그 서비스 메뉴에서 어떻게 고르는지)는 공식 도움말 기준으로 맞춘다. 서비스에 해당 단계가 없으면 "가장 가까운 옵션 + 없다는 사실"을 적는다.
 - `access.free`는 **무료 요금제에서 실제로 선택 가능할 때만** `true`.

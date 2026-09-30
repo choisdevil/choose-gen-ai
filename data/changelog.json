@@ -2,6 +2,16 @@
   "entries": [
     {
       "date": "2026-09-30",
+      "summary": "추가 갱신 — OpenAI GPT-6 계열 4종 추가 (모델 18개)",
+      "changes": [
+        "추가: GPT-6 Astra(ChatGPT Work), GPT-6.1 Sol, GPT-6 Sol, GPT-6 Luna — 일반 채팅이 아니라 ChatGPT Work·Codex에서 제공되는 모델이라 첫 갱신에서 빠졌던 것을 수정",
+        "대안 추천 추가: 수업 PPT·활동지·엑셀·계획서·퀴즈 웹앱·문항 검토·논문 업무에 ChatGPT Work(GPT-6 계열) 선택지",
+        "기본 추천은 유지 — GPT-6.1 Sol의 독립 벤치마크 점수를 아직 확인하지 못함(OpenAI는 Astra에 근접한다고 발표)",
+        "확인 방식: 검색 결과 요약(help.openai.com 원문은 네트워크 정책으로 열지 못함). Work 모드 추론 수준의 정확한 메뉴 이름은 계정·앱 버전에 따라 다를 수 있음"
+      ]
+    },
+    {
+      "date": "2026-09-30",
       "summary": "사이트 첫 공개 — 모델 14개, 업무 7개 분류·27개 세부 업무 추천 작성",
       "changes": [
         "모델: Claude Opus 5.5·Sonnet 5.5·Fable 5.1, ChatGPT GPT-5.6 Sol·Luna·GPT-6 Pro, Gemini 3.1 Pro·Flash, NotebookLM, ChatGPT Images 2.5, Nano Banana, Gemini Omni Flash(앱·YouTube), Perplexity",

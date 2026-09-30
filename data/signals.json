@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T09:54:00+09:00",
+  "updatedAt": "2026-09-30T10:33:00+09:00",
   "note": "이번 수집은 환경의 네트워크 정책 때문에 대부분 원문 페이지를 직접 열지 못하고 웹 검색 결과 요약으로 확인했습니다(Anthropic 공식 페이지는 직접 확인). 순위·점수는 확인 날짜 기준 스냅샷입니다.",
   "benchmarks": [
     {
@@ -37,6 +37,12 @@
       "url": "https://www.koreatimes.co.kr/business/tech-science/20260907/gpt-6-astra-aces-korean-college-entrance-exam",
       "checkedAt": "2026-09-30",
       "summary": "국어·영어·수학·한국사·탐구 풀이에서 GPT-6 Astra만 450점 만점, GPT-5.6이 448.5점으로 2위. Gemini 3.1 Pro는 물리Ⅰ 등에서 오답."
+    },
+    {
+      "name": "OpenAI 발표 — GPT-6.1 Sol (TechCrunch 보도)",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
+      "checkedAt": "2026-09-30",
+      "summary": "OpenAI는 GPT-6.1 Sol이 GPT-6 Astra에 근접한 성능을 더 낮은 가격에 낸다고 발표(제조사 주장). Artificial Analysis 등 독립 지수의 GPT-6.1 Sol 점수는 이번 갱신에서 확인하지 못함."
     }
   ],
   "community": [

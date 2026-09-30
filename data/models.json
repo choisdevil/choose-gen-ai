@@ -1,12 +1,27 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T09:54:00+09:00",
+  "updatedAt": "2026-09-30T10:33:00+09:00",
   "effortLevels": [
-    { "id": "low", "desc": "짧은 문구, 형식 바꾸기, 간단한 요약처럼 금방 끝나는 일. 가장 빠르고 사용 한도를 적게 씁니다." },
-    { "id": "medium", "desc": "가정통신문·활동지 같은 일반 문서 초안. 대부분의 업무는 여기서 충분합니다." },
-    { "id": "high", "desc": "평가 문항, 채점 기준, 긴 문서 분석처럼 정확성이 중요한 일." },
-    { "id": "xhigh", "desc": "여러 단계를 거쳐 설계해야 하거나 오류를 꼼꼼히 걸러야 하는 일(예: 시험 문항 세트 출제·검토)." },
-    { "id": "max", "desc": "한 번에 복잡한 결과물을 만들어야 하고 기다릴 시간이 충분할 때만. 느리고 사용 한도를 가장 많이 씁니다." }
+    {
+      "id": "low",
+      "desc": "짧은 문구, 형식 바꾸기, 간단한 요약처럼 금방 끝나는 일. 가장 빠르고 사용 한도를 적게 씁니다."
+    },
+    {
+      "id": "medium",
+      "desc": "가정통신문·활동지 같은 일반 문서 초안. 대부분의 업무는 여기서 충분합니다."
+    },
+    {
+      "id": "high",
+      "desc": "평가 문항, 채점 기준, 긴 문서 분석처럼 정확성이 중요한 일."
+    },
+    {
+      "id": "xhigh",
+      "desc": "여러 단계를 거쳐 설계해야 하거나 오류를 꼼꼼히 걸러야 하는 일(예: 시험 문항 세트 출제·검토)."
+    },
+    {
+      "id": "max",
+      "desc": "한 번에 복잡한 결과물을 만들어야 하고 기다릴 시간이 충분할 때만. 느리고 사용 한도를 가장 많이 씁니다."
+    }
   ],
   "models": [
     {
@@ -16,7 +31,10 @@
       "product": "Claude",
       "url": "https://claude.ai",
       "released": "2026-09-22",
-      "access": { "free": false, "plan": "Claude Pro 이상 (월 $20, 연간 결제 시 월 $17)" },
+      "access": {
+        "free": false,
+        "plan": "Claude Pro 이상 (월 $20, 연간 결제 시 월 $17)"
+      },
       "summary": "Anthropic의 Claude 5.5 계열 첫 모델. 9월 말 기준 Arena 텍스트 순위와 Artificial Analysis 지능 지수에서 1위로 보고됨. 한국어 인터페이스 공식 지원.",
       "effortGuide": {
         "low": "Claude에서 모델을 Opus 5.5로 고르고 노력(Effort)을 Low로 설정하세요.",
@@ -28,9 +46,18 @@
       "verification": "official",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Anthropic — Claude Opus 5.5", "url": "https://www.anthropic.com/claude-opus-5-5" },
-        { "title": "Claude 도움말 — 모델·노력(effort) 설정", "url": "https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings" },
-        { "title": "Claude 요금제", "url": "https://claude.com/pricing" }
+        {
+          "title": "Anthropic — Claude Opus 5.5",
+          "url": "https://www.anthropic.com/claude-opus-5-5"
+        },
+        {
+          "title": "Claude 도움말 — 모델·노력(effort) 설정",
+          "url": "https://support.claude.com/en/articles/8664678-change-the-model-effort-and-thinking-settings"
+        },
+        {
+          "title": "Claude 요금제",
+          "url": "https://claude.com/pricing"
+        }
       ]
     },
     {
@@ -40,7 +67,10 @@
       "product": "Claude",
       "url": "https://claude.ai",
       "released": "2026-09-28",
-      "access": { "free": true, "plan": "무료 (Free 요금제에 Sonnet 제공, 사용 한도 있음)" },
+      "access": {
+        "free": true,
+        "plan": "무료 (Free 요금제에 Sonnet 제공, 사용 한도 있음)"
+      },
       "summary": "Anthropic의 최신 Sonnet 모델(1M 토큰 문맥). Artificial Analysis 지능 지수 2위(56)로 보고됨. 무료 요금제에서도 Artifacts, 파일 만들기, 웹 검색, 슬라이드·문서 만들기를 쓸 수 있음.",
       "effortGuide": {
         "low": "모델을 Sonnet 5.5로 고르고 노력(Effort)을 Low로. 무료 요금제에서 노력 선택지가 보이지 않으면 기본값(Medium) 그대로 쓰세요.",
@@ -52,9 +82,18 @@
       "verification": "official",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Anthropic — Claude Sonnet 5.5", "url": "https://www.anthropic.com/claude-sonnet-5-5" },
-        { "title": "Claude 요금제", "url": "https://claude.com/pricing" },
-        { "title": "Claude 릴리스 노트", "url": "https://support.claude.com/en/articles/12138966-release-notes" }
+        {
+          "title": "Anthropic — Claude Sonnet 5.5",
+          "url": "https://www.anthropic.com/claude-sonnet-5-5"
+        },
+        {
+          "title": "Claude 요금제",
+          "url": "https://claude.com/pricing"
+        },
+        {
+          "title": "Claude 릴리스 노트",
+          "url": "https://support.claude.com/en/articles/12138966-release-notes"
+        }
       ]
     },
     {
@@ -64,7 +103,10 @@
       "product": "Claude",
       "url": "https://claude.ai",
       "released": "2026-09-01",
-      "access": { "free": false, "plan": "Claude Pro(사용 크레딧 필요)·Max 이상" },
+      "access": {
+        "free": false,
+        "plan": "Claude Pro(사용 크레딧 필요)·Max 이상"
+      },
       "summary": "Anthropic의 상위 모델. Humanity's Last Exam 65.0%(도구 사용, 제조사 발표). Anthropic은 Opus 5.5가 대부분의 작업에서 Fable 5.1 수준이라고 밝힘.",
       "effortGuide": {
         "low": "모델 Fable 5.1, 노력 Low.",
@@ -76,8 +118,14 @@
       "verification": "official",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Anthropic — Claude Fable 5.1", "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1" },
-        { "title": "Claude 요금제", "url": "https://claude.com/pricing" }
+        {
+          "title": "Anthropic — Claude Fable 5.1",
+          "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+        },
+        {
+          "title": "Claude 요금제",
+          "url": "https://claude.com/pricing"
+        }
       ]
     },
     {
@@ -87,8 +135,11 @@
       "product": "ChatGPT",
       "url": "https://chatgpt.com",
       "released": "2026-07-09",
-      "access": { "free": false, "plan": "ChatGPT Plus 이상 (월 $20)" },
-      "summary": "ChatGPT Plus·Pro 일반 채팅의 기본 모델(8월 6일부터 빠른 답과 추론 답 모두 담당). '2026 수능 LLM 풀이'에서 GPT-5.6이 450점 만점에 448.5점으로 보도됨.",
+      "access": {
+        "free": false,
+        "plan": "ChatGPT Plus 이상 (월 $20)"
+      },
+      "summary": "ChatGPT Plus·Pro 일반 채팅(Chat)의 기본 모델(8월 6일부터 빠른 답과 추론 답 모두 담당). GPT-6 계열(Astra·Sol·Luna·6.1 Sol)은 Plus에서 일반 채팅이 아닌 ChatGPT Work·Codex에서 제공됨. '2026 수능 LLM 풀이'에서 GPT-5.6이 450점 만점에 448.5점으로 보도됨.",
       "effortGuide": {
         "low": "생각 강도(thinking effort) 슬라이더를 Instant로. ※ Instant는 GPT-5.5 Instant 기반이고 GPT-5.5는 10월 14일 ChatGPT에서 종료 예정이라 메뉴가 바뀔 수 있어요.",
         "medium": "생각 강도 슬라이더를 Medium으로.",
@@ -99,10 +150,22 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "OpenAI — Improving GPT-5.6 Sol in ChatGPT", "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/" },
-        { "title": "9to5Mac — GPT-5.6 Sol·무료 무제한 채팅 (2026-08-06)", "url": "https://9to5mac.com/2026/08/06/openai-updating-chatgpt-with-a-smarter-gpt-5-6-sol-and-unlimited-free-chats/" },
-        { "title": "iGeeksBlog — 생각 강도 슬라이더", "url": "https://www.igeeksblog.com/chatgpt-gpt-5-6-sol-reasoning-slider-free-luna/" },
-        { "title": "Korea Times — 수능 LLM 풀이 결과", "url": "https://www.koreatimes.co.kr/business/tech-science/20260907/gpt-6-astra-aces-korean-college-entrance-exam" }
+        {
+          "title": "OpenAI — Improving GPT-5.6 Sol in ChatGPT",
+          "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
+        },
+        {
+          "title": "9to5Mac — GPT-5.6 Sol·무료 무제한 채팅 (2026-08-06)",
+          "url": "https://9to5mac.com/2026/08/06/openai-updating-chatgpt-with-a-smarter-gpt-5-6-sol-and-unlimited-free-chats/"
+        },
+        {
+          "title": "iGeeksBlog — 생각 강도 슬라이더",
+          "url": "https://www.igeeksblog.com/chatgpt-gpt-5-6-sol-reasoning-slider-free-luna/"
+        },
+        {
+          "title": "Korea Times — 수능 LLM 풀이 결과",
+          "url": "https://www.koreatimes.co.kr/business/tech-science/20260907/gpt-6-astra-aces-korean-college-entrance-exam"
+        }
       ]
     },
     {
@@ -112,7 +175,10 @@
       "product": "ChatGPT",
       "url": "https://chatgpt.com",
       "released": "2026-07-09",
-      "access": { "free": true, "plan": "무료 (Free·Go 기본 모델, 텍스트 채팅 무제한 / 파일·이미지·도구는 한도 있음)" },
+      "access": {
+        "free": true,
+        "plan": "무료 (Free·Go 기본 모델, 텍스트 채팅 무제한 / 파일·이미지·도구는 한도 있음)"
+      },
       "summary": "ChatGPT 무료·Go 요금제의 기본 모델. 8월 6일부터 무료 텍스트 채팅이 무제한으로 바뀜.",
       "effortGuide": {
         "low": "기본 상태 그대로 질문하세요.",
@@ -124,18 +190,27 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "TechCrunch — 무료 사용자 무제한 텍스트 채팅 (2026-08-06)", "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/" },
-        { "title": "Flowith — GPT-5.6 Luna Think 버튼", "url": "https://flowith.io/blog/chatgpt-gpt-5-6-luna-free-unlimited-text-think-button/" }
+        {
+          "title": "TechCrunch — 무료 사용자 무제한 텍스트 채팅 (2026-08-06)",
+          "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/"
+        },
+        {
+          "title": "Flowith — GPT-5.6 Luna Think 버튼",
+          "url": "https://flowith.io/blog/chatgpt-gpt-5-6-luna-free-unlimited-text-think-button/"
+        }
       ]
     },
     {
       "id": "gpt-6-pro",
-      "name": "GPT-6 Pro (GPT-6 Astra)",
+      "name": "GPT-6 Pro (GPT-6 Astra, 일반 채팅)",
       "vendor": "OpenAI",
       "product": "ChatGPT",
       "url": "https://chatgpt.com",
       "released": "2026-09-03",
-      "access": { "free": false, "plan": "ChatGPT Pro($100·$200)·Business·Enterprise (주간 메시지 한도 있음, $200 신규 가입은 9/10부터 일시 중단)" },
+      "access": {
+        "free": false,
+        "plan": "ChatGPT Pro($100·$200)·Business·Enterprise (주간 메시지 한도 있음, $200 신규 가입은 9/10부터 일시 중단)"
+      },
       "summary": "OpenAI 최상위 모델 GPT-6 Astra의 일반 채팅 버전. '2026 수능 LLM 풀이'에서 유일하게 450점 만점으로 보도됨. 교사 개인이 쓰기에는 요금 부담이 큼.",
       "effortGuide": {
         "low": "이 모델은 가벼운 일에 쓰기엔 과해요. 가벼운 일은 GPT-5.6 Sol을 쓰세요.",
@@ -147,9 +222,158 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "OpenAI — GPT-6 Astra", "url": "https://openai.com/index/gpt-6-astra/" },
-        { "title": "OpenAI 도움말 — GPT-5.6 and GPT-6 Pro in ChatGPT", "url": "https://help.openai.com/en/articles/20001354-gpt-56-and-gpt-6-pro-in-chatgpt" },
-        { "title": "Korea Times — 수능 LLM 풀이 결과", "url": "https://www.koreatimes.co.kr/business/tech-science/20260907/gpt-6-astra-aces-korean-college-entrance-exam" }
+        {
+          "title": "OpenAI — GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "title": "OpenAI 도움말 — GPT-5.6 and GPT-6 Pro in ChatGPT",
+          "url": "https://help.openai.com/en/articles/20001354-gpt-56-and-gpt-6-pro-in-chatgpt"
+        },
+        {
+          "title": "Korea Times — 수능 LLM 풀이 결과",
+          "url": "https://www.koreatimes.co.kr/business/tech-science/20260907/gpt-6-astra-aces-korean-college-entrance-exam"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-astra-work",
+      "name": "GPT-6 Astra (ChatGPT Work)",
+      "vendor": "OpenAI",
+      "product": "ChatGPT Work",
+      "url": "https://chatgpt.com",
+      "released": "2026-09-03",
+      "access": {
+        "free": false,
+        "plan": "ChatGPT Plus 이상 (Work·Codex 사용 한도에서 차감, 5시간·주간 한도)"
+      },
+      "summary": "OpenAI 최상위 모델. Plus 요금제는 일반 채팅이 아니라 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 쓸 수 있음(일반 채팅의 GPT-6 Pro는 Pro 이상). '2026 수능 LLM 풀이'에서 유일하게 450점 만점으로 보도됨. Artificial Analysis 지능 지수 53.",
+      "effortGuide": {
+        "low": "데스크톱 앱 Work 모드 → 모델 GPT-6 Astra → 추론 수준 낮음(Lower).",
+        "medium": "Work 모드 → GPT-6 Astra → 추론 수준 중간(Medium).",
+        "high": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher).",
+        "xhigh": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher, 도움말 기준 최고 단계).",
+        "max": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher, 최고 단계). 한도를 빨리 쓰니 꼭 필요한 일에만."
+      },
+      "verification": "search-summary",
+      "lastVerified": "2026-09-30",
+      "sources": [
+        {
+          "title": "OpenAI — GPT-6 Astra",
+          "url": "https://openai.com/index/gpt-6-astra/"
+        },
+        {
+          "title": "OpenAI 도움말 — Managing usage with GPT-6 Astra in Work and Codex",
+          "url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-astra-in-work-and-codex"
+        },
+        {
+          "title": "OpenAI 도움말 — ChatGPT Work and Codex",
+          "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol (ChatGPT Work)",
+      "vendor": "OpenAI",
+      "product": "ChatGPT Work",
+      "url": "https://chatgpt.com",
+      "released": "2026-09-29",
+      "access": {
+        "free": false,
+        "plan": "ChatGPT Plus 이상 (Work·Codex, Pro부터 순차 제공)"
+      },
+      "summary": "9월 29일 DevDay에서 공개. GPT-6 Sol보다 에이전트 작업·컴퓨터 사용·전문 업무가 개선됐고 GPT-6 Astra에 근접한다고 OpenAI가 발표. 아직 일반 채팅에는 없고 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 제공.",
+      "effortGuide": {
+        "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6.1 Sol → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
+        "medium": "Work 모드 → 모델 GPT-6.1 Sol → 추론 수준 중간(Medium).",
+        "high": "Work 모드 → 모델 GPT-6.1 Sol → 추론 수준 높음(High).",
+        "xhigh": "Work 모드 → 모델 GPT-6.1 Sol → 보이는 단계 중 가장 높은 추론 수준. 높을수록 Work 사용 한도를 빨리 씁니다.",
+        "max": "Work 모드 → 모델 GPT-6.1 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
+      },
+      "verification": "search-summary",
+      "lastVerified": "2026-09-30",
+      "sources": [
+        {
+          "title": "OpenAI — Introducing GPT-6.1 Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+        },
+        {
+          "title": "TechCrunch — GPT-6.1 Sol 출시 (2026-09-29)",
+          "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/"
+        },
+        {
+          "title": "OpenAI 도움말 — ChatGPT Work and Codex",
+          "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-sol",
+      "name": "GPT-6 Sol (ChatGPT Work)",
+      "vendor": "OpenAI",
+      "product": "ChatGPT Work",
+      "url": "https://chatgpt.com",
+      "released": "2026-09-22",
+      "access": {
+        "free": false,
+        "plan": "ChatGPT Plus 이상 (Work·Codex)"
+      },
+      "summary": "GPT-6 Astra의 장점을 더 빠르고 저렴하게 담은 모델(OpenAI 발표). 일반 채팅에는 없고 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 제공. 후속 GPT-6.1 Sol이 9월 29일 공개됨.",
+      "effortGuide": {
+        "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6 Sol → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
+        "medium": "Work 모드 → 모델 GPT-6 Sol → 추론 수준 중간(Medium).",
+        "high": "Work 모드 → 모델 GPT-6 Sol → 추론 수준 높음(High).",
+        "xhigh": "Work 모드 → 모델 GPT-6 Sol → 보이는 단계 중 가장 높은 추론 수준. 높을수록 Work 사용 한도를 빨리 씁니다.",
+        "max": "Work 모드 → 모델 GPT-6 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
+      },
+      "verification": "search-summary",
+      "lastVerified": "2026-09-30",
+      "sources": [
+        {
+          "title": "OpenAI — Introducing GPT-6 Sol and Luna",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "title": "OpenAI (X) — GPT-6 Sol·Luna 제공 범위 (2026-09-22)",
+          "url": "https://x.com/OpenAI/status/2102460995180663204"
+        },
+        {
+          "title": "OpenAI 도움말 — ChatGPT Work and Codex",
+          "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+        }
+      ]
+    },
+    {
+      "id": "gpt-6-luna",
+      "name": "GPT-6 Luna (ChatGPT Work)",
+      "vendor": "OpenAI",
+      "product": "ChatGPT Work",
+      "url": "https://chatgpt.com",
+      "released": "2026-09-22",
+      "access": {
+        "free": true,
+        "plan": "무료·Go: 데스크톱 앱에서 체험 가능(한도 있음) / Plus 이상: Work·Codex"
+      },
+      "summary": "GPT-6 계열의 가볍고 빠른 모델. Plus 이상은 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서, 무료·Go 사용자는 데스크톱 앱에서 체험할 수 있다고 OpenAI가 발표.",
+      "effortGuide": {
+        "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6 Luna → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
+        "medium": "Work 모드 → 모델 GPT-6 Luna → 추론 수준 중간(Medium).",
+        "high": "Work 모드 → 모델 GPT-6 Luna → 추론 수준 높음(High).",
+        "xhigh": "Work 모드 → 모델 GPT-6 Luna → 보이는 단계 중 가장 높은 추론 수준. 높을수록 Work 사용 한도를 빨리 씁니다.",
+        "max": "Work 모드 → 모델 GPT-6 Luna → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
+      },
+      "verification": "search-summary",
+      "lastVerified": "2026-09-30",
+      "sources": [
+        {
+          "title": "OpenAI — Introducing GPT-6 Sol and Luna",
+          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+        },
+        {
+          "title": "OpenAI (X) — GPT-6 Sol·Luna 제공 범위 (2026-09-22)",
+          "url": "https://x.com/OpenAI/status/2102460995180663204"
+        }
       ]
     },
     {
@@ -159,7 +383,10 @@
       "product": "Gemini",
       "url": "https://gemini.google.com",
       "released": "2026-02-19",
-      "access": { "free": false, "plan": "Google AI Pro 이상 권장 (무료 사용 한도는 공식 확인 전)" },
+      "access": {
+        "free": false,
+        "plan": "Google AI Pro 이상 권장 (무료 사용 한도는 공식 확인 전)"
+      },
       "summary": "Gemini 앱의 'Pro(고급 추론)' 모델. ARC-AGI-2 77.1%(제조사 발표). 5월 발표된 Gemini 3.5 Pro는 9월 말까지 정식 제공되지 않은 것으로 보도됨.",
       "effortGuide": {
         "low": "모델 Pro, 생각 수준 Standard(기본).",
@@ -171,9 +398,18 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Google — Gemini 3.1 Pro", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/" },
-        { "title": "9to5Google — Gemini 앱 생각 수준 (2026-05-17)", "url": "https://9to5google.com/2026/05/17/gemini-app-thinking-level/" },
-        { "title": "Gemini 도움말 — Deep Think", "url": "https://support.google.com/gemini/answer/16345172" }
+        {
+          "title": "Google — Gemini 3.1 Pro",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+        },
+        {
+          "title": "9to5Google — Gemini 앱 생각 수준 (2026-05-17)",
+          "url": "https://9to5google.com/2026/05/17/gemini-app-thinking-level/"
+        },
+        {
+          "title": "Gemini 도움말 — Deep Think",
+          "url": "https://support.google.com/gemini/answer/16345172"
+        }
       ]
     },
     {
@@ -183,7 +419,10 @@
       "product": "Gemini",
       "url": "https://gemini.google.com",
       "released": "2026-09-02 (3.8 Flash)",
-      "access": { "free": true, "plan": "무료 (무료 요금제는 3.6 Flash, AI Pro·Ultra는 3.8 Flash)" },
+      "access": {
+        "free": true,
+        "plan": "무료 (무료 요금제는 3.6 Flash, AI Pro·Ultra는 3.8 Flash)"
+      },
       "summary": "Gemini 앱의 'Flash(만능)' 모델. 무료 사용자도 생각 수준 Standard·Extended를 쓸 수 있음(6월 적용). 무료 기본 모델 버전은 출처 간 표기가 다름.",
       "effortGuide": {
         "low": "모델 Flash-Lite 또는 Flash, 생각 수준 Standard.",
@@ -195,9 +434,18 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Google — Gemini 3.8 Flash", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/" },
-        { "title": "Android Authority — 모든 사용자에게 Extended thinking", "url": "https://www.androidauthority.com/google-gemini-extended-thinking-everyone-3673702/" },
-        { "title": "DataNorth — Gemini 3.6 Flash", "url": "https://datanorth.ai/news/google-releases-gemini-3-6-flash" }
+        {
+          "title": "Google — Gemini 3.8 Flash",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+        },
+        {
+          "title": "Android Authority — 모든 사용자에게 Extended thinking",
+          "url": "https://www.androidauthority.com/google-gemini-extended-thinking-everyone-3673702/"
+        },
+        {
+          "title": "DataNorth — Gemini 3.6 Flash",
+          "url": "https://datanorth.ai/news/google-releases-gemini-3-6-flash"
+        }
       ]
     },
     {
@@ -207,7 +455,10 @@
       "product": "NotebookLM",
       "url": "https://notebooklm.google.com",
       "released": null,
-      "access": { "free": true, "plan": "무료 (Google 계정, 사용 한도 있음)" },
+      "access": {
+        "free": true,
+        "plan": "무료 (Google 계정, 사용 한도 있음)"
+      },
       "summary": "올린 자료(PDF·문서·링크) 범위 안에서 답하는 자료 기반 도구(Gemini 3.1 Pro 기반). 오디오 개요(80개 이상 언어), 영상 개요, 인포그래픽, 슬라이드(PPTX 내보내기) 기능. Google Classroom 안에서도 제공.",
       "effortGuide": {
         "low": "별도 노력 설정이 없어요. 자료를 올리고 기본 상태로 질문하세요.",
@@ -219,8 +470,14 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Class Tech Tips — 교사용 NotebookLM 기능 (2026-04)", "url": "https://classtechtips.com/2026/04/29/notebooklm-features-for-teachers/" },
-        { "title": "TeacherCast — NotebookLM 업데이트 (2026-04)", "url": "https://teachercast.net/edtech/google-notebook-lm-updates-april-2026/" }
+        {
+          "title": "Class Tech Tips — 교사용 NotebookLM 기능 (2026-04)",
+          "url": "https://classtechtips.com/2026/04/29/notebooklm-features-for-teachers/"
+        },
+        {
+          "title": "TeacherCast — NotebookLM 업데이트 (2026-04)",
+          "url": "https://teachercast.net/edtech/google-notebook-lm-updates-april-2026/"
+        }
       ]
     },
     {
@@ -230,7 +487,10 @@
       "product": "ChatGPT",
       "url": "https://chatgpt.com",
       "released": "2026-09-08",
-      "access": { "free": true, "plan": "무료 포함 (무료는 생성 한도가 낮음)" },
+      "access": {
+        "free": true,
+        "plan": "무료 포함 (무료는 생성 한도가 낮음)"
+      },
       "summary": "ChatGPT 이미지 생성 모델(API명 GPT Image 2.5). 그림을 그리면 이미지로 바꿔 주는 @Sketch 도구 추가. Arena 텍스트→이미지·이미지 편집 1위, Artificial Analysis 텍스트→이미지 1위로 보고됨.",
       "effortGuide": {
         "low": "이미지 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
@@ -242,8 +502,14 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "OpenAI — Introducing ChatGPT Images 2.5", "url": "https://openai.com/index/introducing-chatgpt-images-2-5/" },
-        { "title": "Artificial Analysis — Text-to-Image 리더보드", "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image" }
+        {
+          "title": "OpenAI — Introducing ChatGPT Images 2.5",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+        },
+        {
+          "title": "Artificial Analysis — Text-to-Image 리더보드",
+          "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image"
+        }
       ]
     },
     {
@@ -253,7 +519,10 @@
       "product": "Gemini",
       "url": "https://gemini.google.com",
       "released": "2026-02 (Nano Banana 2)",
-      "access": { "free": true, "plan": "Gemini 앱 기본 이미지 생성(Nano Banana 2). 요금제별 한도 다름" },
+      "access": {
+        "free": true,
+        "plan": "Gemini 앱 기본 이미지 생성(Nano Banana 2). 요금제별 한도 다름"
+      },
       "summary": "Gemini 앱의 기본 이미지 생성 모델(512px~4K). Nano Banana Pro는 Gemini 앱·NotebookLM·Slides·Vids에서 제공. 3월 31일부터 만 18세 미만도 이미지 생성 가능(편집은 18세 이상).",
       "effortGuide": {
         "low": "이미지 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
@@ -265,8 +534,14 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Google Workspace Updates — Nano Banana 2", "url": "https://workspaceupdates.googleblog.com/2026/02/introducing-nano-banana-2-in-gemini-app.html" },
-        { "title": "Google — Nano Banana Pro 사용처", "url": "https://blog.google/products/gemini/where-to-use-nano-banana-pro/" }
+        {
+          "title": "Google Workspace Updates — Nano Banana 2",
+          "url": "https://workspaceupdates.googleblog.com/2026/02/introducing-nano-banana-2-in-gemini-app.html"
+        },
+        {
+          "title": "Google — Nano Banana Pro 사용처",
+          "url": "https://blog.google/products/gemini/where-to-use-nano-banana-pro/"
+        }
       ]
     },
     {
@@ -276,7 +551,10 @@
       "product": "Gemini",
       "url": "https://gemini.google.com",
       "released": "2026-05-19",
-      "access": { "free": false, "plan": "Google AI Plus·Pro·Ultra (Gemini 앱·Flow)" },
+      "access": {
+        "free": false,
+        "plan": "Google AI Plus·Pro·Ultra (Gemini 앱·Flow)"
+      },
       "summary": "텍스트·이미지·오디오·영상을 입력받아 영상을 만드는 모델. Artificial Analysis 텍스트→영상(오디오 포함) 1위(1233)로 보고됨.",
       "effortGuide": {
         "low": "영상 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
@@ -288,8 +566,14 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Google — Gemini Omni", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/" },
-        { "title": "Artificial Analysis — Text-to-Video 리더보드", "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video" }
+        {
+          "title": "Google — Gemini Omni",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"
+        },
+        {
+          "title": "Artificial Analysis — Text-to-Video 리더보드",
+          "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video"
+        }
       ]
     },
     {
@@ -299,7 +583,10 @@
       "product": "YouTube Create",
       "url": "https://www.youtube.com",
       "released": "2026-05-19",
-      "access": { "free": true, "plan": "무료 (YouTube Shorts·YouTube Create 안에서 제공)" },
+      "access": {
+        "free": true,
+        "plan": "무료 (YouTube Shorts·YouTube Create 안에서 제공)"
+      },
       "summary": "Gemini Omni Flash 영상 생성을 YouTube Shorts·YouTube Create에서 무료로 쓸 수 있다고 Google이 발표함. 기능 범위는 Gemini 앱과 다를 수 있음.",
       "effortGuide": {
         "low": "영상 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
@@ -311,7 +598,10 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Google — Gemini Omni", "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/" }
+        {
+          "title": "Google — Gemini Omni",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni/"
+        }
       ]
     },
     {
@@ -321,7 +611,10 @@
       "product": "Perplexity",
       "url": "https://www.perplexity.ai",
       "released": null,
-      "access": { "free": true, "plan": "무료 (Pro Search·Deep Research 각 하루 약 5회), Pro 월 $20" },
+      "access": {
+        "free": true,
+        "plan": "무료 (Pro Search·Deep Research 각 하루 약 5회), Pro 월 $20"
+      },
       "summary": "출처 링크를 붙여 답하는 검색형 AI. 유료(Pro)에서는 여러 회사 모델(GPT-5.6, Gemini, Claude 등)을 골라 쓸 수 있음. 교육자 인증 시 Education Pro(월 약 $10).",
       "effortGuide": {
         "low": "기본 검색으로 질문하세요.",
@@ -333,9 +626,18 @@
       "verification": "search-summary",
       "lastVerified": "2026-09-30",
       "sources": [
-        { "title": "Perplexity 도움말 — 구독별 모델", "url": "https://www.perplexity.ai/help-center/en/articles/10354919-what-advanced-ai-models-are-included-in-my-subscription" },
-        { "title": "Perplexity 도움말 — Education Pro", "url": "https://www.perplexity.ai/help-center/en/articles/12590157-what-is-education-pro" },
-        { "title": "Suprmind — Perplexity 요금제 정리", "url": "https://suprmind.ai/hub/perplexity/pricing/" }
+        {
+          "title": "Perplexity 도움말 — 구독별 모델",
+          "url": "https://www.perplexity.ai/help-center/en/articles/10354919-what-advanced-ai-models-are-included-in-my-subscription"
+        },
+        {
+          "title": "Perplexity 도움말 — Education Pro",
+          "url": "https://www.perplexity.ai/help-center/en/articles/12590157-what-is-education-pro"
+        },
+        {
+          "title": "Suprmind — Perplexity 요금제 정리",
+          "url": "https://suprmind.ai/hub/perplexity/pricing/"
+        }
       ]
     }
   ]

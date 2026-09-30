@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T09:54:00+09:00",
+  "updatedAt": "2026-09-30T10:33:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -33,72 +33,212 @@
         {
           "id": "lesson-plan",
           "name": "수업 지도안·차시 계획",
-          "keywords": ["지도안", "교수학습과정안", "차시", "수업계획", "단원 계획", "성취기준", "수업 설계"],
+          "keywords": [
+            "지도안",
+            "교수학습과정안",
+            "차시",
+            "수업계획",
+            "단원 계획",
+            "성취기준",
+            "수업 설계"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "high", "why": "9월 말 기준 Arena 텍스트 1위·Artificial Analysis 지능 지수 1위로 보고된 모델이라 긴 설계 문서를 한 번에 짜기에 알맞아요. 차시 흐름과 평가까지 엮으려면 high가 적당합니다." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "무료 요금제에서 쓸 수 있고 Artificial Analysis 지능 지수 2위(56)로 보고된 모델입니다. 앱 기본 노력(Medium)으로 충분해요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "high",
+              "why": "9월 말 기준 Arena 텍스트 1위·Artificial Analysis 지능 지수 1위로 보고된 모델이라 긴 설계 문서를 한 번에 짜기에 알맞아요. 차시 흐름과 평가까지 엮으려면 high가 적당합니다."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "무료 요금제에서 쓸 수 있고 Artificial Analysis 지능 지수 2위(56)로 보고된 모델입니다. 앱 기본 노력(Medium)으로 충분해요."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-sol", "effort": "high", "why": "ChatGPT Plus를 이미 쓰고 있다면 생각 강도 High로 비슷한 품질의 초안을 얻을 수 있어요." }
+            {
+              "model": "gpt-5-6-sol",
+              "effort": "high",
+              "why": "ChatGPT Plus를 이미 쓰고 있다면 생각 강도 High로 비슷한 품질의 초안을 얻을 수 있어요."
+            }
           ],
-          "tips": ["학년·교과·성취기준 코드·차시 수·학생 수준을 먼저 알려 주세요.", "‘도입-전개-정리 표 형식으로’처럼 원하는 양식을 지정하면 고칠 일이 줄어요."],
-          "cautions": ["AI가 제시한 성취기준 코드·교과서 쪽수는 반드시 원문과 대조하세요."]
+          "tips": [
+            "학년·교과·성취기준 코드·차시 수·학생 수준을 먼저 알려 주세요.",
+            "‘도입-전개-정리 표 형식으로’처럼 원하는 양식을 지정하면 고칠 일이 줄어요."
+          ],
+          "cautions": [
+            "AI가 제시한 성취기준 코드·교과서 쪽수는 반드시 원문과 대조하세요."
+          ]
         },
         {
           "id": "worksheet",
           "name": "활동지·학습지 만들기",
-          "keywords": ["활동지", "학습지", "워크시트", "빈칸", "문제지", "수업 자료"],
+          "keywords": [
+            "활동지",
+            "학습지",
+            "워크시트",
+            "빈칸",
+            "문제지",
+            "수업 자료"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "medium", "why": "종합 벤치마크 1위 모델이고, Claude는 모든 요금제에서 문서·슬라이드 만들기를 대화 안에서 바로 쓸 수 있어요(9/16 릴리스 노트). 활동지 한 장은 medium이면 충분합니다." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "무료 요금제에서도 파일 만들기·Docs 기능을 쓸 수 있어 바로 인쇄용 문서로 받을 수 있어요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "medium",
+              "why": "종합 벤치마크 1위 모델이고, Claude는 모든 요금제에서 문서·슬라이드 만들기를 대화 안에서 바로 쓸 수 있어요(9/16 릴리스 노트). 활동지 한 장은 medium이면 충분합니다."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "무료 요금제에서도 파일 만들기·Docs 기능을 쓸 수 있어 바로 인쇄용 문서로 받을 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "gemini-flash", "effort": "medium", "why": "Google 문서·Classroom을 주로 쓴다면 Gemini로 만들어 옮기기 편해요." }
+            {
+              "model": "gemini-flash",
+              "effort": "medium",
+              "why": "Google 문서·Classroom을 주로 쓴다면 Gemini로 만들어 옮기기 편해요."
+            },
+            {
+              "model": "gpt-6-luna",
+              "effort": "medium",
+              "why": "무료 사용자도 데스크톱 앱에서 GPT-6 Luna로 ChatGPT Work를 체험해 문서 파일로 받아 볼 수 있어요(한도 있음)."
+            }
           ],
-          "tips": ["‘A4 한 장, 글자 크기 12pt 이상, 정답은 별도 페이지’처럼 출력 형식을 적어 주세요."],
-          "cautions": ["저작권이 있는 교과서 지문을 통째로 넣지 말고 필요한 부분만 쓰세요."]
+          "tips": [
+            "‘A4 한 장, 글자 크기 12pt 이상, 정답은 별도 페이지’처럼 출력 형식을 적어 주세요."
+          ],
+          "cautions": [
+            "저작권이 있는 교과서 지문을 통째로 넣지 말고 필요한 부분만 쓰세요."
+          ]
         },
         {
           "id": "slides",
           "name": "수업 PPT·슬라이드",
-          "keywords": ["PPT", "피피티", "슬라이드", "프레젠테이션", "발표자료", "파워포인트"],
+          "keywords": [
+            "PPT",
+            "피피티",
+            "슬라이드",
+            "프레젠테이션",
+            "발표자료",
+            "파워포인트"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "medium", "why": "Claude Slides를 대화 안에서 바로 쓸 수 있고(9/16 릴리스 노트), 종합 벤치마크 1위 모델이라 구성까지 한 번에 잡아 줍니다." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "Slides 기능이 모든 요금제에 열려 있어(9/16 릴리스 노트) 무료로도 슬라이드 초안을 받을 수 있어요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "medium",
+              "why": "Claude Slides를 대화 안에서 바로 쓸 수 있고(9/16 릴리스 노트), 종합 벤치마크 1위 모델이라 구성까지 한 번에 잡아 줍니다."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "Slides 기능이 모든 요금제에 열려 있어(9/16 릴리스 노트) 무료로도 슬라이드 초안을 받을 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "notebooklm", "effort": "medium", "why": "교과서 PDF·자료를 올려 그 내용만으로 슬라이드를 만들고 PPTX로 내보낼 수 있어요." }
+            {
+              "model": "notebooklm",
+              "effort": "medium",
+              "why": "교과서 PDF·자료를 올려 그 내용만으로 슬라이드를 만들고 PPTX로 내보낼 수 있어요."
+            },
+            {
+              "model": "gpt-6-1-sol",
+              "effort": "high",
+              "why": "ChatGPT Plus 사용자라면 Work 모드에서 GPT-6.1 Sol로 프레젠테이션 파일을 완성본으로 받을 수 있어요(Work는 문서·스프레드시트·프레젠테이션을 만들어 주는 에이전트)."
+            },
+            {
+              "model": "gpt-6-luna",
+              "effort": "medium",
+              "why": "무료 사용자도 데스크톱 앱에서 GPT-6 Luna로 ChatGPT Work를 체험해 볼 수 있어요(한도 있음)."
+            }
           ],
-          "tips": ["슬라이드 수, 학년, 한 장에 들어갈 글자 양(예: 3줄 이내)을 지정하세요."],
-          "cautions": ["사진·그림의 저작권과 사실관계(연도, 수치)는 직접 확인하세요."]
+          "tips": [
+            "슬라이드 수, 학년, 한 장에 들어갈 글자 양(예: 3줄 이내)을 지정하세요."
+          ],
+          "cautions": [
+            "사진·그림의 저작권과 사실관계(연도, 수치)는 직접 확인하세요."
+          ]
         },
         {
           "id": "reading-level",
           "name": "읽기 자료·지문 수준 조정",
-          "keywords": ["지문", "읽기 자료", "수준 조정", "쉬운 말", "난이도", "요약문", "느린 학습자"],
+          "keywords": [
+            "지문",
+            "읽기 자료",
+            "수준 조정",
+            "쉬운 말",
+            "난이도",
+            "요약문",
+            "느린 학습자"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "종합 지능 지수 2위 모델로, 문장을 학년 수준에 맞게 바꾸는 일은 medium이면 충분하고 빠릅니다." },
-            "free": { "model": "gemini-flash", "effort": "medium", "why": "무료로 쓸 수 있고, 같은 글을 여러 수준으로 바꾸는 반복 작업에 빠르게 응답해요." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "종합 지능 지수 2위 모델로, 문장을 학년 수준에 맞게 바꾸는 일은 medium이면 충분하고 빠릅니다."
+            },
+            "free": {
+              "model": "gemini-flash",
+              "effort": "medium",
+              "why": "무료로 쓸 수 있고, 같은 글을 여러 수준으로 바꾸는 반복 작업에 빠르게 응답해요."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-sol", "effort": "medium", "why": "GPT-5.6은 ‘2026 수능 LLM 풀이’에서 448.5/450점으로 보도되어 국어 지문 이해 수준이 검증된 편이에요." }
+            {
+              "model": "gpt-5-6-sol",
+              "effort": "medium",
+              "why": "GPT-5.6은 ‘2026 수능 LLM 풀이’에서 448.5/450점으로 보도되어 국어 지문 이해 수준이 검증된 편이에요."
+            }
           ],
-          "tips": ["‘초등 4학년이 읽을 수 있게, 한 문장 20자 이내’처럼 기준을 숫자로 주세요."],
-          "cautions": ["바꾼 글에서 원문의 핵심 개념이 빠지거나 틀리지 않았는지 확인하세요."]
+          "tips": [
+            "‘초등 4학년이 읽을 수 있게, 한 문장 20자 이내’처럼 기준을 숫자로 주세요."
+          ],
+          "cautions": [
+            "바꾼 글에서 원문의 핵심 개념이 빠지거나 틀리지 않았는지 확인하세요."
+          ]
         },
         {
           "id": "quiz-app",
           "name": "수업용 퀴즈·게임·웹 활동 만들기",
-          "keywords": ["퀴즈", "게임", "웹앱", "인터랙티브", "코딩", "아티팩트", "타이머", "룰렛"],
+          "keywords": [
+            "퀴즈",
+            "게임",
+            "웹앱",
+            "인터랙티브",
+            "코딩",
+            "아티팩트",
+            "타이머",
+            "룰렛"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "high", "why": "제조사 발표 Terminal-Bench 4.0에서 Sonnet 5.5(70.6%)가 Opus 5.5(66.4%)보다 높았고, Artifacts로 결과를 바로 실행해 볼 수 있어요." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "무료 요금제에도 Artifacts·코드 실행이 포함되어 있어 만든 퀴즈를 바로 띄워 볼 수 있어요." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "high",
+              "why": "제조사 발표 Terminal-Bench 4.0에서 Sonnet 5.5(70.6%)가 Opus 5.5(66.4%)보다 높았고, Artifacts로 결과를 바로 실행해 볼 수 있어요."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "무료 요금제에도 Artifacts·코드 실행이 포함되어 있어 만든 퀴즈를 바로 띄워 볼 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-sol", "effort": "high", "why": "ChatGPT를 주로 쓴다면 생각 강도 High로 같은 작업이 가능해요." }
+            {
+              "model": "gpt-5-6-sol",
+              "effort": "high",
+              "why": "ChatGPT를 주로 쓴다면 생각 강도 High로 같은 작업이 가능해요."
+            },
+            {
+              "model": "gpt-6-1-sol",
+              "effort": "high",
+              "why": "ChatGPT Work는 웹앱도 만들어 줘요. OpenAI는 GPT-6.1 Sol이 에이전트 코딩에서 GPT-6 Sol보다 개선됐다고 발표했어요."
+            }
           ],
-          "tips": ["‘한 파일짜리 HTML로, 태블릿에서도 보이게’라고 요청하면 학급 공유가 쉬워요."],
-          "cautions": ["학생 이름 명단을 넣지 말고 ‘학생1, 학생2’처럼 바꿔 쓰세요."]
+          "tips": [
+            "‘한 파일짜리 HTML로, 태블릿에서도 보이게’라고 요청하면 학급 공유가 쉬워요."
+          ],
+          "cautions": [
+            "학생 이름 명단을 넣지 말고 ‘학생1, 학생2’처럼 바꿔 쓰세요."
+          ]
         }
       ]
     },
@@ -111,71 +251,196 @@
         {
           "id": "exam-items",
           "name": "시험 문항 출제",
-          "keywords": ["문항", "출제", "시험", "지필평가", "객관식", "서술형 문항", "기출", "중간고사", "기말고사"],
+          "keywords": [
+            "문항",
+            "출제",
+            "시험",
+            "지필평가",
+            "객관식",
+            "서술형 문항",
+            "기출",
+            "중간고사",
+            "기말고사"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "xhigh", "why": "종합 벤치마크 1위 모델. Artificial Analysis 측정에서 노력이 높을수록 점수가 올랐고(low 42 → xhigh 56 → max 58), 문항 세트는 오류를 줄이는 게 중요해 xhigh를 권합니다." },
-            "free": { "model": "gemini-flash", "effort": "high", "why": "무료 요금제에서도 생각 수준 Extended를 쓸 수 있어, 무료 중에서는 더 깊게 검토한 문항을 받을 수 있어요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "xhigh",
+              "why": "종합 벤치마크 1위 모델. Artificial Analysis 측정에서 노력이 높을수록 점수가 올랐고(low 42 → xhigh 56 → max 58), 문항 세트는 오류를 줄이는 게 중요해 xhigh를 권합니다."
+            },
+            "free": {
+              "model": "gemini-flash",
+              "effort": "high",
+              "why": "무료 요금제에서도 생각 수준 Extended를 쓸 수 있어, 무료 중에서는 더 깊게 검토한 문항을 받을 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-sol", "effort": "high", "why": "수능형 문항 풀이에서 448.5/450점으로 보도되어, 만든 문항을 ‘풀어 보게’ 하는 검토용으로도 좋아요." }
+            {
+              "model": "gpt-5-6-sol",
+              "effort": "high",
+              "why": "수능형 문항 풀이에서 448.5/450점으로 보도되어, 만든 문항을 ‘풀어 보게’ 하는 검토용으로도 좋아요."
+            }
           ],
-          "tips": ["성취기준·난이도 비율·정답 분포를 지정하고, ‘정답과 오답 매력도 해설도 함께’라고 요청하세요.", "만든 문항은 다른 모델에 풀게 해서 정답이 하나로 나오는지 확인하세요."],
-          "cautions": ["AI 출제 문항도 최종 검토·책임은 출제 교사에게 있어요. 사실 오류와 복수 정답을 반드시 확인하세요."]
+          "tips": [
+            "성취기준·난이도 비율·정답 분포를 지정하고, ‘정답과 오답 매력도 해설도 함께’라고 요청하세요.",
+            "만든 문항은 다른 모델에 풀게 해서 정답이 하나로 나오는지 확인하세요."
+          ],
+          "cautions": [
+            "AI 출제 문항도 최종 검토·책임은 출제 교사에게 있어요. 사실 오류와 복수 정답을 반드시 확인하세요."
+          ]
         },
         {
           "id": "item-review",
           "name": "문항 오류·정답 검토",
-          "keywords": ["검토", "오류", "정답 확인", "이의제기", "복수정답", "문항 점검"],
+          "keywords": [
+            "검토",
+            "오류",
+            "정답 확인",
+            "이의제기",
+            "복수정답",
+            "문항 점검"
+          ],
           "recommend": {
-            "paid": { "model": "gpt-5-6-sol", "effort": "high", "why": "‘2026 수능 LLM 풀이’에서 GPT-5.6이 450점 만점에 448.5점으로 보도되어, 문항을 직접 풀어 정답을 교차 확인하는 데 알맞아요." },
-            "free": { "model": "gemini-flash", "effort": "high", "why": "무료로 Extended 생각 수준을 써서 풀이 과정을 확인할 수 있어요." }
+            "paid": {
+              "model": "gpt-5-6-sol",
+              "effort": "high",
+              "why": "‘2026 수능 LLM 풀이’에서 GPT-5.6이 450점 만점에 448.5점으로 보도되어, 문항을 직접 풀어 정답을 교차 확인하는 데 알맞아요."
+            },
+            "free": {
+              "model": "gemini-flash",
+              "effort": "high",
+              "why": "무료로 Extended 생각 수준을 써서 풀이 과정을 확인할 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "gpt-6-pro", "effort": "max", "why": "같은 평가에서 유일하게 만점(450)으로 보도된 모델. ChatGPT Pro 이상 요금제가 있을 때만." },
-            { "model": "claude-opus-5-5", "effort": "xhigh", "why": "다른 회사 모델로 한 번 더 풀게 하면 서로 다른 오류를 잡기 쉬워요." }
+            {
+              "model": "gpt-6-pro",
+              "effort": "max",
+              "why": "같은 평가에서 유일하게 만점(450)으로 보도된 모델. ChatGPT Pro 이상 요금제가 있을 때만."
+            },
+            {
+              "model": "claude-opus-5-5",
+              "effort": "xhigh",
+              "why": "다른 회사 모델로 한 번 더 풀게 하면 서로 다른 오류를 잡기 쉬워요."
+            },
+            {
+              "model": "gpt-6-astra-work",
+              "effort": "high",
+              "why": "수능 LLM 풀이에서 유일하게 만점으로 보도된 GPT-6 Astra를 Plus 요금제에서는 Work 모드로 쓸 수 있어요."
+            }
           ],
-          "tips": ["정답을 알려 주지 말고 먼저 풀게 한 뒤, 교사 정답과 비교하세요."],
-          "cautions": ["AI도 틀립니다. 두 모델의 답이 다르면 교사가 직접 판단하세요."]
+          "tips": [
+            "정답을 알려 주지 말고 먼저 풀게 한 뒤, 교사 정답과 비교하세요."
+          ],
+          "cautions": [
+            "AI도 틀립니다. 두 모델의 답이 다르면 교사가 직접 판단하세요."
+          ]
         },
         {
           "id": "rubric",
           "name": "채점 기준표(루브릭)",
-          "keywords": ["루브릭", "채점 기준", "평가 기준", "채점기준표", "성취수준", "척도"],
+          "keywords": [
+            "루브릭",
+            "채점 기준",
+            "평가 기준",
+            "채점기준표",
+            "성취수준",
+            "척도"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "high", "why": "평가 요소와 수준별 기술을 일관되게 맞추는 일이라 추론 품질이 중요해요. 종합 벤치마크 1위 모델을 high로 쓰세요." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "무료로 쓸 수 있는 상위권 모델이고, 표 형식 결과물을 잘 만들어 줍니다." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "high",
+              "why": "평가 요소와 수준별 기술을 일관되게 맞추는 일이라 추론 품질이 중요해요. 종합 벤치마크 1위 모델을 high로 쓰세요."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "무료로 쓸 수 있는 상위권 모델이고, 표 형식 결과물을 잘 만들어 줍니다."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-sol", "effort": "high", "why": "ChatGPT Plus 사용자라면 생각 강도 High로 대체할 수 있어요." }
+            {
+              "model": "gpt-5-6-sol",
+              "effort": "high",
+              "why": "ChatGPT Plus 사용자라면 생각 강도 High로 대체할 수 있어요."
+            }
           ],
-          "tips": ["성취기준 원문과 과제 설명을 함께 붙여 넣고, ‘상·중·하 3수준, 관찰 가능한 행동으로’처럼 요청하세요."],
-          "cautions": ["학교 평가 계획·학업성적관리규정과 맞는지 확인하세요."]
+          "tips": [
+            "성취기준 원문과 과제 설명을 함께 붙여 넣고, ‘상·중·하 3수준, 관찰 가능한 행동으로’처럼 요청하세요."
+          ],
+          "cautions": [
+            "학교 평가 계획·학업성적관리규정과 맞는지 확인하세요."
+          ]
         },
         {
           "id": "feedback",
           "name": "서술형 답안 피드백 초안",
-          "keywords": ["피드백", "서술형", "논술", "첨삭", "답안", "채점 보조", "과정중심평가"],
+          "keywords": [
+            "피드백",
+            "서술형",
+            "논술",
+            "첨삭",
+            "답안",
+            "채점 보조",
+            "과정중심평가"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "답안마다 반복하는 작업이라 속도가 중요해요. 지능 지수 2위 모델을 기본 노력으로 쓰면 품질과 속도의 균형이 좋습니다." },
-            "free": { "model": "gemini-flash", "effort": "medium", "why": "무료로 여러 답안을 빠르게 처리할 수 있어요." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "답안마다 반복하는 작업이라 속도가 중요해요. 지능 지수 2위 모델을 기본 노력으로 쓰면 품질과 속도의 균형이 좋습니다."
+            },
+            "free": {
+              "model": "gemini-flash",
+              "effort": "medium",
+              "why": "무료로 여러 답안을 빠르게 처리할 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "claude-opus-5-5", "effort": "high", "why": "고난도 논술형처럼 판단이 까다로운 답안에만 쓰세요." }
+            {
+              "model": "claude-opus-5-5",
+              "effort": "high",
+              "why": "고난도 논술형처럼 판단이 까다로운 답안에만 쓰세요."
+            }
           ],
-          "tips": ["루브릭을 먼저 주고 ‘루브릭 항목별로 근거 문장을 인용해’라고 요청하세요."],
-          "cautions": ["학생 이름·학번을 지우고 넣으세요.", "점수 결정은 교사가 합니다. AI 피드백은 초안으로만 쓰세요."]
+          "tips": [
+            "루브릭을 먼저 주고 ‘루브릭 항목별로 근거 문장을 인용해’라고 요청하세요."
+          ],
+          "cautions": [
+            "학생 이름·학번을 지우고 넣으세요.",
+            "점수 결정은 교사가 합니다. AI 피드백은 초안으로만 쓰세요."
+          ]
         },
         {
           "id": "performance-task",
           "name": "수행평가 과제 설계",
-          "keywords": ["수행평가", "과제", "프로젝트", "AI 활용 범위", "평가 계획"],
+          "keywords": [
+            "수행평가",
+            "과제",
+            "프로젝트",
+            "AI 활용 범위",
+            "평가 계획"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "high", "why": "과제·채점 기준·AI 활용 허용 범위를 함께 설계해야 해서 추론이 깊은 설정이 좋아요." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "무료로 쓸 수 있는 상위권 모델이에요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "high",
+              "why": "과제·채점 기준·AI 활용 허용 범위를 함께 설계해야 해서 추론이 깊은 설정이 좋아요."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "무료로 쓸 수 있는 상위권 모델이에요."
+            }
           },
           "alternatives": [],
-          "tips": ["2026학년도부터 적용된 ‘수행평가 AI 활용 관리 방안’의 5개 영역(활용 범위, 활용 표시, 사전 교육, 평가 설계, 개인정보)을 조건으로 넣어 설계를 요청하세요."],
-          "cautions": ["학생에게 AI를 쓰게 한다면 서비스별 연령 제한과 보호자 동의 여부를 먼저 확인하세요."]
+          "tips": [
+            "2026학년도부터 적용된 ‘수행평가 AI 활용 관리 방안’의 5개 영역(활용 범위, 활용 표시, 사전 교육, 평가 설계, 개인정보)을 조건으로 넣어 설계를 요청하세요."
+          ],
+          "cautions": [
+            "학생에게 AI를 쓰게 한다면 서비스별 연령 제한과 보호자 동의 여부를 먼저 확인하세요."
+          ]
         }
       ]
     },
@@ -188,30 +453,83 @@
         {
           "id": "record-polish",
           "name": "세특·행특 문장 다듬기 (교사 초안 기반)",
-          "keywords": ["세특", "생기부", "학생부", "행특", "행동특성", "종합의견", "창체", "진로", "기재"],
+          "keywords": [
+            "세특",
+            "생기부",
+            "학생부",
+            "행특",
+            "행동특성",
+            "종합의견",
+            "창체",
+            "진로",
+            "기재"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "low", "why": "교사가 쓴 초안의 맞춤법·어색한 문장만 가볍게 다듬는 용도라 빠른 low로 충분해요. 새 문장을 만들게 하지 마세요." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "low", "why": "무료로도 문장 교정 용도로 충분합니다." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "low",
+              "why": "교사가 쓴 초안의 맞춤법·어색한 문장만 가볍게 다듬는 용도라 빠른 low로 충분해요. 새 문장을 만들게 하지 마세요."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "low",
+              "why": "무료로도 문장 교정 용도로 충분합니다."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-luna", "effort": "low", "why": "ChatGPT 무료 사용자라면 기본 상태로 맞춤법·문장 교정만 요청하세요." }
+            {
+              "model": "gpt-5-6-luna",
+              "effort": "low",
+              "why": "ChatGPT 무료 사용자라면 기본 상태로 맞춤법·문장 교정만 요청하세요."
+            }
           ],
-          "tips": ["‘내용은 바꾸지 말고 맞춤법과 문장 연결만 고쳐 줘’라고 범위를 제한하세요."],
-          "cautions": ["2026학년도 기재요령: 생성형 AI가 만든 문장을 학생부에 그대로 옮기는 것은 금지예요. 교사가 관찰에 근거해 직접 써야 합니다.", "학생 이름·학번 등 개인정보를 입력하지 마세요.", "AI가 다듬은 문장에 허위·과장이 생기지 않았는지 반드시 확인하세요."]
+          "tips": [
+            "‘내용은 바꾸지 말고 맞춤법과 문장 연결만 고쳐 줘’라고 범위를 제한하세요."
+          ],
+          "cautions": [
+            "2026학년도 기재요령: 생성형 AI가 만든 문장을 학생부에 그대로 옮기는 것은 금지예요. 교사가 관찰에 근거해 직접 써야 합니다.",
+            "학생 이름·학번 등 개인정보를 입력하지 마세요.",
+            "AI가 다듬은 문장에 허위·과장이 생기지 않았는지 반드시 확인하세요."
+          ]
         },
         {
           "id": "record-check",
           "name": "기재요령 점검 (금지 표현·분량)",
-          "keywords": ["기재요령", "금지어", "기재 불가", "분량", "글자수", "바이트", "점검"],
+          "keywords": [
+            "기재요령",
+            "금지어",
+            "기재 불가",
+            "분량",
+            "글자수",
+            "바이트",
+            "점검"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "high", "why": "기재요령 PDF를 올리고 규정 대조를 시키는 일이라 긴 문서를 정확히 읽는 능력이 중요해요." },
-            "free": { "model": "notebooklm", "effort": "medium", "why": "올린 기재요령 자료 범위 안에서만 답하도록 설계된 도구라, 규정 근거를 찾기에 알맞아요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "high",
+              "why": "기재요령 PDF를 올리고 규정 대조를 시키는 일이라 긴 문서를 정확히 읽는 능력이 중요해요."
+            },
+            "free": {
+              "model": "notebooklm",
+              "effort": "medium",
+              "why": "올린 기재요령 자료 범위 안에서만 답하도록 설계된 도구라, 규정 근거를 찾기에 알맞아요."
+            }
           },
           "alternatives": [
-            { "model": "notebooklm", "effort": "medium", "why": "유료 구독이 있어도 ‘근거 조항 찾기’만 필요하면 NotebookLM이 편해요." }
+            {
+              "model": "notebooklm",
+              "effort": "medium",
+              "why": "유료 구독이 있어도 ‘근거 조항 찾기’만 필요하면 NotebookLM이 편해요."
+            }
           ],
-          "tips": ["교육부 학교생활기록부 기재요령 원문(PDF)을 함께 올리고 ‘해당 조항을 인용해 설명해’라고 요청하세요."],
-          "cautions": ["학생 이름을 지운 문장만 넣으세요.", "최종 판단은 학교 학업성적관리위원회·기재요령 원문을 따르세요."]
+          "tips": [
+            "교육부 학교생활기록부 기재요령 원문(PDF)을 함께 올리고 ‘해당 조항을 인용해 설명해’라고 요청하세요."
+          ],
+          "cautions": [
+            "학생 이름을 지운 문장만 넣으세요.",
+            "최종 판단은 학교 학업성적관리위원회·기재요령 원문을 따르세요."
+          ]
         }
       ]
     },
@@ -224,70 +542,197 @@
         {
           "id": "official-doc",
           "name": "공문·기안문 작성",
-          "keywords": ["공문", "기안", "기안문", "내부결재", "시행문", "품의", "K-에듀파인"],
+          "keywords": [
+            "공문",
+            "기안",
+            "기안문",
+            "내부결재",
+            "시행문",
+            "품의",
+            "K-에듀파인"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "정해진 형식의 문서라 최상위 모델까지는 필요 없어요. 상위권 모델을 기본 노력으로 쓰면 빠르고 충분합니다." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "low", "why": "무료로 쓸 수 있고, 예시 공문을 주면 형식을 잘 따라 합니다." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "정해진 형식의 문서라 최상위 모델까지는 필요 없어요. 상위권 모델을 기본 노력으로 쓰면 빠르고 충분합니다."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "low",
+              "why": "무료로 쓸 수 있고, 예시 공문을 주면 형식을 잘 따라 합니다."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-sol", "effort": "medium", "why": "ChatGPT Plus 사용자라면 생각 강도 Medium으로 충분해요." }
+            {
+              "model": "gpt-5-6-sol",
+              "effort": "medium",
+              "why": "ChatGPT Plus 사용자라면 생각 강도 Medium으로 충분해요."
+            }
           ],
-          "tips": ["학교에서 쓰는 기존 공문 한 건을 예시로 붙여 넣으면 항목 번호(1. 가. 1) 가))와 끝 표시까지 맞춰 줍니다."],
-          "cautions": ["관련 근거(법령·지침 번호, 날짜)는 AI가 지어낼 수 있으니 원문으로 확인하세요."]
+          "tips": [
+            "학교에서 쓰는 기존 공문 한 건을 예시로 붙여 넣으면 항목 번호(1. 가. 1) 가))와 끝 표시까지 맞춰 줍니다."
+          ],
+          "cautions": [
+            "관련 근거(법령·지침 번호, 날짜)는 AI가 지어낼 수 있으니 원문으로 확인하세요."
+          ]
         },
         {
           "id": "newsletter",
           "name": "가정통신문·안내문",
-          "keywords": ["가정통신문", "안내문", "통신문", "알림", "공지", "학부모 안내"],
+          "keywords": [
+            "가정통신문",
+            "안내문",
+            "통신문",
+            "알림",
+            "공지",
+            "학부모 안내"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "low", "why": "짧고 형식이 정해진 글이라 low로 빠르게 받는 게 효율적이에요." },
-            "free": { "model": "gpt-5-6-luna", "effort": "low", "why": "ChatGPT 무료 텍스트 채팅은 8월부터 무제한이라 여러 번 고쳐 쓰기 좋아요." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "low",
+              "why": "짧고 형식이 정해진 글이라 low로 빠르게 받는 게 효율적이에요."
+            },
+            "free": {
+              "model": "gpt-5-6-luna",
+              "effort": "low",
+              "why": "ChatGPT 무료 텍스트 채팅은 8월부터 무제한이라 여러 번 고쳐 쓰기 좋아요."
+            }
           },
           "alternatives": [
-            { "model": "chatgpt-images-2-5", "effort": "low", "why": "안내문에 넣을 삽화가 필요하면 무료로도 이미지를 만들 수 있어요." }
+            {
+              "model": "chatgpt-images-2-5",
+              "effort": "low",
+              "why": "안내문에 넣을 삽화가 필요하면 무료로도 이미지를 만들 수 있어요."
+            }
           ],
-          "tips": ["대상(학년), 날짜·장소·준비물, 회신 여부를 목록으로 먼저 주세요."],
-          "cautions": ["날짜·요일·금액은 AI가 틀리기 쉬우니 꼭 다시 확인하세요."]
+          "tips": [
+            "대상(학년), 날짜·장소·준비물, 회신 여부를 목록으로 먼저 주세요."
+          ],
+          "cautions": [
+            "날짜·요일·금액은 AI가 틀리기 쉬우니 꼭 다시 확인하세요."
+          ]
         },
         {
           "id": "meeting-notes",
           "name": "회의록·연수 내용 정리",
-          "keywords": ["회의록", "협의록", "연수", "요약", "정리", "녹취", "교무회의"],
+          "keywords": [
+            "회의록",
+            "협의록",
+            "연수",
+            "요약",
+            "정리",
+            "녹취",
+            "교무회의"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "low", "why": "메모를 정리하는 일은 빠른 low로 충분해요. 1M 토큰 문맥이라 긴 녹취록도 한 번에 넣을 수 있어요." },
-            "free": { "model": "notebooklm", "effort": "medium", "why": "회의 자료·녹취를 올리면 그 안에서만 요약하고 근거 위치를 보여 줘 누락·왜곡을 확인하기 쉬워요." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "low",
+              "why": "메모를 정리하는 일은 빠른 low로 충분해요. 1M 토큰 문맥이라 긴 녹취록도 한 번에 넣을 수 있어요."
+            },
+            "free": {
+              "model": "notebooklm",
+              "effort": "medium",
+              "why": "회의 자료·녹취를 올리면 그 안에서만 요약하고 근거 위치를 보여 줘 누락·왜곡을 확인하기 쉬워요."
+            }
           },
           "alternatives": [],
-          "tips": ["‘결정 사항 / 담당자 / 기한’ 표로 정리해 달라고 하세요."],
-          "cautions": ["회의 녹음은 참석자 동의를 받고, 학생·학부모 관련 민감 정보는 지우고 넣으세요."]
+          "tips": [
+            "‘결정 사항 / 담당자 / 기한’ 표로 정리해 달라고 하세요."
+          ],
+          "cautions": [
+            "회의 녹음은 참석자 동의를 받고, 학생·학부모 관련 민감 정보는 지우고 넣으세요."
+          ]
         },
         {
           "id": "spreadsheet",
           "name": "엑셀·구글시트 정리·수식",
-          "keywords": ["엑셀", "스프레드시트", "구글시트", "수식", "함수", "VLOOKUP", "피벗", "성적 처리", "앱스스크립트"],
+          "keywords": [
+            "엑셀",
+            "스프레드시트",
+            "구글시트",
+            "수식",
+            "함수",
+            "VLOOKUP",
+            "피벗",
+            "성적 처리",
+            "앱스스크립트"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "수식·스크립트는 코딩 능력이 중요해요. 제조사 발표 Terminal-Bench 4.0에서 70.6%로 Opus 5.5보다 높게 나온 모델입니다." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "무료 요금제에서도 코드 실행·파일 만들기가 가능해 표를 직접 처리해 볼 수 있어요." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "수식·스크립트는 코딩 능력이 중요해요. 제조사 발표 Terminal-Bench 4.0에서 70.6%로 Opus 5.5보다 높게 나온 모델입니다."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "무료 요금제에서도 코드 실행·파일 만들기가 가능해 표를 직접 처리해 볼 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-sol", "effort": "medium", "why": "ChatGPT Plus 사용자라면 파일을 올려 표 정리를 맡길 수 있어요." }
+            {
+              "model": "gpt-5-6-sol",
+              "effort": "medium",
+              "why": "ChatGPT Plus 사용자라면 파일을 올려 표 정리를 맡길 수 있어요."
+            },
+            {
+              "model": "gpt-6-1-sol",
+              "effort": "medium",
+              "why": "ChatGPT Work는 스프레드시트를 직접 만들어 주는 에이전트예요. Plus 이상이면 GPT-6.1 Sol로 표 작업을 맡길 수 있어요."
+            }
           ],
-          "tips": ["실제 데이터 대신 열 이름과 가짜 예시 3~4줄만 주고 수식을 받으세요."],
-          "cautions": ["성적·학생 명렬표 원본 파일을 AI에 올리지 마세요."]
+          "tips": [
+            "실제 데이터 대신 열 이름과 가짜 예시 3~4줄만 주고 수식을 받으세요."
+          ],
+          "cautions": [
+            "성적·학생 명렬표 원본 파일을 AI에 올리지 마세요."
+          ]
         },
         {
           "id": "plan-report",
           "name": "각종 계획서·결과 보고서",
-          "keywords": ["계획서", "보고서", "운영계획", "결과보고", "사업계획", "예산", "공모"],
+          "keywords": [
+            "계획서",
+            "보고서",
+            "운영계획",
+            "결과보고",
+            "사업계획",
+            "예산",
+            "공모"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "high", "why": "목표-추진 내용-예산-평가를 일관되게 엮는 긴 문서라 종합 벤치마크 1위 모델을 high로 권합니다." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "무료로 쓸 수 있는 상위권 모델이고, 파일로 바로 받을 수 있어요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "high",
+              "why": "목표-추진 내용-예산-평가를 일관되게 엮는 긴 문서라 종합 벤치마크 1위 모델을 high로 권합니다."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "무료로 쓸 수 있는 상위권 모델이고, 파일로 바로 받을 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-sol", "effort": "high", "why": "ChatGPT Plus 사용자라면 생각 강도 High로 대체할 수 있어요." }
+            {
+              "model": "gpt-5-6-sol",
+              "effort": "high",
+              "why": "ChatGPT Plus 사용자라면 생각 강도 High로 대체할 수 있어요."
+            },
+            {
+              "model": "gpt-6-astra-work",
+              "effort": "high",
+              "why": "Plus 요금제도 Work 모드에서 OpenAI 최상위 모델 GPT-6 Astra로 긴 보고서를 문서 파일로 완성할 수 있어요(Work 사용 한도 차감)."
+            }
           ],
-          "tips": ["교육청 공모 양식(목차)을 그대로 붙여 넣고 항목별로 채우게 하세요."],
-          "cautions": ["통계·예산 수치와 인용 정책은 원문으로 확인하세요."]
+          "tips": [
+            "교육청 공모 양식(목차)을 그대로 붙여 넣고 항목별로 채우게 하세요."
+          ],
+          "cautions": [
+            "통계·예산 수치와 인용 정책은 원문으로 확인하세요."
+          ]
         }
       ]
     },
@@ -300,42 +745,112 @@
         {
           "id": "parent-message",
           "name": "학부모 문자·알림장 문구",
-          "keywords": ["학부모", "문자", "알림장", "하이클래스", "클래스팅", "답장", "민원 답변"],
+          "keywords": [
+            "학부모",
+            "문자",
+            "알림장",
+            "하이클래스",
+            "클래스팅",
+            "답장",
+            "민원 답변"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "low", "why": "짧은 문구라 빠른 low로 여러 버전을 받아 고르는 게 좋아요." },
-            "free": { "model": "gpt-5-6-luna", "effort": "low", "why": "ChatGPT 무료 텍스트 채팅은 무제한이라 표현을 여러 번 바꿔 보기 좋아요." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "low",
+              "why": "짧은 문구라 빠른 low로 여러 버전을 받아 고르는 게 좋아요."
+            },
+            "free": {
+              "model": "gpt-5-6-luna",
+              "effort": "low",
+              "why": "ChatGPT 무료 텍스트 채팅은 무제한이라 표현을 여러 번 바꿔 보기 좋아요."
+            }
           },
           "alternatives": [
-            { "model": "claude-opus-5-5", "effort": "medium", "why": "민감한 민원 답변처럼 어조가 중요한 글은 한 단계 높은 모델로 검토하세요." }
+            {
+              "model": "claude-opus-5-5",
+              "effort": "medium",
+              "why": "민감한 민원 답변처럼 어조가 중요한 글은 한 단계 높은 모델로 검토하세요."
+            }
           ],
-          "tips": ["‘정중하지만 단호하게, 3문장 이내’처럼 어조와 길이를 지정하세요."],
-          "cautions": ["학생·학부모 실명과 구체적인 사건 내용은 빼고 넣으세요."]
+          "tips": [
+            "‘정중하지만 단호하게, 3문장 이내’처럼 어조와 길이를 지정하세요."
+          ],
+          "cautions": [
+            "학생·학부모 실명과 구체적인 사건 내용은 빼고 넣으세요."
+          ]
         },
         {
           "id": "counseling-prep",
           "name": "상담 준비·대화 시나리오",
-          "keywords": ["상담", "학생 상담", "학부모 상담", "대화", "시나리오", "갈등", "학교폭력"],
+          "keywords": [
+            "상담",
+            "학생 상담",
+            "학부모 상담",
+            "대화",
+            "시나리오",
+            "갈등",
+            "학교폭력"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "medium", "why": "상황별 질문 흐름과 반응을 설계하는 일이라 상위 모델이 좋아요. 대화 연습은 응답이 빨라야 해서 medium이 적당합니다." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "무료로 역할극(학부모 역할 등) 연습을 해 볼 수 있어요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "medium",
+              "why": "상황별 질문 흐름과 반응을 설계하는 일이라 상위 모델이 좋아요. 대화 연습은 응답이 빨라야 해서 medium이 적당합니다."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "무료로 역할극(학부모 역할 등) 연습을 해 볼 수 있어요."
+            }
           },
           "alternatives": [],
-          "tips": ["‘내가 교사, 너는 걱정 많은 학부모 역할’처럼 역할극으로 연습해 보세요."],
-          "cautions": ["학생의 이름·가정사·건강 정보 등 민감 정보를 입력하지 마세요.", "학교폭력 등 법적 절차가 있는 사안은 AI 답변이 아니라 관련 지침·담당 부서를 따르세요."]
+          "tips": [
+            "‘내가 교사, 너는 걱정 많은 학부모 역할’처럼 역할극으로 연습해 보세요."
+          ],
+          "cautions": [
+            "학생의 이름·가정사·건강 정보 등 민감 정보를 입력하지 마세요.",
+            "학교폭력 등 법적 절차가 있는 사안은 AI 답변이 아니라 관련 지침·담당 부서를 따르세요."
+          ]
         },
         {
           "id": "translation",
           "name": "다문화 가정 안내문 번역",
-          "keywords": ["번역", "다문화", "외국어", "베트남어", "중국어", "영어", "러시아어", "이중언어"],
+          "keywords": [
+            "번역",
+            "다문화",
+            "외국어",
+            "베트남어",
+            "중국어",
+            "영어",
+            "러시아어",
+            "이중언어"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "medium", "why": "이번 갱신에서 번역 전용 벤치마크는 확인하지 못해 종합 벤치마크 1위 모델을 기준으로 추천해요." },
-            "free": { "model": "gemini-flash", "effort": "low", "why": "무료로 빠르게 여러 언어 버전을 만들 수 있어요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "medium",
+              "why": "이번 갱신에서 번역 전용 벤치마크는 확인하지 못해 종합 벤치마크 1위 모델을 기준으로 추천해요."
+            },
+            "free": {
+              "model": "gemini-flash",
+              "effort": "low",
+              "why": "무료로 빠르게 여러 언어 버전을 만들 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "gpt-5-6-sol", "effort": "medium", "why": "다른 모델로 한 번 더 번역해 비교하면 오역을 찾기 쉬워요." }
+            {
+              "model": "gpt-5-6-sol",
+              "effort": "medium",
+              "why": "다른 모델로 한 번 더 번역해 비교하면 오역을 찾기 쉬워요."
+            }
           ],
-          "tips": ["번역 결과를 다시 한국어로 번역(역번역)하게 해서 뜻이 바뀌지 않았는지 확인하세요."],
-          "cautions": ["중요한 안내(비용·일정·동의서)는 가능하면 이중언어 강사 등 사람의 확인을 받으세요."]
+          "tips": [
+            "번역 결과를 다시 한국어로 번역(역번역)하게 해서 뜻이 바뀌지 않았는지 확인하세요."
+          ],
+          "cautions": [
+            "중요한 안내(비용·일정·동의서)는 가능하면 이중언어 강사 등 사람의 확인을 받으세요."
+          ]
         }
       ]
     },
@@ -348,46 +863,134 @@
         {
           "id": "deep-research",
           "name": "최신 자료·정책 조사",
-          "keywords": ["조사", "리서치", "딥리서치", "정책", "최신", "뉴스", "근거", "출처"],
+          "keywords": [
+            "조사",
+            "리서치",
+            "딥리서치",
+            "정책",
+            "최신",
+            "뉴스",
+            "근거",
+            "출처"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "high", "why": "Claude Pro 요금제에 Research 기능이 포함되어 있고, 종합 벤치마크 1위 모델로 여러 출처를 종합하기 좋아요." },
-            "free": { "model": "perplexity", "effort": "high", "why": "무료로 하루 약 5회 Deep Research를 쓸 수 있고, 답마다 출처 링크를 붙여 줘 확인이 쉬워요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "high",
+              "why": "Claude Pro 요금제에 Research 기능이 포함되어 있고, 종합 벤치마크 1위 모델로 여러 출처를 종합하기 좋아요."
+            },
+            "free": {
+              "model": "perplexity",
+              "effort": "high",
+              "why": "무료로 하루 약 5회 Deep Research를 쓸 수 있고, 답마다 출처 링크를 붙여 줘 확인이 쉬워요."
+            }
           },
           "alternatives": [
-            { "model": "perplexity", "effort": "medium", "why": "간단한 사실 확인은 Pro Search로 충분해요." },
-            { "model": "gemini-3-1-pro", "effort": "high", "why": "Google AI Pro 구독이 있다면 Gemini의 Deep Research도 대안이에요." }
+            {
+              "model": "perplexity",
+              "effort": "medium",
+              "why": "간단한 사실 확인은 Pro Search로 충분해요."
+            },
+            {
+              "model": "gemini-3-1-pro",
+              "effort": "high",
+              "why": "Google AI Pro 구독이 있다면 Gemini의 Deep Research도 대안이에요."
+            }
           ],
-          "tips": ["‘2026년 이후 교육부·교육청 자료 위주로, 출처 링크 포함’처럼 기간과 출처 범위를 지정하세요."],
-          "cautions": ["AI가 붙인 출처 링크를 실제로 열어 내용이 맞는지 확인하세요."]
+          "tips": [
+            "‘2026년 이후 교육부·교육청 자료 위주로, 출처 링크 포함’처럼 기간과 출처 범위를 지정하세요."
+          ],
+          "cautions": [
+            "AI가 붙인 출처 링크를 실제로 열어 내용이 맞는지 확인하세요."
+          ]
         },
         {
           "id": "doc-summary",
           "name": "긴 문서·지침·교육과정 요약",
-          "keywords": ["요약", "PDF", "지침", "교육과정", "해설서", "매뉴얼", "긴 문서", "공문 요약"],
+          "keywords": [
+            "요약",
+            "PDF",
+            "지침",
+            "교육과정",
+            "해설서",
+            "매뉴얼",
+            "긴 문서",
+            "공문 요약"
+          ],
           "recommend": {
-            "paid": { "model": "claude-sonnet-5-5", "effort": "medium", "why": "1M 토큰 문맥을 지원해 두꺼운 지침·해설서도 통째로 넣고 요약할 수 있어요." },
-            "free": { "model": "notebooklm", "effort": "medium", "why": "올린 자료 범위 안에서만 답해 요약이 원문을 벗어날 위험이 적어요. 오디오 개요로 들으며 연수할 수도 있어요." }
+            "paid": {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "1M 토큰 문맥을 지원해 두꺼운 지침·해설서도 통째로 넣고 요약할 수 있어요."
+            },
+            "free": {
+              "model": "notebooklm",
+              "effort": "medium",
+              "why": "올린 자료 범위 안에서만 답해 요약이 원문을 벗어날 위험이 적어요. 오디오 개요로 들으며 연수할 수도 있어요."
+            }
           },
           "alternatives": [
-            { "model": "gemini-3-1-pro", "effort": "medium", "why": "Google 드라이브에 자료가 있다면 Gemini로 바로 불러오기 편해요." }
+            {
+              "model": "gemini-3-1-pro",
+              "effort": "medium",
+              "why": "Google 드라이브에 자료가 있다면 Gemini로 바로 불러오기 편해요."
+            }
           ],
-          "tips": ["‘교사가 해야 할 일만 체크리스트로’처럼 요약 목적을 알려 주세요."],
-          "cautions": ["요약에서 빠진 예외 조항이 있을 수 있으니 중요한 부분은 원문을 확인하세요."]
+          "tips": [
+            "‘교사가 해야 할 일만 체크리스트로’처럼 요약 목적을 알려 주세요."
+          ],
+          "cautions": [
+            "요약에서 빠진 예외 조항이 있을 수 있으니 중요한 부분은 원문을 확인하세요."
+          ]
         },
         {
           "id": "academic",
           "name": "논문·연구 계획 (연구대회·대학원)",
-          "keywords": ["논문", "연구", "연구대회", "대학원", "선행연구", "연구계획서", "통계", "실행연구"],
+          "keywords": [
+            "논문",
+            "연구",
+            "연구대회",
+            "대학원",
+            "선행연구",
+            "연구계획서",
+            "통계",
+            "실행연구"
+          ],
           "recommend": {
-            "paid": { "model": "claude-opus-5-5", "effort": "xhigh", "why": "연구 설계·분석처럼 여러 단계 추론이 필요한 일이에요. Artificial Analysis 측정에서 Opus 5.5는 노력을 올릴수록 점수가 높아졌어요(high 54, xhigh 56, max 58)." },
-            "free": { "model": "claude-sonnet-5-5", "effort": "high", "why": "무료로 쓸 수 있는 모델 중 종합 지수가 가장 높게 보고된 모델이에요." }
+            "paid": {
+              "model": "claude-opus-5-5",
+              "effort": "xhigh",
+              "why": "연구 설계·분석처럼 여러 단계 추론이 필요한 일이에요. Artificial Analysis 측정에서 Opus 5.5는 노력을 올릴수록 점수가 높아졌어요(high 54, xhigh 56, max 58)."
+            },
+            "free": {
+              "model": "claude-sonnet-5-5",
+              "effort": "high",
+              "why": "무료로 쓸 수 있는 모델 중 종합 지수가 가장 높게 보고된 모델이에요."
+            }
           },
           "alternatives": [
-            { "model": "claude-fable-5-1", "effort": "high", "why": "Humanity's Last Exam(도구 사용) 65.0%로 발표된 상위 모델. Pro 사용 크레딧이나 Max 요금제가 있을 때." },
-            { "model": "perplexity", "effort": "high", "why": "선행연구 찾기는 출처를 붙여 주는 Deep Research가 편해요." }
+            {
+              "model": "claude-fable-5-1",
+              "effort": "high",
+              "why": "Humanity's Last Exam(도구 사용) 65.0%로 발표된 상위 모델. Pro 사용 크레딧이나 Max 요금제가 있을 때."
+            },
+            {
+              "model": "perplexity",
+              "effort": "high",
+              "why": "선행연구 찾기는 출처를 붙여 주는 Deep Research가 편해요."
+            },
+            {
+              "model": "gpt-6-astra-work",
+              "effort": "high",
+              "why": "ChatGPT Plus 사용자라면 Work 모드에서 GPT-6 Astra로 연구 자료를 정리한 문서를 받을 수 있어요(Artificial Analysis 지능 지수 53)."
+            }
           ],
-          "tips": ["연구 질문·변인·표본을 먼저 정리해 주고, 통계 방법 추천은 근거와 함께 요청하세요."],
-          "cautions": ["AI가 제시한 논문·인용은 실제로 존재하는지 반드시 검색해 확인하세요(가짜 인용이 생길 수 있어요)."]
+          "tips": [
+            "연구 질문·변인·표본을 먼저 정리해 주고, 통계 방법 추천은 근거와 함께 요청하세요."
+          ],
+          "cautions": [
+            "AI가 제시한 논문·인용은 실제로 존재하는지 반드시 검색해 확인하세요(가짜 인용이 생길 수 있어요)."
+          ]
         }
       ]
     },
@@ -400,58 +1003,154 @@
         {
           "id": "illustration",
           "name": "수업 삽화·학습 그림",
-          "keywords": ["이미지", "그림", "삽화", "일러스트", "캐릭터", "그려줘"],
+          "keywords": [
+            "이미지",
+            "그림",
+            "삽화",
+            "일러스트",
+            "캐릭터",
+            "그려줘"
+          ],
           "recommend": {
-            "paid": { "model": "chatgpt-images-2-5", "effort": "low", "why": "Arena·Artificial Analysis 텍스트→이미지 순위 모두 1위로 보고된 이미지 모델이에요(9월 확인)." },
-            "free": { "model": "chatgpt-images-2-5", "effort": "low", "why": "무료 요금제에서도 쓸 수 있어요(생성 한도가 낮음)." }
+            "paid": {
+              "model": "chatgpt-images-2-5",
+              "effort": "low",
+              "why": "Arena·Artificial Analysis 텍스트→이미지 순위 모두 1위로 보고된 이미지 모델이에요(9월 확인)."
+            },
+            "free": {
+              "model": "chatgpt-images-2-5",
+              "effort": "low",
+              "why": "무료 요금제에서도 쓸 수 있어요(생성 한도가 낮음)."
+            }
           },
           "alternatives": [
-            { "model": "nano-banana", "effort": "low", "why": "Gemini를 쓴다면 기본 이미지 생성(Nano Banana 2)으로 만들 수 있어요." }
+            {
+              "model": "nano-banana",
+              "effort": "low",
+              "why": "Gemini를 쓴다면 기본 이미지 생성(Nano Banana 2)으로 만들 수 있어요."
+            }
           ],
-          "tips": ["대상 학년, 그림체(예: 단순한 선화), 배경 유무를 적으세요.", "@Sketch로 대충 그린 그림을 올리면 그 구도대로 만들어 줘요."],
-          "cautions": ["실존 인물·저작권 캐릭터를 흉내 낸 이미지는 만들지 마세요.", "학생 사진을 올려 편집하지 마세요."]
+          "tips": [
+            "대상 학년, 그림체(예: 단순한 선화), 배경 유무를 적으세요.",
+            "@Sketch로 대충 그린 그림을 올리면 그 구도대로 만들어 줘요."
+          ],
+          "cautions": [
+            "실존 인물·저작권 캐릭터를 흉내 낸 이미지는 만들지 마세요.",
+            "학생 사진을 올려 편집하지 마세요."
+          ]
         },
         {
           "id": "poster",
           "name": "포스터·안내 이미지 (글자 포함)",
-          "keywords": ["포스터", "홍보", "현수막", "배너", "카드뉴스", "안내 이미지", "썸네일"],
+          "keywords": [
+            "포스터",
+            "홍보",
+            "현수막",
+            "배너",
+            "카드뉴스",
+            "안내 이미지",
+            "썸네일"
+          ],
           "recommend": {
-            "paid": { "model": "chatgpt-images-2-5", "effort": "low", "why": "현재 이미지 생성·편집 순위 1위로 보고된 모델이라 글자가 들어간 디자인에 먼저 써 볼 만해요." },
-            "free": { "model": "chatgpt-images-2-5", "effort": "low", "why": "무료로도 사용할 수 있어요(한도 낮음)." }
+            "paid": {
+              "model": "chatgpt-images-2-5",
+              "effort": "low",
+              "why": "현재 이미지 생성·편집 순위 1위로 보고된 모델이라 글자가 들어간 디자인에 먼저 써 볼 만해요."
+            },
+            "free": {
+              "model": "chatgpt-images-2-5",
+              "effort": "low",
+              "why": "무료로도 사용할 수 있어요(한도 낮음)."
+            }
           },
           "alternatives": [
-            { "model": "nano-banana", "effort": "low", "why": "Nano Banana Pro는 Google Slides·Vids에서도 쓸 수 있어 학교 Google 계정 사용자에게 편해요." }
+            {
+              "model": "nano-banana",
+              "effort": "low",
+              "why": "Nano Banana Pro는 Google Slides·Vids에서도 쓸 수 있어 학교 Google 계정 사용자에게 편해요."
+            }
           ],
-          "tips": ["넣을 글자를 따옴표로 정확히 적고, 한글 오타가 없는지 확인하세요."],
-          "cautions": ["학교 로고·교육청 상징은 공식 파일을 쓰세요."]
+          "tips": [
+            "넣을 글자를 따옴표로 정확히 적고, 한글 오타가 없는지 확인하세요."
+          ],
+          "cautions": [
+            "학교 로고·교육청 상징은 공식 파일을 쓰세요."
+          ]
         },
         {
           "id": "video",
           "name": "짧은 수업 영상 만들기",
-          "keywords": ["영상", "동영상", "비디오", "쇼츠", "애니메이션", "클립"],
+          "keywords": [
+            "영상",
+            "동영상",
+            "비디오",
+            "쇼츠",
+            "애니메이션",
+            "클립"
+          ],
           "recommend": {
-            "paid": { "model": "gemini-omni-flash", "effort": "low", "why": "Artificial Analysis 텍스트→영상(오디오 포함) 순위 1위(1233)로 보고된 모델이에요. OpenAI Sora 앱은 2026년 4월에 종료됐어요." },
-            "free": { "model": "youtube-create-omni", "effort": "low", "why": "Google이 YouTube Shorts·YouTube Create에서 Gemini Omni Flash를 무료로 제공한다고 발표했어요." }
+            "paid": {
+              "model": "gemini-omni-flash",
+              "effort": "low",
+              "why": "Artificial Analysis 텍스트→영상(오디오 포함) 순위 1위(1233)로 보고된 모델이에요. OpenAI Sora 앱은 2026년 4월에 종료됐어요."
+            },
+            "free": {
+              "model": "youtube-create-omni",
+              "effort": "low",
+              "why": "Google이 YouTube Shorts·YouTube Create에서 Gemini Omni Flash를 무료로 제공한다고 발표했어요."
+            }
           },
           "alternatives": [
-            { "model": "notebooklm", "effort": "medium", "why": "자료를 올려 설명형 영상 개요를 만드는 방식도 있어요." }
+            {
+              "model": "notebooklm",
+              "effort": "medium",
+              "why": "자료를 올려 설명형 영상 개요를 만드는 방식도 있어요."
+            }
           ],
-          "tips": ["장면을 1~3개로 나눠 ‘장면별 내용·길이’를 적으면 결과가 안정적이에요."],
-          "cautions": ["학생 얼굴·목소리를 넣지 마세요.", "AI로 만든 영상임을 학생들에게 알려 주세요."]
+          "tips": [
+            "장면을 1~3개로 나눠 ‘장면별 내용·길이’를 적으면 결과가 안정적이에요."
+          ],
+          "cautions": [
+            "학생 얼굴·목소리를 넣지 마세요.",
+            "AI로 만든 영상임을 학생들에게 알려 주세요."
+          ]
         },
         {
           "id": "infographic",
           "name": "인포그래픽·한눈에 보는 요약 자료",
-          "keywords": ["인포그래픽", "요약 자료", "도식", "마인드맵", "개념도", "한눈에"],
+          "keywords": [
+            "인포그래픽",
+            "요약 자료",
+            "도식",
+            "마인드맵",
+            "개념도",
+            "한눈에"
+          ],
           "recommend": {
-            "paid": { "model": "notebooklm", "effort": "medium", "why": "올린 자료 내용만으로 인포그래픽을 만들어 사실이 원문과 어긋날 위험이 적어요." },
-            "free": { "model": "notebooklm", "effort": "medium", "why": "무료 Google 계정으로 쓸 수 있어요." }
+            "paid": {
+              "model": "notebooklm",
+              "effort": "medium",
+              "why": "올린 자료 내용만으로 인포그래픽을 만들어 사실이 원문과 어긋날 위험이 적어요."
+            },
+            "free": {
+              "model": "notebooklm",
+              "effort": "medium",
+              "why": "무료 Google 계정으로 쓸 수 있어요."
+            }
           },
           "alternatives": [
-            { "model": "claude-sonnet-5-5", "effort": "medium", "why": "Artifacts로 도식을 HTML로 만들어 고치기 쉽게 받을 수도 있어요." }
+            {
+              "model": "claude-sonnet-5-5",
+              "effort": "medium",
+              "why": "Artifacts로 도식을 HTML로 만들어 고치기 쉽게 받을 수도 있어요."
+            }
           ],
-          "tips": ["자료를 1~3개로 좁혀 올리면 핵심이 더 잘 드러나요."],
-          "cautions": ["수치·연도는 원문과 대조하세요."]
+          "tips": [
+            "자료를 1~3개로 좁혀 올리면 핵심이 더 잘 드러나요."
+          ],
+          "cautions": [
+            "수치·연도는 원문과 대조하세요."
+          ]
         }
       ]
     }
