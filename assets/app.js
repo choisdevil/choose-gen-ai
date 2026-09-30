@@ -95,6 +95,14 @@
     return sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ');
   }
 
+  function snsHtml(modelId) {
+    const posts = (state.signals?.community || []).filter((c) => c.relatedModels?.includes(modelId)).slice(0, 3);
+    if (!posts.length) return '';
+    return `<div class="sub"><h3>SNS·커뮤니티 반응</h3>
+      <ul class="plain">${posts.map((c) => `<li><span class="tag">${esc(c.platform)}</span>${esc(c.summary)} <a class="sources" href="${esc(c.url)}" target="_blank" rel="noopener">원문 ↗</a></li>`).join('')}</ul>
+      <p class="sources">공개 계정의 개인 의견을 요약한 참고 자료이며, 추천은 공식 정보·벤치마크를 우선합니다.</p></div>`;
+  }
+
   function renderResult() {
     const box = $('#result');
     const task = state.taskId && findTask(state.taskId);
@@ -143,6 +151,7 @@
 
         ${altHtml ? `<div class="sub"><h3>다른 선택지</h3><div class="alt-list">${altHtml}</div></div>` : ''}
         ${task.tips?.length ? `<div class="sub"><h3>잘 쓰는 요령</h3><ul class="plain">${task.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}
+        ${snsHtml(model.id)}
         ${task.cautions?.length ? `<div class="sub caution"><h3>주의</h3><ul class="plain">${task.cautions.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}
         <p class="sub sources">${verifyTag(model)} 모델 정보 출처: ${sourceLinks(model.sources)}</p>
       </div>`;
@@ -182,14 +191,14 @@
       </div>`).join('');
     const comm = (s.community || []).map((c) => `
       <div class="signal">
-        <h4><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.source)}</a> <small>(${esc(c.checkedAt)} 확인)</small></h4>
+        <h4>${c.platform ? `<span class="tag">${esc(c.platform)}</span>` : ''}<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.source)}</a> <small>(${esc(c.checkedAt)} 확인${c.evidence ? ` · ${esc(c.evidence)}` : ''})</small></h4>
         <div>${esc(c.summary)}</div>
       </div>`).join('');
     $('#signals').innerHTML = `
       <p>마지막 수집: ${esc(fmtDate(s.updatedAt))}</p>
       ${s.note ? `<p class="sources">${esc(s.note)}</p>` : ''}
       <h3>벤치마크</h3>${bench || '<p>없음</p>'}
-      <h3>사용 후기·커뮤니티</h3>${comm || '<p>이번 갱신에서 확인된 신뢰할 만한 후기가 없어요.</p>'}`;
+      <h3>SNS·커뮤니티 후기 (X·Threads·Instagram·Facebook 등 공개 게시물)</h3>${comm || '<p>이번 갱신에서 확인된 신뢰할 만한 후기가 없어요.</p>'}`;
   }
 
   function renderGuidelines() {

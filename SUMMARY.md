@@ -19,9 +19,9 @@
 
 | 파일 | 내용 |
 |---|---|
-| `data/models.json` | 모델 14개: 요금제, 서비스별 노력 설정 방법, 확인 방식, 출처 |
+| `data/models.json` | 모델 18개: 요금제, 서비스별 노력 설정 방법, 확인 방식, 출처 |
 | `data/tasks.json` | 업무 분류·세부 업무·키워드, 유료/무료 추천(모델+노력+이유), 대안, 요령, 주의, 학교 AI 지침 4건 |
-| `data/signals.json` | 그날 확인한 벤치마크(Arena, Artificial Analysis, 수능 LLM 풀이 등)·사용 후기 요약과 출처 |
+| `data/signals.json` | 그날 확인한 벤치마크(Arena, Artificial Analysis, 수능 LLM 풀이 등)와 SNS(X·Threads·Instagram·Facebook 등 공개 게시물) 후기 요약·출처. 결과 화면에 관련 모델의 반응 표시 |
 | `data/changelog.json` | 날짜별 갱신 기록(확인 불가 항목 포함) |
 | `scripts/validate.mjs` | 모델 id 참조, 무료 추천의 무료 여부, 노력 값, 출처 URL, 날짜 형식 검사 |
 | `.github/workflows/validate.yml` | push·PR 때 데이터 자동 검증 |

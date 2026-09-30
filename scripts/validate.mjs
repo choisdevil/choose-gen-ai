@@ -8,6 +8,7 @@ import { dirname, join } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const EFFORTS = ['low', 'medium', 'high', 'xhigh', 'max'];
+const PLATFORMS = ['X', 'Threads', 'Instagram', 'Facebook', 'Reddit', 'YouTube', '블로그', '커뮤니티', '뉴스', '기타'];
 const errors = [];
 const warnings = [];
 const err = (msg) => errors.push(msg);
@@ -125,6 +126,12 @@ if (signals) {
       if (!isUrl(s.url)) err(`${w}: url must be https`);
       if (!isDay(s.checkedAt)) err(`${w}: checkedAt must be YYYY-MM-DD`);
       if (!isStr(s.summary)) err(`${w}: missing summary`);
+      if (key === 'community') {
+        if (!PLATFORMS.includes(s.platform)) err(`${w}: platform must be one of ${PLATFORMS.join('/')}`);
+        if (!['원문 확인', '검색 요약'].includes(s.evidence)) err(`${w}: evidence must be "원문 확인" or "검색 요약"`);
+        if (!Array.isArray(s.relatedModels)) err(`${w}: relatedModels must be an array`);
+        (s.relatedModels || []).forEach((id) => { if (!models.has(id)) err(`${w}: unknown related model "${id}"`); });
+      }
     });
   }
 }

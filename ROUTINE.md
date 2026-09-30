@@ -44,8 +44,25 @@ API는 쓰지 않는다. 웹 검색·웹 페이지 확인으로 **오늘 확인�
 ### 2. 벤치마크·사용 후기 확인 (`data/signals.json`)
 
 1. 벤치마크: LMArena(Text·Vision·Text-to-Image·Video 등), Artificial Analysis(Intelligence Index 등), 공식 모델 카드. 오늘 실제로 열어 본 페이지만 `benchmarks`에 넣고, `summary`에는 **페이지에서 읽은 순위·수치만** 적는다(순위는 날마다 바뀌므로 확인 날짜 필수).
-2. 사용 후기: Reddit(r/ChatGPT, r/ClaudeAI, r/GeminiAI, r/Teachers 등), X, 공개된 국내 교사 블로그·커뮤니티 글, GeekNews 등 **로그인 없이 볼 수 있는 공개 글**만. 여러 글에서 반복되는 경향만 요약하고, 한두 개 글을 일반화하지 않는다. 인용문을 지어내지 않는다.
-3. 각 항목에 `url`, `checkedAt: TODAY`, `summary`를 넣는다. 확인하지 못한 항목은 지운다(과거 값을 오늘 확인한 것처럼 남기지 않는다).
+2. **SNS·커뮤니티 후기** — 아래 플랫폼의 **공개 계정·공개 게시물**을 최근 7일 위주로 확인한다.
+
+   | 플랫폼 | 검색 방법(예) |
+   |---|---|
+   | X | `site:x.com "Opus 5.5" teacher`, `site:x.com GPT-6 수업` |
+   | Threads | `site:threads.com 클로드 선생님 후기`, `site:threads.com 제미나이 수업` |
+   | Instagram | `site:instagram.com 교사 AI 추천`, `site:instagram.com 선생님 챗GPT` |
+   | Facebook | `site:facebook.com 교사 생성형 AI 후기` (공개 그룹·공개 페이지만) |
+   | 기타 | Reddit(r/Teachers, r/ClaudeAI, r/ChatGPT, r/GeminiAI), 공개 교사 블로그, GeekNews |
+
+   - 검색어는 **모델명(오늘 models.json에 있는 이름) + 후기/사용기/비교**와 **교사·선생님·수업·생기부·teacher·lesson** 같은 교육 키워드를 섞어 한국어·영어로 각각 찾는다.
+   - **공개 게시물만** 쓴다. 비공개 계정, 비공개 그룹, 친구 공개 글, DM은 쓰지 않는다. 로그인 없이 본문을 볼 수 없으면(Instagram·Facebook에서 흔함) 검색 결과 요약에 본문 내용이 드러난 경우에만 `evidence: "검색 요약"`으로 쓰고, 제목만 보이면 반영하지 않는다.
+   - 광고·협찬·제휴 글, 회사 공식 계정의 홍보 글은 후기로 쓰지 않는다(공식 발표는 1단계 출처로 다룬다).
+   - 개인정보를 옮기지 않는다: `summary`에는 계정 이름·실명·얼굴·소속을 적지 않고 내용만 요약한다. 출처는 `url`로만 남긴다.
+   - 인용문을 지어내지 않는다. 게시물에 있는 수치·결론만 요약하고 "개인 테스트", "코딩 과제 기준"처럼 조건을 함께 적는다.
+   - 각 항목 형식: `{ "platform": "X|Threads|Instagram|Facebook|Reddit|YouTube|블로그|커뮤니티|뉴스|기타", "source": "…", "url": "…", "checkedAt": TODAY, "evidence": "원문 확인|검색 요약", "relatedModels": ["models.json id", …], "summary": "…" }`
+   - `relatedModels`에 넣은 모델의 추천 결과 화면에 이 후기가 "SNS·커뮤니티 반응"으로 표시된다.
+   - 교사 업무를 직접 다룬 후기를 못 찾았으면 `note`에 그 사실을 적는다.
+3. 각 항목에 `url`, `checkedAt: TODAY`, `summary`를 넣는다. 7일이 지난 SNS 항목과 오늘 다시 확인하지 못한 벤치마크 항목은 지운다(과거 값을 오늘 확인한 것처럼 남기지 않는다).
 4. `note`에 이번 수집의 확인 방식(원문 직접 확인/검색 요약)과 한계를 한두 문장으로 적는다.
 5. `updatedAt`을 현재 시각(`+09:00`)으로 바꾼다.
 
@@ -57,6 +74,7 @@ API는 쓰지 않는다. 웹 검색·웹 페이지 확인으로 **오늘 확인�
 - **노력(effort) 기준**: 짧은 문구·단순 변환 = low / 일반 문서 초안 = medium / 평가·분석·긴 문서 = high / 여러 단계 설계·정확성이 중요한 채점 기준 = xhigh / 한 번에 복잡한 결과물을 만들어야 하고 시간이 충분할 때만 max.
 - `recommend.free`의 모델은 반드시 `access.free: true`여야 한다.
 - 근거(공식 기능, 벤치마크, 반복되는 후기)가 있을 때만 추천을 바꾼다. 바꾸면 `why`를 새 근거에 맞게 고치고, 변경 사실을 changelog에 적는다.
+- **SNS 후기의 반영 기준**: 후기만으로 기본 추천을 바꾸려면 서로 다른 계정의 게시물 3건 이상, 2개 이상 플랫폼에서 같은 경향이 확인되어야 한다. 그보다 약하면 추천은 그대로 두고 `tips`·`cautions`·`alternatives`의 `why`에만 반영한다(예: "사용 한도가 빨리 준다는 후기가 많음"). 벤치마크·공식 정보와 충돌하면 공식 정보·벤치마크를 우선한다.
 - 업무 분류·키워드는 교사들이 실제로 검색할 만한 말을 추가해도 좋다. 학생 개인정보 관련 `cautions`는 지우지 않는다.
 - `guidelines`(교육부·교육청 지침)는 새 지침이 공식 발표된 경우에만 추가·수정한다.
 - `updatedAt`은 `models.json`과 같은 값으로 맞춘다.

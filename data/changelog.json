@@ -2,12 +2,13 @@
   "entries": [
     {
       "date": "2026-09-30",
-      "summary": "추가 갱신 — OpenAI GPT-6 계열 4종 추가 (모델 18개)",
+      "summary": "추가 갱신 — OpenAI GPT-6 계열 4종 추가(모델 18개), SNS 공개 후기 수집 시작",
       "changes": [
         "추가: GPT-6 Astra(ChatGPT Work), GPT-6.1 Sol, GPT-6 Sol, GPT-6 Luna — 일반 채팅이 아니라 ChatGPT Work·Codex에서 제공되는 모델이라 첫 갱신에서 빠졌던 것을 수정",
         "대안 추천 추가: 수업 PPT·활동지·엑셀·계획서·퀴즈 웹앱·문항 검토·논문 업무에 ChatGPT Work(GPT-6 계열) 선택지",
         "기본 추천은 유지 — GPT-6.1 Sol의 독립 벤치마크 점수를 아직 확인하지 못함(OpenAI는 Astra에 근접한다고 발표)",
-        "확인 방식: 검색 결과 요약(help.openai.com 원문은 네트워크 정책으로 열지 못함). Work 모드 추론 수준의 정확한 메뉴 이름은 계정·앱 버전에 따라 다를 수 있음"
+        "확인 방식: 검색 결과 요약(help.openai.com 원문은 네트워크 정책으로 열지 못함). Work 모드 추론 수준의 정확한 메뉴 이름은 계정·앱 버전에 따라 다를 수 있음",
+        "SNS 후기 수집 추가: X 4건·Threads 1건 공개 게시물(검색 요약 확인). Instagram·Facebook은 로그인 벽으로 본문 확인 불가 — 반영하지 않음. 교사 업무 대상 후기는 찾지 못함"
       ]
     },
     {

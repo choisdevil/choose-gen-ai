@@ -43,6 +43,8 @@ ROUTINE.md            매일 8시 예약 작업이 따를 갱신 절차
 
 예약 작업은 claude.ai의 Routines 화면에서 켜고 끄거나 일정을 바꿀 수 있습니다. 전용 세션을 보관(archive)·삭제하면 예약 작업이 동작하지 않으니 그대로 두세요. 참고: Routines 화면의 "지금 실행"(수동 실행)은 저장소가 없는 새 세션에서 돌기 때문에 push가 되지 않습니다. 매일 07:52 정기 실행은 전용 세션으로 들어가도록 설정되어 있습니다(첫 정기 실행은 2026-10-01 07:52 KST). 환경의 네트워크 정책(현재 "trusted network access")이 arena.ai, artificialanalysis.ai 등 일부 사이트를 막기 때문에, 그런 곳은 웹 검색 요약으로 확인하고 `verification: "search-summary"`로 표시합니다. 원문까지 직접 확인하게 하려면 환경 설정의 Network access에서 해당 도메인을 허용하세요.
 
+SNS 후기는 X·Threads·Instagram·Facebook 등의 **공개 계정·공개 게시물**만 참고합니다. 추천 결과 화면에 관련 모델의 반응이 요약·원문 링크와 함께 표시되고, 후기만으로 기본 추천을 바꾸려면 3건 이상·2개 이상 플랫폼에서 같은 경향이 확인되어야 합니다(`ROUTINE.md` 2단계).
+
 ## 데이터 직접 수정하기
 
 `data/tasks.json`에서 업무를 추가하려면 카테고리의 `tasks` 배열에 항목을 넣습니다.
