@@ -205,6 +205,10 @@ ul.plain li { margin: 2px 0; }
 .error { color: var(--warn); }
 
 .site-footer { border-top: 1px solid var(--line); margin-top: 40px; padding: 20px 0 40px; font-size: .82rem; color: var(--muted); }
+.credit { margin-top: 16px; padding-top: 14px; border-top: 1px dashed var(--line); }
+.credit address { font-style: normal; }
+.credit a { color: var(--text); font-weight: 500; }
+.credit p { margin: 4px 0 0; }
 
 @media (max-width: 520px) {
   .site-header { position: static; }
