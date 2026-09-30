@@ -31,17 +31,18 @@ ROUTINE.md            매일 8시 예약 작업이 따를 갱신 절차
 
 ## 매일 오전 8시 자동 갱신 (Claude 예약 작업)
 
-Claude Code(웹/앱)의 예약 작업(Routine)을 만들고 다음처럼 설정합니다.
+클라우드 예약 작업(Routine) **"choose-gen-ai 일일 갱신"** 이 설정되어 있습니다.
 
-- 저장소: `choisdevil/choose-gen-ai`
-- 일정: 매일 오전 8시 KST 전후 (예: `CRON_TZ=Asia/Seoul 52 7 * * *` → 7:52에 시작해 8시 무렵 반영)
-- 프롬프트:
-  ```
-  choisdevil/choose-gen-ai 저장소의 ROUTINE.md에 적힌 "일일 갱신 절차"를 처음부터 끝까지 그대로 수행해.
-  ```
-- 환경의 네트워크 정책이 웹 검색/웹 페이지 접근과 GitHub push를 허용해야 합니다.
+| 항목 | 값 |
+|---|---|
+| 실행 위치 | Claude Code 클라우드 환경 `Default` (anthropic_cloud) — 실행마다 새 세션 |
+| 일정 | `CRON_TZ=Asia/Seoul 52 7 * * *` (매일 07:52 KST 시작 → 8시 무렵 반영) |
+| 저장소 연결 | 실행 시 `add_repo`(push 권한)로 이 저장소를 붙이고 clone |
+| 할 일 | `ROUTINE.md`의 "일일 갱신 절차" 수행 → `node scripts/validate.mjs` 통과 시 `main`에 push |
+| main push 거부 시 | `claude/daily-data-YYYY-MM-DD` 브랜치로 push 후 PR |
+| 사이트 미병합 시 | `main`에 `data/models.json`이 없으면 아무것도 바꾸지 않고 종료 |
 
-절차의 핵심은 `ROUTINE.md`에 있습니다. 공식 발표로 모델 목록을 확인하고, 벤치마크(LMArena, Artificial Analysis 등)와 공개된 사용 후기를 확인해 `signals.json`에 출처와 함께 남긴 뒤, 근거가 있을 때만 추천을 바꾸고, `node scripts/validate.mjs` 통과 후 `main`에 push합니다.
+예약 작업은 claude.ai의 Routines 화면에서 켜고 끄거나 일정을 바꿀 수 있습니다. 환경의 네트워크 정책(현재 "trusted network access")이 arena.ai, artificialanalysis.ai 등 일부 사이트를 막기 때문에, 그런 곳은 웹 검색 요약으로 확인하고 `verification: "search-summary"`로 표시합니다. 원문까지 직접 확인하게 하려면 환경 설정의 Network access에서 해당 도메인을 허용하세요.
 
 ## 데이터 직접 수정하기
 

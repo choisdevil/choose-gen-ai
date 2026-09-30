@@ -16,7 +16,7 @@ API는 쓰지 않는다. 웹 검색·웹 페이지 확인으로 **오늘 확인�
 
 ### 0. 준비
 
-1. 저장소가 없으면 `git clone https://github.com/choisdevil/choose-gen-ai.git` 후 그 폴더로 이동한다.
+1. 예약 작업 세션에는 저장소가 미리 연결되어 있지 않다. `add_repo` 도구(claude-code-remote)를 `owner="choisdevil"`, `repo="choose-gen-ai"`, `access="push"`로 호출하고, 결과가 알려 주는 clone 명령으로 받은 뒤 `register_repo_root`를 호출한다. 거부되면 사유를 그대로 보고하고 끝낸다.
 2. 기본 브랜치(`main`)를 체크아웃하고 `git pull origin main`으로 최신화한다.
 3. `data/models.json`, `data/tasks.json`, `data/signals.json`, `data/changelog.json`을 읽는다. 파일이 없으면 아무것도 바꾸지 말고 "사이트가 아직 main에 병합되지 않았음"이라고 보고한 뒤 종료한다.
 4. 오늘 날짜(KST, `YYYY-MM-DD`)를 `TODAY`로 둔다.
