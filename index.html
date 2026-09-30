@@ -1,21 +1,35 @@
 <!doctype html>
-<html lang="ko">
+<html lang="ko" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>선생님 AI 고르기</title>
   <meta name="description" content="교사 업무를 고르면 오늘 기준으로 가장 알맞은 생성형 AI 모델과 추론 노력(low~max)을 추천합니다. 매일 오전 8시(KST) 갱신.">
+  <script>
+    // 저장된 테마를 화면이 그려지기 전에 적용(기본: 다크). 저장소를 못 쓰면 다크 유지.
+    try {
+      var t = localStorage.getItem('theme');
+      if (t === 'light' || t === 'dark' || t === 'system') document.documentElement.setAttribute('data-theme', t);
+    } catch (e) {}
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css?v=20260930-3">
+  <link rel="stylesheet" href="assets/style.css?v=20260930-4">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍎</text></svg>">
 </head>
 <body>
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="#" data-reset>🍎 선생님 AI 고르기</a>
-      <div class="updated" id="updated" aria-live="polite">데이터 불러오는 중…</div>
+      <div class="header-tools">
+        <div class="updated" id="updated" aria-live="polite">데이터 불러오는 중…</div>
+        <div class="theme-toggle" role="radiogroup" aria-label="화면 테마">
+          <button type="button" role="radio" data-theme-set="dark" aria-checked="true" title="다크 테마">🌙 다크</button>
+          <button type="button" role="radio" data-theme-set="light" aria-checked="false" title="라이트 테마">☀️ 라이트</button>
+          <button type="button" role="radio" data-theme-set="system" aria-checked="false" title="기기 설정을 따름">💻 시스템</button>
+        </div>
+      </div>
     </div>
   </header>
 
@@ -81,6 +95,6 @@
     </div>
   </footer>
 
-  <script src="assets/app.js?v=20260930-3" defer></script>
+  <script src="assets/app.js?v=20260930-4" defer></script>
 </body>
 </html>

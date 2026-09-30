@@ -340,6 +340,22 @@
     window.addEventListener('hashchange', () => { readHash(); renderAll(); });
   }
 
+  // ---------- theme ----------
+  function initTheme() {
+    const root = document.documentElement;
+    const buttons = document.querySelectorAll('[data-theme-set]');
+    const sync = () => {
+      const cur = root.getAttribute('data-theme') || 'dark';
+      buttons.forEach((b) => b.setAttribute('aria-checked', String(b.dataset.themeSet === cur)));
+    };
+    buttons.forEach((b) => b.addEventListener('click', () => {
+      root.setAttribute('data-theme', b.dataset.themeSet);
+      try { localStorage.setItem('theme', b.dataset.themeSet); } catch (e) { /* 저장 불가 시 이번 방문에만 적용 */ }
+      sync();
+    }));
+    sync();
+  }
+
   async function init() {
     try {
       // Cache-bust on every load so a fresh update shows up without a hard refresh (files are small).
@@ -376,5 +392,6 @@
     renderChangelog();
   }
 
+  initTheme();
   init();
 })();
