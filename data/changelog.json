@@ -1,0 +1,16 @@
+{
+  "entries": [
+    {
+      "date": "2026-09-30",
+      "summary": "사이트 첫 공개 — 모델 14개, 업무 7개 분류·27개 세부 업무 추천 작성",
+      "changes": [
+        "모델: Claude Opus 5.5·Sonnet 5.5·Fable 5.1, ChatGPT GPT-5.6 Sol·Luna·GPT-6 Pro, Gemini 3.1 Pro·Flash, NotebookLM, ChatGPT Images 2.5, Nano Banana, Gemini Omni Flash(앱·YouTube), Perplexity",
+        "제외: Grok·DeepSeek·Meta AI·Mistral·Microsoft Copilot — 한국어 지원·국내 제공 여부 미확인 또는 서비스 개편 중(Copilot 9/25 개편), 개인정보 이슈(DeepSeek)",
+        "국내 서비스: 네이버 CLOVA X·Cue: 종료(4/9), 카카오 Kanana 앱 종료 예정(10/15), LG ChatEXAONE·업스테이지 Solar는 기업·개발자용이라 이번 목록에서 제외",
+        "확인 방식: 네트워크 정책으로 대부분 원문 페이지를 직접 열지 못해 검색 결과 요약으로 확인(Anthropic 공식 페이지만 직접 확인). 모델 카드에 확인 방식 표시",
+        "확인 불가: 무료 Gemini 기본 모델 버전, Gemini 무료 Pro 사용 한도, Claude 무료 요금제의 노력 선택 가능 여부, Arena 한국어 카테고리 순위",
+        "SNS 사용 후기: 이번 갱신에서는 공개 후기 원문을 확인하지 못해 설문 기사 1건만 반영"
+      ]
+    }
+  ]
+}

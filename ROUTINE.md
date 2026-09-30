@@ -38,13 +38,15 @@ API는 쓰지 않는다. 웹 검색·웹 페이지 확인으로 **오늘 확인�
 - 각 모델의 `effortGuide`(low·medium·high·xhigh·max를 그 서비스 메뉴에서 어떻게 고르는지)는 공식 도움말 기준으로 맞춘다. 서비스에 해당 단계가 없으면 "가장 가까운 옵션 + 없다는 사실"을 적는다.
 - `access.free`는 **무료 요금제에서 실제로 선택 가능할 때만** `true`.
 - 확인한 모델마다 `lastVerified`를 `TODAY`로, `sources`에 확인한 URL을 넣는다.
+- `verification`은 공식 페이지를 직접 열어 확인했으면 `"official"`, 원문을 열지 못하고 검색 결과 요약으로만 확인했으면 `"search-summary"`로 정직하게 적는다.
 
 ### 2. 벤치마크·사용 후기 확인 (`data/signals.json`)
 
 1. 벤치마크: LMArena(Text·Vision·Text-to-Image·Video 등), Artificial Analysis(Intelligence Index 등), 공식 모델 카드. 오늘 실제로 열어 본 페이지만 `benchmarks`에 넣고, `summary`에는 **페이지에서 읽은 순위·수치만** 적는다(순위는 날마다 바뀌므로 확인 날짜 필수).
 2. 사용 후기: Reddit(r/ChatGPT, r/ClaudeAI, r/GeminiAI, r/Teachers 등), X, 공개된 국내 교사 블로그·커뮤니티 글, GeekNews 등 **로그인 없이 볼 수 있는 공개 글**만. 여러 글에서 반복되는 경향만 요약하고, 한두 개 글을 일반화하지 않는다. 인용문을 지어내지 않는다.
 3. 각 항목에 `url`, `checkedAt: TODAY`, `summary`를 넣는다. 확인하지 못한 항목은 지운다(과거 값을 오늘 확인한 것처럼 남기지 않는다).
-4. `updatedAt`을 현재 시각(`+09:00`)으로 바꾼다.
+4. `note`에 이번 수집의 확인 방식(원문 직접 확인/검색 요약)과 한계를 한두 문장으로 적는다.
+5. `updatedAt`을 현재 시각(`+09:00`)으로 바꾼다.
 
 ### 3. 추천 재평가 (`data/tasks.json`)
 
@@ -55,6 +57,7 @@ API는 쓰지 않는다. 웹 검색·웹 페이지 확인으로 **오늘 확인�
 - `recommend.free`의 모델은 반드시 `access.free: true`여야 한다.
 - 근거(공식 기능, 벤치마크, 반복되는 후기)가 있을 때만 추천을 바꾼다. 바꾸면 `why`를 새 근거에 맞게 고치고, 변경 사실을 changelog에 적는다.
 - 업무 분류·키워드는 교사들이 실제로 검색할 만한 말을 추가해도 좋다. 학생 개인정보 관련 `cautions`는 지우지 않는다.
+- `guidelines`(교육부·교육청 지침)는 새 지침이 공식 발표된 경우에만 추가·수정한다.
 - `updatedAt`은 `models.json`과 같은 값으로 맞춘다.
 
 ### 4. 갱신 기록 (`data/changelog.json`)

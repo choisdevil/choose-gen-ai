@@ -84,6 +84,12 @@
     return model.access?.free ? '<span class="tag free">무료 사용 가능</span>' : `<span class="tag">${esc(model.access?.plan || '유료')}</span>`;
   }
 
+  function verifyTag(model) {
+    return model.verification === 'official'
+      ? `<span class="tag free" title="공식 페이지를 직접 열어 확인">공식 페이지 확인 ${esc(model.lastVerified)}</span>`
+      : `<span class="tag" title="원문을 직접 열지 못하고 웹 검색 결과 요약으로 확인">검색 요약 확인 ${esc(model.lastVerified)}</span>`;
+  }
+
   function sourceLinks(sources) {
     if (!sources?.length) return '';
     return sources.map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join(' · ');
@@ -138,7 +144,7 @@
         ${altHtml ? `<div class="sub"><h3>다른 선택지</h3><div class="alt-list">${altHtml}</div></div>` : ''}
         ${task.tips?.length ? `<div class="sub"><h3>잘 쓰는 요령</h3><ul class="plain">${task.tips.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}
         ${task.cautions?.length ? `<div class="sub caution"><h3>주의</h3><ul class="plain">${task.cautions.map((t) => `<li>${esc(t)}</li>`).join('')}</ul></div>` : ''}
-        <p class="sub sources">모델 정보 출처: ${sourceLinks(model.sources)}</p>
+        <p class="sub sources">${verifyTag(model)} 모델 정보 출처: ${sourceLinks(model.sources)}</p>
       </div>`;
     box.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
@@ -152,7 +158,7 @@
         <div>${esc(m.vendor)} · ${esc(m.product)} ${modelTag(m)}</div>
         <p>${esc(m.summary)}</p>
         ${m.released ? `<p>공개: ${esc(m.released)}</p>` : ''}
-        <p class="sources">${sourceLinks(m.sources)}</p>
+        <p class="sources">${verifyTag(m)} ${sourceLinks(m.sources)}</p>
       </div>`).join('');
   }
 
@@ -181,8 +187,18 @@
       </div>`).join('');
     $('#signals').innerHTML = `
       <p>마지막 수집: ${esc(fmtDate(s.updatedAt))}</p>
+      ${s.note ? `<p class="sources">${esc(s.note)}</p>` : ''}
       <h3>벤치마크</h3>${bench || '<p>없음</p>'}
       <h3>사용 후기·커뮤니티</h3>${comm || '<p>이번 갱신에서 확인된 신뢰할 만한 후기가 없어요.</p>'}`;
+  }
+
+  function renderGuidelines() {
+    const list = state.tasksDoc.guidelines || [];
+    $('#guidelines').innerHTML = list.length ? list.map((g) => `
+      <div class="signal">
+        <h4><a href="${esc(g.url)}" target="_blank" rel="noopener">${esc(g.title)}</a></h4>
+        <div>${esc(g.summary)}</div>
+      </div>`).join('') : '<p>등록된 지침이 없어요.</p>';
   }
 
   function renderChangelog() {
@@ -342,6 +358,7 @@
     renderModels();
     renderEffortHelp();
     renderSignals();
+    renderGuidelines();
     renderChangelog();
   }
 

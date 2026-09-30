@@ -57,6 +57,7 @@ if (modelsDoc) {
     if (!isUrl(m.url)) err(`${where}: url must be https`);
     if (m.released != null && !isStr(m.released)) err(`${where}: released must be a string if present`);
     if (!isDay(m.lastVerified)) err(`${where}: lastVerified must be YYYY-MM-DD`);
+    if (!['official', 'search-summary'].includes(m.verification)) err(`${where}: verification must be "official" or "search-summary"`);
     if (typeof m.access?.free !== 'boolean') err(`${where}: access.free must be boolean`);
     if (!isStr(m.access?.plan)) err(`${where}: access.plan must describe the plan needed`);
     for (const e of EFFORTS) if (!isStr(m.effortGuide?.[e])) err(`${where}: effortGuide.${e} missing`);
@@ -83,6 +84,11 @@ if (tasksDoc) {
     if (mustBeFree && m && !m.access.free) err(`${where}: free pick "${m.id}" is not free to use`);
   };
 
+  if (!Array.isArray(tasksDoc.guidelines)) err('tasks.json: guidelines must be an array');
+  (tasksDoc.guidelines || []).forEach((g, i) => {
+    if (!isStr(g.title) || !isStr(g.summary)) err(`tasks.json.guidelines[${i}]: missing title/summary`);
+    if (!isUrl(g.url)) err(`tasks.json.guidelines[${i}]: url must be https`);
+  });
   if (!Array.isArray(tasksDoc.categories) || !tasksDoc.categories.length) err('tasks.json: categories must be non-empty');
   for (const c of tasksDoc.categories || []) {
     const cw = `tasks.json[${c.id ?? '?'}]`;

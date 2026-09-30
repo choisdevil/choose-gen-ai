@@ -1,0 +1,50 @@
+{
+  "updatedAt": "2026-09-30T09:54:00+09:00",
+  "note": "이번 수집은 환경의 네트워크 정책 때문에 대부분 원문 페이지를 직접 열지 못하고 웹 검색 결과 요약으로 확인했습니다(Anthropic 공식 페이지는 직접 확인). 순위·점수는 확인 날짜 기준 스냅샷입니다.",
+  "benchmarks": [
+    {
+      "name": "Arena(구 LMArena) 텍스트 리더보드",
+      "url": "https://x.com/arena/status/2103893011164017018",
+      "checkedAt": "2026-09-30",
+      "summary": "Claude Opus 5.5 (High)가 1509점(±12)으로 1위 데뷔, Anthropic 모델이 상위 6위를 모두 차지했다고 Arena가 발표(9월 22일 출시 후 약 3일 내). 한국어 카테고리 순위는 확인하지 못함."
+    },
+    {
+      "name": "Artificial Analysis Intelligence Index (v4.3)",
+      "url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
+      "checkedAt": "2026-09-30",
+      "summary": "Claude Opus 5.5 (max) 58점 1위, Claude Sonnet 5.5 56점 2위, GPT-6 Astra·Claude Fable 5.1 각 53점. Opus 5.5 노력별 점수: low 42, medium 51, high 54, xhigh 56, max 58. 지수 버전이 바뀌면 점수를 서로 비교할 수 없음."
+    },
+    {
+      "name": "Artificial Analysis Text-to-Image 리더보드",
+      "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "checkedAt": "2026-09-30",
+      "summary": "GPT Image 2.5 Sunburst(ChatGPT Images 2.5 계열)가 Elo 1195로 1위, GPT Image 2 (high) 1171로 3위."
+    },
+    {
+      "name": "Arena Text-to-Image·Image Edit",
+      "url": "https://x.com/arena/status/2097400515546255754",
+      "checkedAt": "2026-09-30",
+      "summary": "GPT-Image-2.5-Sunburst 1위, Flare 2위 (텍스트→이미지, 이미지 편집, 다중 이미지 편집 모두)."
+    },
+    {
+      "name": "Artificial Analysis Text-to-Video (오디오 포함)",
+      "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "checkedAt": "2026-09-30",
+      "summary": "1위 Gemini Omni Flash 1233, 2위 Wan 3.0 1229, 3위 MiniMax H3 Max 1227. Gemini Omni Flash는 이미지→영상, 영상 편집에서도 1위. 다른 리더보드(llm-stats 등)는 순위가 달라 참고용."
+    },
+    {
+      "name": "2026 수능 LLM 풀이 (Korea Times 보도)",
+      "url": "https://www.koreatimes.co.kr/business/tech-science/20260907/gpt-6-astra-aces-korean-college-entrance-exam",
+      "checkedAt": "2026-09-30",
+      "summary": "국어·영어·수학·한국사·탐구 풀이에서 GPT-6 Astra만 450점 만점, GPT-5.6이 448.5점으로 2위. Gemini 3.1 Pro는 물리Ⅰ 등에서 오답."
+    }
+  ],
+  "community": [
+    {
+      "source": "머니투데이 — 교사 생기부 AI 활용 설문",
+      "url": "https://www.mt.co.kr/future/2026/08/14/2026081315384995920",
+      "checkedAt": "2026-09-30",
+      "summary": "교사 설문에서 64.6%가 생활기록부 작성에 AI를 활용한다고 응답했다고 보도. 2026 기재요령은 AI 생성 문장을 그대로 옮기는 것을 금지하므로 교정 용도로만 써야 함."
+    }
+  ]
+}
