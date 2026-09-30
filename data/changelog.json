@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "date": "2026-10-01",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 기본 추천 유지 (출처 약 20건 확인)",
+      "changes": [
+        "GPT-6.1 Sol: Artificial Analysis 지능 지수 52(max)로 독립 점수 확인(GPT-6 Astra 53, Sonnet 5.5 56, Opus 5.5 58보다 낮음) → 기본 추천은 그대로, Work 대안 추천 유지",
+        "GPT-6.1 Sol 제공 범위: OpenAI 공식 X 게시물 기준 Plus·Pro·Business·Enterprise·Edu의 ChatGPT Work·Codex(일반 채팅·Free·Go 제외)로 수정",
+        "벤치마크 재확인: Arena 텍스트(Opus 5.5 1위 1509), AA 지능 지수, AA·Arena 이미지(Sunburst 1위), AA 영상(Omni Flash 1위 1233), 수능 풀이 보도. Arena Code WebDev(Opus 5.5 Max 1위 1818, Sonnet 5.5 High 4위 1699) 추가. TechCrunch GPT-6.1 Sol 발표 항목은 독립 점수로 대체",
+        "SNS 후기: X 1건 추가(Sonnet 5.5는 Max보다 High가 비용 대비 낫다는 후기), X 1건 재확인·수치 보강. 교사 업무 대상 후기는 찾지 못함",
+        "참고(모델 아님): OpenAI가 9월 30일 GPT-6 Astra 기반 상시 에이전트 Dots를 Pro·Business Premium·Enterprise에 공개했다는 보도 — 교사 개인 요금제 대상이 아니라 목록에 넣지 않음",
+        "확인 불가: GPT-6.1 Sol 출시 후 ChatGPT Work에 GPT-6 Sol이 남아 있는지, 무료 Gemini 기본 Flash 버전(검색 결과가 서로 다름), Gemini 4 10월 출시설(공식 발표 없음 — 반영 안 함), Arena 한국어 카테고리 순위",
+        "확인 방식: Anthropic 공식 페이지만 직접 확인. openai.com·help.openai.com·gemini.google·lmarena.ai·artificialanalysis.ai·x.com은 네트워크 정책으로 차단되어 검색 결과 요약으로 확인(해당 모델 verification은 search-summary 유지)",
+        "오늘 다시 확인하지 못한 모델(GPT-5.6 Sol·Luna, GPT-6 Pro·Sol·Luna, Gemini Flash, NotebookLM, 이미지·영상 모델, Perplexity)은 lastVerified를 9월 30일로 유지"
+      ]
+    },
+    {
       "date": "2026-09-30",
       "summary": "추가 갱신 — OpenAI GPT-6 계열 4종 추가(모델 18개), SNS 공개 후기 수집 시작",
       "changes": [

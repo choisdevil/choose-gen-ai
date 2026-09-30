@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-30T10:33:00+09:00",
+  "updatedAt": "2026-10-01T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -80,7 +80,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -116,7 +116,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -256,7 +256,7 @@
         "max": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher, 최고 단계). 한도를 빨리 쓰니 꼭 필요한 일에만."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sources": [
         {
           "title": "OpenAI — GPT-6 Astra",
@@ -281,9 +281,9 @@
       "released": "2026-09-29",
       "access": {
         "free": false,
-        "plan": "ChatGPT Plus 이상 (Work·Codex, Pro부터 순차 제공)"
+        "plan": "ChatGPT Plus 이상 (Work·Codex, Free·Go 제외)"
       },
-      "summary": "9월 29일 DevDay에서 공개. GPT-6 Sol보다 에이전트 작업·컴퓨터 사용·전문 업무가 개선됐고 GPT-6 Astra에 근접한다고 OpenAI가 발표. 아직 일반 채팅에는 없고 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 제공.",
+      "summary": "9월 29일 DevDay에서 공개. GPT-6 Sol보다 에이전트 작업·컴퓨터 사용·전문 업무가 개선됐다고 OpenAI가 발표. Artificial Analysis 지능 지수 52(max)로 GPT-6 Astra(53)보다 1점 낮게 측정됨. OpenAI 공식 X 계정 기준 Plus·Pro·Business·Enterprise·Edu에서 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex로 제공되며, 일반 채팅과 Free·Go 요금제에는 없음.",
       "effortGuide": {
         "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6.1 Sol → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
         "medium": "Work 모드 → 모델 GPT-6.1 Sol → 추론 수준 중간(Medium).",
@@ -292,11 +292,15 @@
         "max": "Work 모드 → 모델 GPT-6.1 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.1 Sol",
           "url": "https://openai.com/index/introducing-gpt-6-1-sol/"
+        },
+        {
+          "title": "OpenAI (X) — GPT-6.1 Sol 제공 범위 (2026-09-29)",
+          "url": "https://x.com/OpenAI/status/2104986136745767160"
         },
         {
           "title": "TechCrunch — GPT-6.1 Sol 출시 (2026-09-29)",
@@ -305,6 +309,10 @@
         {
           "title": "OpenAI 도움말 — ChatGPT Work and Codex",
           "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+        },
+        {
+          "title": "Artificial Analysis — GPT-6.1 Sol 지능 지수",
+          "url": "https://artificialanalysis.ai/articles/gpt-6-1-sol-replaces-gpt-6-sol-after-just-7-days-with-near-astra-intelligence"
         }
       ]
     },
@@ -319,7 +327,7 @@
         "free": false,
         "plan": "ChatGPT Plus 이상 (Work·Codex)"
       },
-      "summary": "GPT-6 Astra의 장점을 더 빠르고 저렴하게 담은 모델(OpenAI 발표). 일반 채팅에는 없고 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 제공. 후속 GPT-6.1 Sol이 9월 29일 공개됨.",
+      "summary": "GPT-6 Astra의 장점을 더 빠르고 저렴하게 담은 모델(OpenAI 발표). 일반 채팅에는 없고 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 제공. 후속 GPT-6.1 Sol이 9월 29일 공개됨. GPT-6.1 Sol 출시 후에도 Work 모드 모델 선택 메뉴에 GPT-6 Sol이 남아 있는지는 10월 1일 확인하지 못함.",
       "effortGuide": {
         "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6 Sol → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
         "medium": "Work 모드 → 모델 GPT-6 Sol → 추론 수준 중간(Medium).",
@@ -396,7 +404,7 @@
         "max": "모델 Pro, 생각 수준 Deep Think — Google AI Ultra 요금제·만 18세 이상만. 없으면 Extended."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-01",
       "sources": [
         {
           "title": "Google — Gemini 3.1 Pro",

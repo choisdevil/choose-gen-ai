@@ -1,62 +1,73 @@
 {
-  "updatedAt": "2026-09-30T10:33:00+09:00",
-  "note": "이번 수집은 환경의 네트워크 정책 때문에 대부분 원문 페이지를 직접 열지 못하고 웹 검색 결과 요약으로 확인했습니다(Anthropic 공식 페이지는 직접 확인). 순위·점수는 확인 날짜 기준 스냅샷입니다. SNS 후기는 X·Threads의 공개 게시물만 반영했고, Instagram·Facebook은 로그인 없이 본문을 확인할 수 없어 이번에는 제외했습니다. 교사 업무를 직접 다룬 후기는 이번 검색에서 찾지 못했습니다.",
+  "updatedAt": "2026-10-01T08:10:00+09:00",
+  "note": "10월 1일 수집: Anthropic 공식 페이지만 직접 열어 확인했고, 나머지(OpenAI·Google·Arena·Artificial Analysis·X·Threads)는 네트워크 정책으로 원문을 열지 못해 웹 검색 결과 요약으로 확인했습니다. 순위·점수는 확인 날짜 기준 스냅샷입니다. 오늘 다시 확인하지 못한 SNS 항목은 이전 확인 날짜(9월 30일)를 그대로 표시했습니다. Instagram·Facebook은 로그인 벽으로 본문을 확인할 수 없어 제외했고, 교사 업무를 직접 다룬 최신 모델 후기는 이번에도 찾지 못했습니다.",
   "benchmarks": [
     {
       "name": "Arena(구 LMArena) 텍스트 리더보드",
       "url": "https://x.com/arena/status/2103893011164017018",
-      "checkedAt": "2026-09-30",
-      "summary": "Claude Opus 5.5 (High)가 1509점(±12)으로 1위 데뷔, Anthropic 모델이 상위 6위를 모두 차지했다고 Arena가 발표(9월 22일 출시 후 약 3일 내). 한국어 카테고리 순위는 확인하지 못함."
+      "checkedAt": "2026-10-01",
+      "summary": "Claude Opus 5.5 (High)가 1509점으로 텍스트 아레나 1위 데뷔, Opus 4.6 (High)가 4점 차로 2위, Anthropic 모델이 상위 6위를 모두 차지했다고 Arena가 발표. 한국어 카테고리 순위는 확인하지 못함."
     },
     {
-      "name": "Artificial Analysis Intelligence Index (v4.3)",
+      "name": "Arena Code Arena: WebDev",
+      "url": "https://x.com/arena/status/2104998408616558940",
+      "checkedAt": "2026-10-01",
+      "summary": "Claude Sonnet 5.5 (High)가 1699점으로 4위, Claude Opus 5.5 (Max)가 1818점으로 1위라고 보도됨(웹 개발 과제 기준)."
+    },
+    {
+      "name": "Artificial Analysis Intelligence Index",
       "url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
-      "checkedAt": "2026-09-30",
-      "summary": "Claude Opus 5.5 (max) 58점 1위, Claude Sonnet 5.5 56점 2위, GPT-6 Astra·Claude Fable 5.1 각 53점. Opus 5.5 노력별 점수: low 42, medium 51, high 54, xhigh 56, max 58. 지수 버전이 바뀌면 점수를 서로 비교할 수 없음."
+      "checkedAt": "2026-10-01",
+      "summary": "Claude Opus 5.5 (max) 58점 1위, Claude Sonnet 5.5 56점 2위, GPT-6 Astra 53점, GPT-6.1 Sol (max) 52점. Opus 5.5 노력별 점수: low 42, medium 51, high 54, xhigh 56, max 58. GPT-6.1 Sol 노력별: low 42, medium 48, high 50, xhigh 51, max 52. 지수 버전이 바뀌면 점수를 서로 비교할 수 없음."
     },
     {
       "name": "Artificial Analysis Text-to-Image 리더보드",
       "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "checkedAt": "2026-09-30",
-      "summary": "GPT Image 2.5 Sunburst(ChatGPT Images 2.5 계열)가 Elo 1195로 1위, GPT Image 2 (high) 1171로 3위."
+      "checkedAt": "2026-10-01",
+      "summary": "GPT Image 2.5 Sunburst (max)가 Elo 1196으로 1위, GPT Image 2.5 Flare (max)가 1190으로 2위(ChatGPT Images 2.5 계열)."
     },
     {
       "name": "Arena Text-to-Image·Image Edit",
       "url": "https://x.com/arena/status/2097400515546255754",
-      "checkedAt": "2026-09-30",
-      "summary": "GPT-Image-2.5-Sunburst 1위, Flare 2위 (텍스트→이미지, 이미지 편집, 다중 이미지 편집 모두)."
+      "checkedAt": "2026-10-01",
+      "summary": "GPT-Image-2.5-Sunburst 1위(텍스트→이미지 1421점), Flare 2위(1399점). 이미지 편집·다중 이미지 편집에서도 같은 순서."
     },
     {
       "name": "Artificial Analysis Text-to-Video (오디오 포함)",
       "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-      "checkedAt": "2026-09-30",
-      "summary": "1위 Gemini Omni Flash 1233, 2위 Wan 3.0 1229, 3위 MiniMax H3 Max 1227. Gemini Omni Flash는 이미지→영상, 영상 편집에서도 1위. 다른 리더보드(llm-stats 등)는 순위가 달라 참고용."
+      "checkedAt": "2026-10-01",
+      "summary": "1위 Gemini Omni Flash 1233, 2위 Wan 3.0 1229, 3위 MiniMax H3 Max 1227. 개편된 AA-Video 세부 분류에서는 Wan 3.0이 더 많은 분류에서 1위라는 보도도 있어 참고용."
     },
     {
       "name": "2026 수능 LLM 풀이 (Korea Times 보도)",
       "url": "https://www.koreatimes.co.kr/business/tech-science/20260907/gpt-6-astra-aces-korean-college-entrance-exam",
-      "checkedAt": "2026-09-30",
-      "summary": "국어·영어·수학·한국사·탐구 풀이에서 GPT-6 Astra만 450점 만점, GPT-5.6이 448.5점으로 2위. Gemini 3.1 Pro는 물리Ⅰ 등에서 오답."
-    },
-    {
-      "name": "OpenAI 발표 — GPT-6.1 Sol (TechCrunch 보도)",
-      "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/",
-      "checkedAt": "2026-09-30",
-      "summary": "OpenAI는 GPT-6.1 Sol이 GPT-6 Astra에 근접한 성능을 더 낮은 가격에 낸다고 발표(제조사 주장). Artificial Analysis 등 독립 지수의 GPT-6.1 Sol 점수는 이번 갱신에서 확인하지 못함."
+      "checkedAt": "2026-10-01",
+      "summary": "GPT-6 Astra만 450점 만점(일반 모드), GPT-5.6 Sol 448.5점, Claude Fable 5.1 447.5점, Gemini 3.1 Pro 445점으로 보도됨."
     }
   ],
   "community": [
     {
       "platform": "X",
+      "source": "X 공개 게시물 — Sonnet 5.5 노력 단계 사용 팁",
+      "url": "https://x.com/airesearch12/status/2104665843582087287",
+      "checkedAt": "2026-10-01",
+      "evidence": "검색 요약",
+      "relatedModels": [
+        "claude-sonnet-5-5"
+      ],
+      "summary": "Sonnet 5.5는 Max 노력에서 결과가 오히려 좋지 않고 비용이 크게 늘어나며, High에서 쓰면 작업당 비용 대비 결과가 뛰어나다는 개인 후기. 교사 업무 대상은 아님."
+    },
+    {
+      "platform": "X",
       "source": "X 공개 게시물 — Opus 5.5 vs GPT-6 Astra 12개 실사용 과제 비교",
       "url": "https://x.com/nateherk/status/2102904721698599231",
-      "checkedAt": "2026-09-30",
+      "checkedAt": "2026-10-01",
       "evidence": "검색 요약",
       "relatedModels": [
         "claude-opus-5-5",
         "gpt-6-astra-work"
       ],
-      "summary": "작성자가 12개 실제 과제로 비교한 결과 Opus 5.5가 8대 4로 앞섰지만, GPT-6 Astra가 시간은 약 45% 덜 들고 예상 API 비용은 약 38% 낮았다고 보고. 개인 테스트이며 교사 업무 대상은 아님."
+      "summary": "작성자가 영상 편집·웹사이트·업무 문서·게임 등 12개 실제 과제로 비교한 결과 Opus 5.5가 8대 4로 앞섰고 창작 방향 이해가 좋았지만, GPT-6 Astra는 총 작업 시간 약 6시간(Opus 약 10시간 53분)으로 약 45% 빨랐고 예상 API 비용도 낮았다고 보고. 개인 테스트이며 교사 업무 대상은 아님."
     },
     {
       "platform": "X",
