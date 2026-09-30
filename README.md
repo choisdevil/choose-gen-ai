@@ -35,14 +35,13 @@ ROUTINE.md            매일 8시 예약 작업이 따를 갱신 절차
 
 | 항목 | 값 |
 |---|---|
-| 실행 위치 | Claude Code 클라우드 환경 `Default` (anthropic_cloud) — 실행마다 새 세션 |
+| 실행 위치 | Claude Code 클라우드 환경 `Default` (anthropic_cloud)의 **전용 세션** "choose-gen-ai 매일 아침 데이터 갱신 (예약 작업 전용)" — 저장소 연결, 지정 브랜치 `main` |
 | 일정 | `CRON_TZ=Asia/Seoul 52 7 * * *` (매일 07:52 KST 시작 → 8시 무렵 반영) |
-| 저장소 연결 | 실행 시 `add_repo`(push 권한)로 이 저장소를 붙이고 clone |
 | 할 일 | `ROUTINE.md`의 "일일 갱신 절차" 수행 → `node scripts/validate.mjs` 통과 시 `main`에 push |
-| main push 거부 시 | `claude/daily-data-YYYY-MM-DD` 브랜치로 push 후 PR |
+| main push 거부 시 | `claude/daily-data-YYYY-MM-DD` 브랜치로 push 후 보고 |
 | 사이트 미병합 시 | `main`에 `data/models.json`이 없으면 아무것도 바꾸지 않고 종료 |
 
-예약 작업은 claude.ai의 Routines 화면에서 켜고 끄거나 일정을 바꿀 수 있습니다. 환경의 네트워크 정책(현재 "trusted network access")이 arena.ai, artificialanalysis.ai 등 일부 사이트를 막기 때문에, 그런 곳은 웹 검색 요약으로 확인하고 `verification: "search-summary"`로 표시합니다. 원문까지 직접 확인하게 하려면 환경 설정의 Network access에서 해당 도메인을 허용하세요.
+예약 작업은 claude.ai의 Routines 화면에서 켜고 끄거나 일정을 바꿀 수 있습니다. 전용 세션을 보관(archive)·삭제하면 예약 작업이 동작하지 않으니 그대로 두세요. 참고: Routines 화면의 "지금 실행"(수동 실행)은 저장소가 없는 새 세션에서 돌기 때문에 push가 되지 않습니다. 매일 07:52 정기 실행은 전용 세션으로 들어가도록 설정되어 있습니다(첫 정기 실행은 2026-10-01 07:52 KST). 환경의 네트워크 정책(현재 "trusted network access")이 arena.ai, artificialanalysis.ai 등 일부 사이트를 막기 때문에, 그런 곳은 웹 검색 요약으로 확인하고 `verification: "search-summary"`로 표시합니다. 원문까지 직접 확인하게 하려면 환경 설정의 Network access에서 해당 도메인을 허용하세요.
 
 ## 데이터 직접 수정하기
 

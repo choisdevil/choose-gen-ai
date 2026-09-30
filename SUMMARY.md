@@ -31,10 +31,10 @@
 | 항목 | 값 |
 |---|---|
 | 이름 | choose-gen-ai 일일 갱신 |
-| 실행 위치 | Claude Code 클라우드 환경 `Default` (anthropic_cloud), 실행마다 새 세션 |
+| 실행 위치 | Claude Code 클라우드 환경 `Default` (anthropic_cloud)의 **전용 세션** "choose-gen-ai 매일 아침 데이터 갱신 (예약 작업 전용)" — 저장소 연결, 지정 브랜치 `main` |
 | 일정 | 매일 07:52 KST 시작 (`CRON_TZ=Asia/Seoul 52 7 * * *`) → 8시 무렵 반영 |
-| 순서 | 저장소 연결(push 권한) → `main` 최신화 → `ROUTINE.md` 절차(모델 확인 → 벤치마크·후기 확인 → 근거 있을 때만 추천 변경 → 기록) → 검증 → `main` push |
-| 안전장치 | 검증 실패 시 push 안 함 / `main`에 사이트가 없으면 아무것도 안 바꿈 / `main` push가 거부되면 날짜 브랜치로 push 후 PR |
+| 순서 | `main` 최신화 → `ROUTINE.md` 절차(모델 확인 → 벤치마크·후기 확인 → 근거 있을 때만 추천 변경 → 기록) → 검증 → `main` push |
+| 안전장치 | 검증 실패 시 push 안 함 / `main`에 사이트가 없으면 아무것도 안 바꿈 / `main` push가 거부되면 날짜 브랜치로 push 후 보고 |
 
 ## 4. 업무 분류와 현재 추천
 
