@@ -93,6 +93,7 @@ a { color: var(--accent); }
 .step span { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: #fff; font-size: .9rem; }
 
 .cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; }
+.cat-grid > .card { grid-column: 1 / -1; }
 .cat {
   font: inherit; text-align: left; cursor: pointer; background: var(--surface); color: var(--text);
   border: 1.5px solid var(--line); border-radius: var(--radius); padding: 14px; box-shadow: var(--shadow);

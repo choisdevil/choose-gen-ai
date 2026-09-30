@@ -348,7 +348,12 @@
       modelsDoc.models.forEach((m) => state.models.set(m.id, m));
     } catch (err) {
       $('#updated').textContent = '데이터를 불러오지 못했어요';
-      $('#categories').innerHTML = `<p class="error">추천 데이터를 불러오지 못했습니다 (${esc(err.message)}). 로컬에서 여는 경우 <code>python3 -m http.server</code>로 실행해 주세요.</p>`;
+      const hint = location.protocol === 'file:'
+        ? '파일을 직접 열면 데이터를 읽을 수 없어요. 폴더에서 <code>python3 -m http.server</code>를 실행한 뒤 <code>http://localhost:8000</code>으로 열어 주세요.'
+        : '배포된 사이트에 <code>data/</code> 폴더가 없거나 아직 반영 중일 수 있어요. 잠시 후 새로고침해 주세요.';
+      document.querySelector('.search').hidden = true;
+      document.querySelector('.plan-toggle').hidden = true;
+      $('#categories').innerHTML = `<div class="card error"><p><b>추천 데이터를 불러오지 못했습니다.</b></p><p>${hint}</p><p class="sources">오류: ${esc(err.message)}</p><button type="button" class="chip" onclick="location.reload()">다시 시도</button></div>`;
       return;
     }
     renderUpdated();
