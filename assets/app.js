@@ -81,7 +81,7 @@
   }
 
   function modelTag(model) {
-    return model.access?.free ? '<span class="tag free">무료 사용 가능</span>' : `<span class="tag">${esc(model.access?.plan || '유료')}</span>`;
+    return model.access?.free ? '<span class="tag free">무료 사용 가능</span>' : `<span class="tag plan">${esc(model.access?.plan || '유료')}</span>`;
   }
 
   function verifyTag(model) {
@@ -342,8 +342,8 @@
 
   async function init() {
     try {
-      // Cache-bust once per hour so the daily update shows up without a hard refresh.
-      const bust = new Date().toISOString().slice(0, 13);
+      // Cache-bust on every load so a fresh update shows up without a hard refresh (files are small).
+      const bust = Date.now();
       const [modelsDoc, tasksDoc, signals, changelog] = await Promise.all([
         loadJSON('data/models.json', bust),
         loadJSON('data/tasks.json', bust),
