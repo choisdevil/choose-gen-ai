@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T08:10:00+09:00",
+  "updatedAt": "2026-10-02T08:10:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -266,7 +266,7 @@
             "paid": {
               "model": "claude-opus-5-5",
               "effort": "xhigh",
-              "why": "종합 벤치마크 1위 모델. Artificial Analysis 측정에서 노력이 높을수록 점수가 올랐고(low 42 → xhigh 56 → max 58), 문항 세트는 오류를 줄이는 게 중요해 xhigh를 권합니다."
+              "why": "종합 벤치마크 1위 모델(Artificial Analysis 지능 지수 58, max 노력). 노력을 높일수록 점수가 오르는 모델이고, 문항 세트는 오류를 줄이는 게 중요해 xhigh를 권합니다."
             },
             "free": {
               "model": "gemini-flash",
@@ -960,7 +960,7 @@
             "paid": {
               "model": "claude-opus-5-5",
               "effort": "xhigh",
-              "why": "연구 설계·분석처럼 여러 단계 추론이 필요한 일이에요. Artificial Analysis 측정에서 Opus 5.5는 노력을 올릴수록 점수가 높아졌어요(high 54, xhigh 56, max 58)."
+              "why": "연구 설계·분석처럼 여러 단계 추론이 필요한 일이에요. Opus 5.5는 Artificial Analysis 지능 지수 1위(58, max 노력)이고 노력을 올릴수록 점수가 높아지는 모델이에요."
             },
             "free": {
               "model": "claude-sonnet-5-5",
@@ -1092,7 +1092,7 @@
             "paid": {
               "model": "gemini-omni-flash",
               "effort": "low",
-              "why": "Artificial Analysis 텍스트→영상(오디오 포함) 순위 1위(1233)로 보고된 모델이에요. OpenAI Sora 앱은 2026년 4월에 종료됐어요."
+              "why": "Artificial Analysis 텍스트→영상(오디오 포함) 순위 1위로 보고된 모델이에요. OpenAI Sora 앱은 2026년 4월에 종료됐어요."
             },
             "free": {
               "model": "youtube-create-omni",

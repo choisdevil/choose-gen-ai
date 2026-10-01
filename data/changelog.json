@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "date": "2026-10-02",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 기본 추천 유지 (출처 약 18건 확인)",
+      "changes": [
+        "Gemini 4 Argon(9월 30일 발표): 신뢰 테스트 그룹(Fairwind)에만 제공되고 Gemini 앱·Ultra 요금제에는 아직 없다고 보도되어 목록에 추가하지 않음. Artificial Analysis 지능 지수 53(High)은 signals에 기록",
+        "벤치마크 재확인: AA 지능 지수(Opus 5.5 58 1위 유지), GPT-6.1 Sol AA 분석, 이미지(GPT Image 2.5 계열 1·2위), 영상(Gemini Omni Flash 1위), 수능 풀이 보도. Arena Code WebDev는 오늘 다시 확인하지 못해 삭제",
+        "출처마다 다르게 보도된 수치(영상 Elo 1233/1245, 이미지 1·2위 순서, Opus 5.5 노력별 점수)는 오늘 확정하지 못해 signals와 추천 이유(why) 3곳에서 숫자를 뺌",
+        "SNS 후기: 게시 7일이 지난 X 3건·Threads 1건 삭제, X 1건 추가(GPT-6.1 Sol 버그 수정 테스트). 교사 업무 대상 후기는 찾지 못함",
+        "참고: OpenAI가 10월 1일 ChatGPT Images 2.5 기반 가상 피팅 쇼핑 기능을 발표했다는 보도 — 모델 변화 없음",
+        "확인 불가: ChatGPT Work에 GPT-6 Sol이 계속 남아 있는지, GPT-6.1 Sol 제공 순서(공식 X는 Plus 이상 동시 제공, 일부 보도는 Pro부터 순차), 무료 Gemini 기본 Flash 버전, Arena 한국어 카테고리 순위",
+        "참고하지 않음: 일부 집계 사이트(benchlm.ai)가 AA 지수 1위를 GPT-5.6 Sol 58.9%로 표기했으나 Artificial Analysis 기사와 맞지 않아 반영하지 않음",
+        "확인 방식: Anthropic 뉴스룸만 직접 확인, 나머지는 네트워크 정책 차단으로 검색 결과 요약. 오늘 다시 확인하지 못한 모델은 lastVerified를 이전 날짜로 유지"
+      ]
+    },
+    {
       "date": "2026-10-01",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 기본 추천 유지 (출처 약 20건 확인)",
       "changes": [

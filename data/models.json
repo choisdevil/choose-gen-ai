@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-01T08:10:00+09:00",
+  "updatedAt": "2026-10-02T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-02",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -80,7 +80,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-02",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -116,7 +116,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-02",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -256,7 +256,7 @@
         "max": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher, 최고 단계). 한도를 빨리 쓰니 꼭 필요한 일에만."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-02",
       "sources": [
         {
           "title": "OpenAI — GPT-6 Astra",
@@ -292,7 +292,7 @@
         "max": "Work 모드 → 모델 GPT-6.1 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-02",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.1 Sol",
@@ -508,7 +508,7 @@
         "max": "노력 설정은 없어요. 대신 크기·글자·색·대상 연령을 구체적으로 적으세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-02",
       "sources": [
         {
           "title": "OpenAI — Introducing ChatGPT Images 2.5",
