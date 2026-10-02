@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-02T08:10:00+09:00",
+  "updatedAt": "2026-10-03T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -35,7 +35,7 @@
         "free": false,
         "plan": "Claude Pro 이상 (월 $20, 연간 결제 시 월 $17)"
       },
-      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. 9월 말 기준 Arena 텍스트 순위와 Artificial Analysis 지능 지수에서 1위로 보고됨. 한국어 인터페이스 공식 지원.",
+      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. 9월 말 기준 Arena 텍스트 순위와 Artificial Analysis 지능 지수에서 1위로 보고됨. 한국어 인터페이스 공식 지원. 참고: Anthropic의 Claude for Teachers(인증 교사 1년 무료)는 미국 K-12 교사 전용이라 한국 교사는 해당되지 않음.",
       "effortGuide": {
         "low": "Claude에서 모델을 Opus 5.5로 고르고 노력(Effort)을 Low로 설정하세요.",
         "medium": "모델 Opus 5.5, 노력 Medium.",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-02",
+      "lastVerified": "2026-10-03",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -57,6 +57,10 @@
         {
           "title": "Claude 요금제",
           "url": "https://claude.com/pricing"
+        },
+        {
+          "title": "Anthropic — Claude for Teachers (미국 K-12 전용)",
+          "url": "https://www.anthropic.com/news/claude-for-teachers"
         }
       ]
     },
@@ -80,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-02",
+      "lastVerified": "2026-10-03",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -116,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-02",
+      "lastVerified": "2026-10-03",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -247,7 +251,7 @@
         "free": false,
         "plan": "ChatGPT Plus 이상 (Work·Codex 사용 한도에서 차감, 5시간·주간 한도)"
       },
-      "summary": "OpenAI 최상위 모델. Plus 요금제는 일반 채팅이 아니라 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 쓸 수 있음(일반 채팅의 GPT-6 Pro는 Pro 이상). '2026 수능 LLM 풀이'에서 유일하게 450점 만점으로 보도됨. Artificial Analysis 지능 지수 53.",
+      "summary": "OpenAI 최상위 모델. Plus 요금제는 일반 채팅이 아니라 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 쓸 수 있음(일반 채팅의 GPT-6 Pro는 Pro 이상). '2026 수능 LLM 풀이'에서 유일하게 450점 만점으로 보도됨. Artificial Analysis 지능 지수 53. 9월 30일 신설된 Pro 500 요금제($500/월)에서는 더 빠른 서비스 단계인 Astra Ultrafast를 Work·Codex에서 고를 수 있음(Pro 500 전용).",
       "effortGuide": {
         "low": "데스크톱 앱 Work 모드 → 모델 GPT-6 Astra → 추론 수준 낮음(Lower).",
         "medium": "Work 모드 → GPT-6 Astra → 추론 수준 중간(Medium).",
@@ -256,7 +260,7 @@
         "max": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher, 최고 단계). 한도를 빨리 쓰니 꼭 필요한 일에만."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-02",
+      "lastVerified": "2026-10-03",
       "sources": [
         {
           "title": "OpenAI — GPT-6 Astra",
@@ -269,6 +273,10 @@
         {
           "title": "OpenAI 도움말 — ChatGPT Work and Codex",
           "url": "https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex"
+        },
+        {
+          "title": "TechRepublic — ChatGPT Pro 500 vs Pro 200 (Astra Ultrafast)",
+          "url": "https://www.techrepublic.com/article/news-chatgpt-pro-500-vs-200/"
         }
       ]
     },
@@ -292,7 +300,7 @@
         "max": "Work 모드 → 모델 GPT-6.1 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-02",
+      "lastVerified": "2026-10-03",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.1 Sol",
@@ -563,7 +571,7 @@
         "free": false,
         "plan": "Google AI Plus·Pro·Ultra (Gemini 앱·Flow)"
       },
-      "summary": "텍스트·이미지·오디오·영상을 입력받아 영상을 만드는 모델. Artificial Analysis 텍스트→영상(오디오 포함) 1위(1233)로 보고됨.",
+      "summary": "텍스트·이미지·오디오·영상을 입력받아 영상을 만드는 모델. Arena 텍스트→영상 순위에서 Gemini Omni 1.1 Flash가 1위로 발표됨(8월 27일 Arena 발표). Artificial Analysis 영상 순위의 점수는 출처마다 달라 적지 않음.",
       "effortGuide": {
         "low": "영상 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
         "medium": "영상 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
@@ -572,7 +580,7 @@
         "max": "노력 설정은 없어요. 장면·길이·자막 유무를 구체적으로 적으세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-03",
       "sources": [
         {
           "title": "Google — Gemini Omni",
@@ -581,6 +589,10 @@
         {
           "title": "Artificial Analysis — Text-to-Video 리더보드",
           "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video"
+        },
+        {
+          "title": "Arena (X) — Gemini Omni 1.1 Flash 텍스트→영상 1위",
+          "url": "https://x.com/arena/status/2093015572212846673"
         }
       ]
     },

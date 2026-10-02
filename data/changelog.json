@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "date": "2026-10-03",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 기본 추천 유지 (출처 약 17건 확인)",
+      "changes": [
+        "OpenAI Pro 500 요금제($500/월) 신설과 GPT-6 Astra의 빠른 서비스 단계 Astra Ultrafast(Pro 500 전용, Work·Codex)를 GPT-6 Astra 설명에 추가 — 새 모델이 아니라 기존 모델의 속도 단계",
+        "Claude for Teachers(인증 교사 1년 무료)는 Anthropic 공식 페이지 확인 결과 미국 K-12 교사 전용 → 한국 교사 해당 없음을 Opus 5.5 설명에 표시, 무료 여부(access.free)는 바꾸지 않음",
+        "벤치마크 재확인: Arena 텍스트(Opus 5.5 1위), AA 지능 지수(Opus 58·Sonnet 56·Astra/Argon/Fable 53·GPT-6.1 Sol 52), Gemini 4 Argon AA 분석 추가, 수능 풀이 보도. 영상은 Arena 발표(Omni 1.1 Flash 1위)로 교체",
+        "오늘 다시 확인하지 못한 AA 이미지·영상 항목 삭제, 영상 추천 이유(why)를 Arena 근거로 수정",
+        "SNS 후기: X 1건 추가(GPT-6.1 Sol 사용 한도 효율 후기). 7일 이내 항목만 유지. 교사 업무 대상 후기는 찾지 못함",
+        "참고: GPT-6.1 Sol 출시 초기 속도 저하로 OpenAI가 10월 2일 유료 계정 사용 한도를 전체 초기화했다고 보도(OpenAI 담당자 X 게시물)",
+        "확인 불가: Gemini 앱의 Gemini Omni 버전(1.1 여부), ChatGPT Work의 GPT-6 Sol 유지 여부, 무료 Gemini 기본 Flash 버전, Arena 한국어 순위",
+        "확인 방식: Anthropic 뉴스룸·Claude for Teachers 페이지만 직접 확인, 나머지는 네트워크 정책 차단으로 검색 결과 요약"
+      ]
+    },
+    {
       "date": "2026-10-02",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 기본 추천 유지 (출처 약 18건 확인)",
       "changes": [
