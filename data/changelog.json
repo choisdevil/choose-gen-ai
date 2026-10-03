@@ -1,6 +1,19 @@
 {
   "entries": [
     {
+      "date": "2026-10-04",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, Gemini 무료 요금제 변경(10월 9일) 예고 반영 (출처 약 16건 확인)",
+      "changes": [
+        "Gemini: 10월 9일부터 무료 사용자는 Flash-Lite만, AI Plus는 Flash-Lite·Flash, Pro는 AI Pro·Ultra 전용이 된다는 보도(Google 도움말 인용, 9to5Google·XDA·Android Headlines 등)를 Gemini Flash·3.1 Pro 설명과 요금제에 반영",
+        "추천: 무료 추천 5개(읽기 수준 조정·평가 문항·문항 검토·피드백·번역)가 Gemini Flash라서 why에 10월 9일 변경 예고를 덧붙임. 오늘은 아직 무료로 쓸 수 있어 access.free와 추천은 유지 — 10월 9일 이후 갱신에서 무료 추천을 다시 정함",
+        "Gemini: 10월 중 모델별 노력(low·medium·high) 단계 추가, AI Pro에 Deep Think 추가 예정 보도 반영(적용 날짜는 확인 불가)",
+        "벤치마크 재확인: Arena 텍스트(Opus 5.5 1위), AA 지능 지수(Opus 58·Sonnet 56·Astra/Argon 53·GPT-6.1 Sol 52), Arena 영상(Omni 1.1 Flash 1위), 수능 풀이 보도. Arena 이미지·Argon 비용 분석은 오늘 재확인하지 못해 삭제",
+        "OpenAI DevDay 정리 보도: GPT-6 Astra Ultrafast는 Pro 500·Enterprise, GPT-6.1 Sol Ultrafast는 출시 예정 — 모델 목록 변화 없음",
+        "SNS 후기: 새로 찾은 공개 후기 없음, 게시 7일 이내 항목만 유지",
+        "확인 불가: Google 도움말 원문(support.google.com 차단으로 검색 요약만 확인), Gemini 무료 Flash-Lite의 정확한 버전, GPT-6.1 Sol Pro의 ChatGPT 제공 여부, ChatGPT Work의 GPT-6 Sol 유지 여부, Arena 한국어 순위"
+      ]
+    },
+    {
       "date": "2026-10-03",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 기본 추천 유지 (출처 약 17건 확인)",
       "changes": [

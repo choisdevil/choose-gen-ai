@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T08:10:00+09:00",
+  "updatedAt": "2026-10-04T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-03",
+      "lastVerified": "2026-10-04",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-03",
+      "lastVerified": "2026-10-04",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-03",
+      "lastVerified": "2026-10-04",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -260,7 +260,7 @@
         "max": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher, 최고 단계). 한도를 빨리 쓰니 꼭 필요한 일에만."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-03",
+      "lastVerified": "2026-10-04",
       "sources": [
         {
           "title": "OpenAI — GPT-6 Astra",
@@ -300,7 +300,7 @@
         "max": "Work 모드 → 모델 GPT-6.1 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-03",
+      "lastVerified": "2026-10-04",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.1 Sol",
@@ -401,18 +401,18 @@
       "released": "2026-02-19",
       "access": {
         "free": false,
-        "plan": "Google AI Pro 이상 권장 (무료 사용 한도는 공식 확인 전)"
+        "plan": "Google AI Pro·Ultra (10월 9일부터 무료·AI Plus에서는 Pro 사용 불가로 보도)"
       },
-      "summary": "Gemini 앱의 'Pro(고급 추론)' 모델. ARC-AGI-2 77.1%(제조사 발표). 5월 발표된 Gemini 3.5 Pro는 9월 말까지 정식 제공되지 않은 것으로 보도됨.",
+      "summary": "Gemini 앱의 'Pro(고급 추론)' 모델. ARC-AGI-2 77.1%(제조사 발표). 5월 발표된 Gemini 3.5 Pro는 9월 말까지 정식 제공되지 않은 것으로 보도됨. 10월 9일부터 Pro 모델은 AI Pro·Ultra 요금제에서만 제공(무료·AI Plus 제외)된다고 보도됨.",
       "effortGuide": {
         "low": "모델 Pro, 생각 수준 Standard(기본).",
         "medium": "모델 Pro, 생각 수준 Standard(기본).",
         "high": "모델 Pro, 생각 수준 Extended.",
         "xhigh": "모델 Pro, 생각 수준 Extended.",
-        "max": "모델 Pro, 생각 수준 Deep Think — Google AI Ultra 요금제·만 18세 이상만. 없으면 Extended."
+        "max": "모델 Pro, 생각 수준 Deep Think — 지금은 Google AI Ultra(만 18세 이상). 10월 중 AI Pro에도 Deep Think가 추가된다고 보도됨. 없으면 Extended."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-01",
+      "lastVerified": "2026-10-04",
       "sources": [
         {
           "title": "Google — Gemini 3.1 Pro",
@@ -425,6 +425,10 @@
         {
           "title": "Gemini 도움말 — Deep Think",
           "url": "https://support.google.com/gemini/answer/16345172"
+        },
+        {
+          "title": "9to5Google — Gemini 앱 요금제별 모델 제한 (2026-10-03)",
+          "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
         }
       ]
     },
@@ -437,18 +441,18 @@
       "released": "2026-09-02 (3.8 Flash)",
       "access": {
         "free": true,
-        "plan": "무료 (무료 요금제는 3.6 Flash, AI Pro·Ultra는 3.8 Flash)"
+        "plan": "무료 (10월 8일까지 무료 요금제는 3.6 Flash, AI Pro·Ultra는 3.8 Flash) — 10월 9일부터 무료는 Flash-Lite만, Flash는 AI Plus 이상"
       },
-      "summary": "Gemini 앱의 'Flash(만능)' 모델. 무료 사용자도 생각 수준 Standard·Extended를 쓸 수 있음(6월 적용). 무료 기본 모델 버전은 출처 간 표기가 다름.",
+      "summary": "Gemini 앱의 'Flash(만능)' 모델. ⚠ 10월 9일부터 Google이 요금제별 모델을 제한해 무료 사용자는 Flash-Lite만, AI Plus는 Flash-Lite·Flash, AI Pro·Ultra는 Pro까지 쓸 수 있다고 보도됨(Google 도움말 'Changes to Gemini model access and limits' 인용). 10월 중 각 모델에 노력(low·medium·high) 단계가 추가될 예정. 10월 9일 이후 무료 추천은 다시 정할 예정.",
       "effortGuide": {
         "low": "모델 Flash-Lite 또는 Flash, 생각 수준 Standard.",
         "medium": "모델 Flash, 생각 수준 Standard(기본).",
         "high": "모델 Flash, 생각 수준 Extended (무료 포함).",
         "xhigh": "모델 Flash, 생각 수준 Extended (Flash의 최대 단계).",
-        "max": "Flash에는 이 단계가 없어요. Extended를 쓰거나, 유료라면 Pro 모델을 고르세요."
+        "max": "Flash에는 이 단계가 없어요. Extended를 쓰거나, 유료라면 Pro 모델을 고르세요. (10월 중 노력 low·medium·high 단계가 추가될 예정으로 보도)"
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-04",
       "sources": [
         {
           "title": "Google — Gemini 3.8 Flash",
@@ -461,6 +465,14 @@
         {
           "title": "DataNorth — Gemini 3.6 Flash",
           "url": "https://datanorth.ai/news/google-releases-gemini-3-6-flash"
+        },
+        {
+          "title": "9to5Google — Gemini 앱 요금제별 모델 제한 (2026-10-03)",
+          "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
+        },
+        {
+          "title": "Gemini 도움말 — Google AI 구독자 한도·업그레이드",
+          "url": "https://support.google.com/gemini/answer/16275805?hl=en"
         }
       ]
     },

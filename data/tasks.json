@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-03T08:10:00+09:00",
+  "updatedAt": "2026-10-04T08:10:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -179,7 +179,7 @@
             "free": {
               "model": "gemini-flash",
               "effort": "medium",
-              "why": "무료로 쓸 수 있고, 같은 글을 여러 수준으로 바꾸는 반복 작업에 빠르게 응답해요."
+              "why": "무료로 쓸 수 있고, 같은 글을 여러 수준으로 바꾸는 반복 작업에 빠르게 응답해요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
             }
           },
           "alternatives": [
@@ -271,7 +271,7 @@
             "free": {
               "model": "gemini-flash",
               "effort": "high",
-              "why": "무료 요금제에서도 생각 수준 Extended를 쓸 수 있어, 무료 중에서는 더 깊게 검토한 문항을 받을 수 있어요."
+              "why": "무료 요금제에서도 생각 수준 Extended를 쓸 수 있어, 무료 중에서는 더 깊게 검토한 문항을 받을 수 있어요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
             }
           },
           "alternatives": [
@@ -309,7 +309,7 @@
             "free": {
               "model": "gemini-flash",
               "effort": "high",
-              "why": "무료로 Extended 생각 수준을 써서 풀이 과정을 확인할 수 있어요."
+              "why": "무료로 Extended 생각 수준을 써서 풀이 과정을 확인할 수 있어요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
             }
           },
           "alternatives": [
@@ -394,7 +394,7 @@
             "free": {
               "model": "gemini-flash",
               "effort": "medium",
-              "why": "무료로 여러 답안을 빠르게 처리할 수 있어요."
+              "why": "무료로 여러 답안을 빠르게 처리할 수 있어요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
             }
           },
           "alternatives": [
@@ -835,7 +835,7 @@
             "free": {
               "model": "gemini-flash",
               "effort": "low",
-              "why": "무료로 빠르게 여러 언어 버전을 만들 수 있어요."
+              "why": "무료로 빠르게 여러 언어 버전을 만들 수 있어요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
             }
           },
           "alternatives": [
