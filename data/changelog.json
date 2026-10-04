@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-10-05",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 14건 확인)",
+      "changes": [
+        "Gemini 10월 9일 요금제별 모델 제한 재확인(여러 매체): 무료는 3.5 Flash-Lite만, 3.6 Flash·3.1 Pro 제외. 무료 추천 5곳의 변경 예고는 유지하고, 10월 9일 이후 갱신에서 무료 추천을 다시 정함",
+        "Gemini 4 Argon: Google은 AI Ultra·유료 API부터 '곧' 제공한다고만 밝혔고 날짜 미발표, 현재는 Fairwind 보안 파트너만 사용 — 목록에 넣지 않음(일부 보도의 'Ultra 배포 시작'은 다른 보도와 충돌해 반영하지 않음)",
+        "벤치마크 재확인: Arena 텍스트(Opus 5.5 1위), AA 지능 지수(Opus 58·Sonnet 56·Astra 53·GPT-6.1 Sol 52), Arena 영상(Omni 1.1 Flash 1위), 수능 풀이 보도",
+        "OpenAI: 10월 4일 기준 새 모델 발표 없음(가상 피팅·Safeway 연동 등 쇼핑 기능 보도만)",
+        "SNS 후기: 새로 찾은 공개 후기 없음",
+        "확인 불가: Google 도움말 원문, Gemini 노력 단계·AI Pro Deep Think 적용 날짜, Gemini 4 Argon 앱 제공 날짜, ChatGPT Work의 GPT-6 Sol 유지 여부, Arena 한국어 순위"
+      ]
+    },
+    {
       "date": "2026-10-04",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, Gemini 무료 요금제 변경(10월 9일) 예고 반영 (출처 약 16건 확인)",
       "changes": [
