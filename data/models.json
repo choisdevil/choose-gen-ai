@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-05T08:10:00+09:00",
+  "updatedAt": "2026-10-06T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-10-06",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-10-06",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-10-06",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -300,7 +300,7 @@
         "max": "Work 모드 → 모델 GPT-6.1 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-10-06",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.1 Sol",
@@ -412,7 +412,7 @@
         "max": "모델 Pro, 생각 수준 Deep Think — 지금은 Google AI Ultra(만 18세 이상). 10월 중 AI Pro에도 Deep Think가 추가된다고 보도됨. 없으면 Extended."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-10-06",
       "sources": [
         {
           "title": "Google — Gemini 3.1 Pro",
@@ -452,7 +452,7 @@
         "max": "Flash에는 이 단계가 없어요. Extended를 쓰거나, 유료라면 Pro 모델을 고르세요. (10월 중 노력 low·medium·high 단계가 추가될 예정으로 보도)"
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-05",
+      "lastVerified": "2026-10-06",
       "sources": [
         {
           "title": "Google — Gemini 3.8 Flash",

@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "date": "2026-10-06",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 12건 확인)",
+      "changes": [
+        "새 모델 발표 없음: Anthropic 뉴스룸(직접 확인), OpenAI(EU 텍스트 워터마크·이미지 생성 중 광고 테스트 발표뿐), Google(10월 9일 무료·AI Plus 모델 제한 재보도)",
+        "Gemini 무료 추천 5곳의 10월 9일 변경 예고 유지 — 10월 9일 이후 갱신에서 무료 추천을 다시 정함",
+        "벤치마크 재확인: Arena 텍스트(Opus 5.5 1위), AA 지능 지수(Opus 58·Sonnet 56·Astra 53·GPT-6.1 Sol 52), Arena 영상(Omni 1.1 Flash 1위), 수능 풀이 보도(447.5점 Claude 모델명은 보도마다 달라 생략)",
+        "SNS 후기: 게시 7일이 지난 X 1건 삭제, X 1건 추가(GPT-6.1 Sol 사용 소감). 교사 업무 대상 후기는 찾지 못함",
+        "확인 불가: Google 도움말 원문, Gemini 노력 단계·AI Pro Deep Think 적용 날짜, Gemini 4 Argon 앱 제공 날짜, ChatGPT Work의 GPT-6 Sol 유지 여부, Arena 한국어 순위"
+      ]
+    },
+    {
       "date": "2026-10-05",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 14건 확인)",
       "changes": [
