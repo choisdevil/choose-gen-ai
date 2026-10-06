@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-06T08:10:00+09:00",
+  "updatedAt": "2026-10-07T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-06",
+      "lastVerified": "2026-10-07",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-06",
+      "lastVerified": "2026-10-07",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-06",
+      "lastVerified": "2026-10-07",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -542,7 +542,7 @@
     },
     {
       "id": "nano-banana",
-      "name": "Nano Banana 2 / Nano Banana Pro",
+      "name": "Nano Banana 2·2.1 / Nano Banana Pro",
       "vendor": "Google",
       "product": "Gemini",
       "url": "https://gemini.google.com",
@@ -551,7 +551,7 @@
         "free": true,
         "plan": "Gemini 앱 기본 이미지 생성(Nano Banana 2). 요금제별 한도 다름"
       },
-      "summary": "Gemini 앱의 기본 이미지 생성 모델(512px~4K). Nano Banana Pro는 Gemini 앱·NotebookLM·Slides·Vids에서 제공. 3월 31일부터 만 18세 미만도 이미지 생성 가능(편집은 18세 이상).",
+      "summary": "Gemini 앱의 이미지 생성 모델(512px~4K). 10월 6일 Nano Banana 2.1이 정식 출시되어 Gemini 앱·AI Mode·Flow 등에 순차 적용 중이라고 보도됨(편집·인물 일관성·글자 표현 개선). 무료 요금제에서 2.1이 기본이 되는 시점은 확인하지 못함. Nano Banana Pro는 Gemini 앱·NotebookLM·Slides·Vids에서 제공. 3월 31일부터 만 18세 미만도 이미지 생성 가능(편집은 18세 이상).",
       "effortGuide": {
         "low": "이미지 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
         "medium": "이미지 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
@@ -560,7 +560,7 @@
         "max": "노력 설정은 없어요. 원하는 구도·글자·스타일을 구체적으로 적으세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-07",
       "sources": [
         {
           "title": "Google Workspace Updates — Nano Banana 2",
@@ -569,6 +569,10 @@
         {
           "title": "Google — Nano Banana Pro 사용처",
           "url": "https://blog.google/products/gemini/where-to-use-nano-banana-pro/"
+        },
+        {
+          "title": "Android Authority — Nano Banana 2.1 출시 (2026-10-06)",
+          "url": "https://www.androidauthority.com/google-launches-nano-banana-2-1-3719823/"
         }
       ]
     },

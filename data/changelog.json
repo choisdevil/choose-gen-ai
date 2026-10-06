@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-10-07",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 11건 확인)",
+      "changes": [
+        "Nano Banana: 10월 6일 Nano Banana 2.1 정식 출시, Gemini 앱 등에 순차 적용 중이라는 보도를 모델 설명에 반영(무료 기본 모델 전환 시점은 확인 불가)",
+        "새 언어 모델 발표 없음: Anthropic 뉴스룸(10월 6일 사이버 검증 프로그램 확대뿐, 직접 확인), OpenAI(10월 6일 일부 서비스 오류·파트너십 보도), Google(Gemini 3.8 Live 음성·Windows 앱 등 기능 보도)",
+        "Gemini 무료 추천 5곳의 10월 9일 변경 예고 유지",
+        "벤치마크 재확인: Arena 텍스트(Opus 5.5 1위), AA 지능 지수(Opus 58·Sonnet 56·Astra 53·GPT-6 Sol 48), Arena 영상(Omni 1.1 Flash 1위), 수능 풀이 보도. GPT-6.1 Sol AA 분석은 오늘 재확인하지 못해 삭제",
+        "SNS 후기: 게시 7일이 지난 X 2건 삭제, 새 공개 후기 없음",
+        "확인 불가: Nano Banana 2.1의 무료 제공 범위, Google 도움말 원문, Gemini 4 Argon 앱 제공 날짜, ChatGPT Work의 GPT-6 Sol 유지 여부, Arena 한국어 순위"
+      ]
+    },
+    {
       "date": "2026-10-06",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 12건 확인)",
       "changes": [
