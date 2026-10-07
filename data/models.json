@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-07T08:10:00+09:00",
+  "updatedAt": "2026-10-08T08:30:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-07",
+      "lastVerified": "2026-10-08",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-07",
+      "lastVerified": "2026-10-08",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-07",
+      "lastVerified": "2026-10-08",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -129,6 +129,38 @@
         {
           "title": "Claude 요금제",
           "url": "https://claude.com/pricing"
+        }
+      ]
+    },
+    {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "vendor": "Anthropic",
+      "product": "Claude",
+      "url": "https://claude.ai",
+      "released": "2026-10-07",
+      "access": {
+        "free": true,
+        "plan": "무료 포함 (Free·Pro·Max·Team·Enterprise에서 선택 가능, 요금제별 한도 다름)"
+      },
+      "summary": "Claude 5.5 계열의 가장 빠르고 저렴한 모델(10월 7일 발표). 요약·분류처럼 양이 많고 빠른 응답이 필요한 일에 맞춘 모델이며, Haiku 중 처음으로 노력(effort) 조절을 지원. Anthropic 발표 기준 대부분 지표에서 Sonnet 5.5보다는 낮고 Haiku 4.5보다 크게 높음.",
+      "effortGuide": {
+        "low": "모델을 Haiku 5.5로 고르고 노력(Effort)을 Low로. 노력 선택지가 보이지 않으면 기본값 그대로 쓰세요.",
+        "medium": "모델 Haiku 5.5, 노력 Medium(또는 기본값).",
+        "high": "모델 Haiku 5.5, 노력 High. 정확성이 중요한 일이면 Sonnet 5.5를 고르는 편이 나아요.",
+        "xhigh": "모델 Haiku 5.5, 노력 Extra high. 앱에 이 단계가 없으면 가장 높은 단계를 쓰거나 Sonnet 5.5로 바꾸세요.",
+        "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
+      },
+      "verification": "official",
+      "lastVerified": "2026-10-08",
+      "sources": [
+        {
+          "title": "Anthropic — Introducing Claude Haiku 5.5",
+          "url": "https://www.anthropic.com/claude-haiku-5-5"
+        },
+        {
+          "title": "Anthropic — Claude Haiku (요금제별 제공 범위)",
+          "url": "https://www.anthropic.com/claude/haiku"
         }
       ]
     },
@@ -143,17 +175,25 @@
         "free": false,
         "plan": "ChatGPT Plus 이상 (월 $20)"
       },
-      "summary": "ChatGPT Plus·Pro 일반 채팅(Chat)의 기본 모델(8월 6일부터 빠른 답과 추론 답 모두 담당). GPT-6 계열(Astra·Sol·Luna·6.1 Sol)은 Plus에서 일반 채팅이 아닌 ChatGPT Work·Codex에서 제공됨. '2026 수능 LLM 풀이'에서 GPT-5.6이 450점 만점에 448.5점으로 보도됨.",
+      "summary": "10월 7일부터 ChatGPT 일반 채팅(Chat)의 모델 메뉴에서 'GPT-6'이 기본('Latest' 대체)이 되어 Plus 이상의 Instant~Extra High는 GPT-6 Sol이 담당. OpenAI 도움말에 따르면 GPT-5.6을 직접 고르면 계속 GPT-5.6 Sol로 쓸 수 있음. '2026 수능 LLM 풀이'에서 GPT-6 Astra 다음 상위권으로 보도됨(GPT-5.6 Sol 점수는 보도마다 448.5·446.5점으로 다름).",
       "effortGuide": {
-        "low": "생각 강도(thinking effort) 슬라이더를 Instant로. ※ Instant는 GPT-5.5 Instant 기반이고 GPT-5.5는 10월 14일 ChatGPT에서 종료 예정이라 메뉴가 바뀔 수 있어요.",
-        "medium": "생각 강도 슬라이더를 Medium으로.",
-        "high": "생각 강도 슬라이더를 High로. (Plus 요금제에서 고를 수 있는 가장 높은 단계)",
-        "xhigh": "생각 강도 Extra High — Pro·Business·Enterprise 요금제에서만 선택 가능. Plus라면 High를 쓰세요.",
-        "max": "생각 강도 Pro(GPT-5.6 Sol Pro) — Pro 요금제에서만 선택 가능. Plus라면 High를 쓰세요."
+        "low": "모델 메뉴에서 GPT-5.6을 직접 고른 뒤 생각 강도 Instant. (GPT-6을 고르면 GPT-6 Sol이 답해요)",
+        "medium": "모델 메뉴에서 GPT-5.6 → 생각 강도 Medium.",
+        "high": "모델 메뉴에서 GPT-5.6 → 생각 강도 High (Plus에서 고를 수 있는 가장 높은 단계).",
+        "xhigh": "생각 강도 Extra High — 기존 안내 기준 Pro·Business·Enterprise 전용. Plus라면 High를 쓰세요.",
+        "max": "생각 강도 Pro — Pro 요금제 전용(GPT-6 메뉴에서는 GPT-6 Pro=Astra). Plus라면 High를 쓰세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-08",
       "sources": [
+        {
+          "title": "OpenAI — GPT-6 and Intelligent UI for everyone (2026-10-07)",
+          "url": "https://openai.com/index/gpt-6-for-everyone/"
+        },
+        {
+          "title": "OpenAI 도움말 — GPT-6 and other models in ChatGPT",
+          "url": "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt"
+        },
         {
           "title": "OpenAI — Improving GPT-5.6 Sol in ChatGPT",
           "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/"
@@ -183,7 +223,7 @@
         "free": true,
         "plan": "무료 (Free·Go 기본 모델, 텍스트 채팅 무제한 / 파일·이미지·도구는 한도 있음)"
       },
-      "summary": "ChatGPT 무료·Go 요금제의 기본 모델. 8월 6일부터 무료 텍스트 채팅이 무제한으로 바뀜.",
+      "summary": "ChatGPT 무료·Go 요금제의 기존 기본 모델. OpenAI는 10월 8일(미국 기준)부터 무료·Go 일반 채팅도 GPT-6(GPT-6 Luna)로 순차 전환한다고 발표했으나, 같은 날 도움말 문구는 무료 기본을 GPT-5.6 Luna로 적고 있어 계정마다 다를 수 있음. 텍스트 채팅 무제한(8월 6일부터).",
       "effortGuide": {
         "low": "기본 상태 그대로 질문하세요.",
         "medium": "입력창의 Think 버튼을 켜고 질문하세요(그 메시지만 더 오래 생각).",
@@ -192,8 +232,16 @@
         "max": "무료에는 이 단계가 없어요. Think 버튼(무료 최대)을 켜세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-08",
       "sources": [
+        {
+          "title": "OpenAI — GPT-6 and Intelligent UI for everyone (2026-10-07)",
+          "url": "https://openai.com/index/gpt-6-for-everyone/"
+        },
+        {
+          "title": "OpenAI 도움말 — GPT-6 and other models in ChatGPT",
+          "url": "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt"
+        },
         {
           "title": "TechCrunch — 무료 사용자 무제한 텍스트 채팅 (2026-08-06)",
           "url": "https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/"
@@ -217,7 +265,7 @@
       },
       "summary": "OpenAI 최상위 모델 GPT-6 Astra의 일반 채팅 버전. '2026 수능 LLM 풀이'에서 유일하게 450점 만점으로 보도됨. 교사 개인이 쓰기에는 요금 부담이 큼.",
       "effortGuide": {
-        "low": "이 모델은 가벼운 일에 쓰기엔 과해요. 가벼운 일은 GPT-5.6 Sol을 쓰세요.",
+        "low": "이 모델은 가벼운 일에 쓰기엔 과해요. 가벼운 일은 일반 채팅의 GPT-6(Instant·Medium, GPT-6 Sol)을 쓰세요.",
         "medium": "모델 선택에서 GPT-6 Pro를 고르세요(별도 단계 조절 정보는 확인되지 않음).",
         "high": "모델 선택에서 GPT-6 Pro를 고르세요.",
         "xhigh": "모델 선택에서 GPT-6 Pro를 고르세요.",
@@ -326,26 +374,38 @@
     },
     {
       "id": "gpt-6-sol",
-      "name": "GPT-6 Sol (ChatGPT Work)",
+      "name": "GPT-6 Sol (일반 채팅 GPT-6·Work)",
       "vendor": "OpenAI",
-      "product": "ChatGPT Work",
+      "product": "ChatGPT",
       "url": "https://chatgpt.com",
       "released": "2026-09-22",
       "access": {
         "free": false,
         "plan": "ChatGPT Plus 이상 (Work·Codex)"
       },
-      "summary": "GPT-6 Astra의 장점을 더 빠르고 저렴하게 담은 모델(OpenAI 발표). 일반 채팅에는 없고 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 제공. 후속 GPT-6.1 Sol이 9월 29일 공개됨. GPT-6.1 Sol 출시 후에도 Work 모드 모델 선택 메뉴에 GPT-6 Sol이 남아 있는지는 10월 1일 확인하지 못함.",
+      "summary": "10월 7일부터 ChatGPT Plus·Pro·Business·Enterprise 일반 채팅(Chat)의 'GPT-6' 메뉴(Instant·Medium·High·Extra High)를 담당(Intelligent UI: 차트·버튼 등 상호작용 답변). Work·Codex에서도 계속 제공. 후속 GPT-6.1 Sol은 Work·Codex 전용. Artificial Analysis 지능 지수 48(max).",
       "effortGuide": {
-        "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6 Sol → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
-        "medium": "Work 모드 → 모델 GPT-6 Sol → 추론 수준 중간(Medium).",
-        "high": "Work 모드 → 모델 GPT-6 Sol → 추론 수준 높음(High).",
-        "xhigh": "Work 모드 → 모델 GPT-6 Sol → 보이는 단계 중 가장 높은 추론 수준. 높을수록 Work 사용 한도를 빨리 씁니다.",
-        "max": "Work 모드 → 모델 GPT-6 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
+        "low": "일반 채팅의 모델 메뉴에서 GPT-6 → 생각 강도 Instant.",
+        "medium": "모델 GPT-6 → 생각 강도 Medium.",
+        "high": "모델 GPT-6 → 생각 강도 High.",
+        "xhigh": "모델 GPT-6 → 생각 강도 Extra High. Plus에서 이 단계를 고를 수 있는지는 확인하지 못했어요 — 없으면 High.",
+        "max": "이 모델의 가장 높은 단계는 Extra High예요. GPT-6 메뉴의 Pro는 GPT-6 Astra(Pro 요금제 이상)가 답해요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-08",
       "sources": [
+        {
+          "title": "OpenAI — GPT-6 and Intelligent UI for everyone (2026-10-07)",
+          "url": "https://openai.com/index/gpt-6-for-everyone/"
+        },
+        {
+          "title": "OpenAI 도움말 — GPT-6 and other models in ChatGPT",
+          "url": "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt"
+        },
+        {
+          "title": "MacRumors — ChatGPT에 GPT-6·Intelligent UI (2026-10-07)",
+          "url": "https://www.macrumors.com/2026/10/07/chatgpt-intelligent-ui/"
+        },
         {
           "title": "OpenAI — Introducing GPT-6 Sol and Luna",
           "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
@@ -362,26 +422,34 @@
     },
     {
       "id": "gpt-6-luna",
-      "name": "GPT-6 Luna (ChatGPT Work)",
+      "name": "GPT-6 Luna (무료 일반 채팅·Work)",
       "vendor": "OpenAI",
-      "product": "ChatGPT Work",
+      "product": "ChatGPT",
       "url": "https://chatgpt.com",
       "released": "2026-09-22",
       "access": {
         "free": true,
-        "plan": "무료·Go: 데스크톱 앱에서 체험 가능(한도 있음) / Plus 이상: Work·Codex"
+        "plan": "무료·Go: 10월 8일부터 일반 채팅에 순차 적용(OpenAI 발표) + 데스크톱 앱 Work 체험 / Plus 이상: Work·Codex"
       },
-      "summary": "GPT-6 계열의 가볍고 빠른 모델. Plus 이상은 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서, 무료·Go 사용자는 데스크톱 앱에서 체험할 수 있다고 OpenAI가 발표.",
+      "summary": "GPT-6 계열의 가볍고 빠른 모델. OpenAI는 10월 7일 발표에서 무료·Go 일반 채팅의 GPT-6을 GPT-6 Luna가 담당하며 10월 8일부터 순차 적용한다고 밝힘(도움말 문구와 일부 다름, 계정마다 적용 시점 다를 수 있음). Anthropic 발표 자료에서는 Claude Haiku 5.5보다 대부분 지표가 낮게 비교됨(제조사 비교).",
       "effortGuide": {
-        "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6 Luna → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
-        "medium": "Work 모드 → 모델 GPT-6 Luna → 추론 수준 중간(Medium).",
-        "high": "Work 모드 → 모델 GPT-6 Luna → 추론 수준 높음(High).",
-        "xhigh": "Work 모드 → 모델 GPT-6 Luna → 보이는 단계 중 가장 높은 추론 수준. 높을수록 Work 사용 한도를 빨리 씁니다.",
-        "max": "Work 모드 → 모델 GPT-6 Luna → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
+        "low": "무료 일반 채팅에서 기본 상태 그대로 질문하세요(GPT-6 Luna가 적용된 계정 기준).",
+        "medium": "입력창의 Think(생각) 버튼이 있으면 켜세요. Work 모드라면 추론 수준 Medium.",
+        "high": "Think 버튼(무료 최대)을 켜세요. Work 모드라면 추론 수준 High.",
+        "xhigh": "무료 채팅에는 이 단계가 없어요. Work 모드라면 보이는 단계 중 가장 높은 추론 수준.",
+        "max": "무료 채팅에는 이 단계가 없어요. Work 모드의 가장 높은 추론 수준을 쓰되 한도를 빨리 씁니다."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-09-30",
+      "lastVerified": "2026-10-08",
       "sources": [
+        {
+          "title": "OpenAI — GPT-6 and Intelligent UI for everyone (2026-10-07)",
+          "url": "https://openai.com/index/gpt-6-for-everyone/"
+        },
+        {
+          "title": "OpenAI 도움말 — GPT-6 and other models in ChatGPT",
+          "url": "https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt"
+        },
         {
           "title": "OpenAI — Introducing GPT-6 Sol and Luna",
           "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/"

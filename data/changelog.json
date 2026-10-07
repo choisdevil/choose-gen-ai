@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "date": "2026-10-08",
+      "summary": "일일 갱신 — Claude Haiku 5.5 추가(모델 19개), ChatGPT 일반 채팅 GPT-6 전환 반영 (출처 약 16건 확인)",
+      "changes": [
+        "추가: Claude Haiku 5.5 (10월 7일, Anthropic 공식 페이지 직접 확인) — 무료 포함 모든 요금제에서 선택 가능, Haiku 첫 노력 조절 지원. 번역 업무 대안 추천에 추가",
+        "ChatGPT: 10월 7일부터 일반 채팅 모델 메뉴의 기본이 GPT-6(Plus 이상은 GPT-6 Sol, Pro는 GPT-6 Pro=Astra)로 바뀌고, 무료·Go는 10월 8일부터 GPT-6 Luna로 순차 전환(OpenAI 발표·MacRumors 등). GPT-6 Sol·Luna 설명과 노력 안내를 일반 채팅 기준으로 수정",
+        "GPT-5.6 Sol 추천은 유지하되, 모델 메뉴에서 GPT-5.6을 직접 골라야 한다는 안내를 노력 안내·추천 이유에 추가(OpenAI 도움말: 직접 고른 GPT-5.6은 유지)",
+        "수정: 수능 풀이의 GPT-5.6 Sol 448.5점은 보도마다 446.5점·Astra 고난도 모드 점수 등으로 엇갈려 추천 이유 3곳과 signals에서 숫자를 뺌",
+        "벤치마크 재확인: Arena 텍스트(Opus 5.5 1위), AA 지능 지수(Opus 58·Sonnet 56·Astra/Fable 53·GPT-6 Sol 48). Haiku 5.5 제조사 비교표 추가. Arena 영상은 오늘 재확인하지 못해 삭제",
+        "SNS 후기: 게시 7일이 지난 X 1건 삭제. Haiku 5.5 관련 X 게시물은 대부분 제조사 수치 재인용·판매사 홍보라 반영하지 않음",
+        "Gemini: 10월 9일 무료 Flash-Lite 전환 예고는 그대로 — 내일 갱신에서 무료 추천 5곳을 다시 정함",
+        "확인 불가: Haiku 5.5의 앱 내 노력 선택지 제공 여부, 무료·Go 계정별 GPT-6 Luna 적용 시점, Plus의 GPT-6 Extra High 선택 가능 여부, Haiku 5.5 독립 벤치마크, Arena 한국어 순위"
+      ]
+    },
+    {
       "date": "2026-10-07",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 11건 확인)",
       "changes": [
