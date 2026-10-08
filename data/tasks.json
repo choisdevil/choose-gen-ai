@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-08T08:30:00+09:00",
+  "updatedAt": "2026-10-09T08:20:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -96,7 +96,7 @@
             {
               "model": "gemini-flash",
               "effort": "medium",
-              "why": "Google 문서·Classroom을 주로 쓴다면 Gemini로 만들어 옮기기 편해요."
+              "why": "Google 문서·Classroom을 주로 쓴다면 Gemini로 만들어 옮기기 편해요. 10월 9일부터 Flash는 Google AI Plus 이상에서만 쓸 수 있어요(무료는 Flash-Lite)."
             },
             {
               "model": "gpt-6-luna",
@@ -177,9 +177,9 @@
               "why": "종합 지능 지수 2위 모델로, 문장을 학년 수준에 맞게 바꾸는 일은 medium이면 충분하고 빠릅니다."
             },
             "free": {
-              "model": "gemini-flash",
+              "model": "claude-sonnet-5-5",
               "effort": "medium",
-              "why": "무료로 쓸 수 있고, 같은 글을 여러 수준으로 바꾸는 반복 작업에 빠르게 응답해요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
+              "why": "유료 추천과 같은 Sonnet 5.5를 무료 요금제에서도 고를 수 있어요(사용 한도 있음). 10월 9일부터 무료 Gemini가 Flash-Lite만 제공해 무료 추천을 바꿨어요."
             }
           },
           "alternatives": [
@@ -269,9 +269,9 @@
               "why": "종합 벤치마크 1위 모델(Artificial Analysis 지능 지수 58, max 노력). 노력을 높일수록 점수가 오르는 모델이고, 문항 세트는 오류를 줄이는 게 중요해 xhigh를 권합니다."
             },
             "free": {
-              "model": "gemini-flash",
+              "model": "claude-sonnet-5-5",
               "effort": "high",
-              "why": "무료 요금제에서도 생각 수준 Extended를 쓸 수 있어, 무료 중에서는 더 깊게 검토한 문항을 받을 수 있어요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
+              "why": "무료 요금제에서 쓸 수 있는 모델 중 Artificial Analysis 지능 지수가 가장 높아요(56, 2위). 노력 선택지가 없으면 기본값으로 쓰고 '단계별로 검토해 줘'라고 요청하세요."
             }
           },
           "alternatives": [
@@ -307,9 +307,9 @@
               "why": "‘2026 수능 LLM 풀이’에서 GPT-5.6이 GPT-6 Astra 다음 상위권(만점에 가까운 점수)으로 보도되어, 문항을 직접 풀어 정답을 교차 확인하는 데 알맞아요. 10월 7일부터 기본 메뉴가 GPT-6로 바뀌었으니 GPT-5.6을 직접 고르세요."
             },
             "free": {
-              "model": "gemini-flash",
+              "model": "claude-sonnet-5-5",
               "effort": "high",
-              "why": "무료로 Extended 생각 수준을 써서 풀이 과정을 확인할 수 있어요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
+              "why": "무료로 쓸 수 있는 모델 중 지능 지수가 가장 높아(56) 풀이 과정 검토에 알맞아요. 유료 추천(GPT-5.6)과 다른 회사 모델이라 교차 확인에도 좋아요."
             }
           },
           "alternatives": [
@@ -392,9 +392,9 @@
               "why": "답안마다 반복하는 작업이라 속도가 중요해요. 지능 지수 2위 모델을 기본 노력으로 쓰면 품질과 속도의 균형이 좋습니다."
             },
             "free": {
-              "model": "gemini-flash",
+              "model": "claude-sonnet-5-5",
               "effort": "medium",
-              "why": "무료로 여러 답안을 빠르게 처리할 수 있어요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
+              "why": "유료 추천과 같은 Sonnet 5.5를 무료로도 쓸 수 있어요. 답안이 많으면 무료 사용 한도에 빨리 닿을 수 있으니 나눠서 요청하세요."
             }
           },
           "alternatives": [
@@ -833,9 +833,9 @@
               "why": "이번 갱신에서 번역 전용 벤치마크는 확인하지 못해 종합 벤치마크 1위 모델을 기준으로 추천해요."
             },
             "free": {
-              "model": "gemini-flash",
+              "model": "claude-haiku-5-5",
               "effort": "low",
-              "why": "무료로 빠르게 여러 언어 버전을 만들 수 있어요. ※ 10월 9일부터 무료 Gemini는 Flash-Lite만 쓸 수 있다고 보도되어, 이후 무료 추천을 다시 정할 예정이에요."
+              "why": "Anthropic이 양이 많고 빠른 응답이 필요한 일용으로 낸 모델로 무료 요금제에서도 고를 수 있어요(지능 지수 43). 중요한 안내문은 Sonnet 5.5로 한 번 더 검토하세요."
             }
           },
           "alternatives": [
@@ -843,11 +843,6 @@
               "model": "gpt-5-6-sol",
               "effort": "medium",
               "why": "다른 모델로 한 번 더 번역해 비교하면 오역을 찾기 쉬워요."
-            },
-            {
-              "model": "claude-haiku-5-5",
-              "effort": "low",
-              "why": "Anthropic이 양이 많고 빠른 응답이 필요한 일용으로 낸 무료 선택 가능 모델이라, 여러 언어판을 빠르게 뽑아 볼 때 쓸 수 있어요. 정확도가 중요하면 Sonnet 5.5로 한 번 더 검토하세요."
             }
           ],
           "tips": [

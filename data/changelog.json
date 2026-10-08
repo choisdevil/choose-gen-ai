@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "date": "2026-10-09",
+      "summary": "일일 갱신 — Gemini 무료 요금제 변경으로 무료 추천 5개 교체 (출처 약 12건 확인)",
+      "changes": [
+        "Gemini Flash: 10월 9일부터 무료 사용자는 Flash-Lite만 쓸 수 있어 access.free를 false로 바꾸고 요금제를 AI Plus 이상으로 수정(Notebookcheck 등 다수 보도, Google 도움말 원문은 접속 차단으로 미확인)",
+        "추천 변경(무료): 읽기 수준 조정·시험 문항 출제·문항 검토·서술형 피드백 → Claude Sonnet 5.5(무료 선택 가능 모델 중 AA 지능 지수 최고 56), 다문화 안내문 번역 → Claude Haiku 5.5(무료, 대량·빠른 작업용)",
+        "활동지 대안의 Gemini Flash 안내를 AI Plus 이상 필요로 수정",
+        "Claude Haiku 5.5: Artificial Analysis 지능 지수 43(max) 반영",
+        "ChatGPT: 무료·Go 일반 채팅의 GPT-6 Luna 순차 적용 진행 중(여러 매체), 계정별 시점은 확인 불가",
+        "벤치마크: AA 지능 지수 재확인(Haiku 5.5 추가). Arena 텍스트는 10월 보도 중 Opus 5.5 4위라는 정리가 있어 현재 순위를 확인 불가로 표시",
+        "새 SNS 후기 없음(교사 대상 후기 포함)",
+        "확인 불가: Gemini 무료 Flash-Lite의 정확한 버전, 무료 Claude의 노력 선택지 제공 여부, Arena 텍스트 현재 순위·한국어 순위, Plus의 GPT-6 Extra High 선택 가능 여부"
+      ]
+    },
+    {
       "date": "2026-10-08",
       "summary": "일일 갱신 — Claude Haiku 5.5 추가(모델 19개), ChatGPT 일반 채팅 GPT-6 전환 반영 (출처 약 16건 확인)",
       "changes": [
