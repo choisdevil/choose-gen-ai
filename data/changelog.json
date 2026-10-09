@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-10-10",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 13건 확인)",
+      "changes": [
+        "새 모델 발표 없음: Anthropic 뉴스룸(직접 확인, 10월 8일 이후 새 글 없음), OpenAI(GPT-6 무료·Go 적용 진행, 정책·안전 관련 보도), Google(무료 Flash-Lite 전환이 10월 9일부터 계정별로 며칠에 걸쳐 진행)",
+        "GPT-6 Luna: Artificial Analysis 지능 지수 38(max) 반영 — Haiku 5.5(43)보다 낮음",
+        "Arena 텍스트: 10월 2일 스냅샷을 옮긴 2차 자료에 Gemini 4 Argon 1위 표기가 있어 현재 순위를 확인 불가로 유지(Opus 5.5 추천 이유는 '9월 말 기준' 표기라 그대로 둠)",
+        "수능 풀이: GPT-6 Astra 450점만 재확인, 다른 모델 점수는 보도마다 달라 확정하지 않음",
+        "SNS 후기: X 2건 추가(Haiku 5.5 개인 비교 테스트, 모두 코딩 과제). 교사 업무 대상 후기는 찾지 못함",
+        "확인 불가: Arena 텍스트 현재 1위, Gemini 무료 Flash-Lite 버전, 무료 Claude의 노력 선택지, Plus의 GPT-6 Extra High 선택 가능 여부"
+      ]
+    },
+    {
       "date": "2026-10-09",
       "summary": "일일 갱신 — Gemini 무료 요금제 변경으로 무료 추천 5개 교체 (출처 약 12건 확인)",
       "changes": [

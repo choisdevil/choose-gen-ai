@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-09T08:20:00+09:00",
+  "updatedAt": "2026-10-10T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-09",
+      "lastVerified": "2026-10-10",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-09",
+      "lastVerified": "2026-10-10",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-08",
+      "lastVerified": "2026-10-10",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -152,7 +152,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-09",
+      "lastVerified": "2026-10-10",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -435,7 +435,7 @@
         "free": true,
         "plan": "무료·Go: 10월 8일부터 일반 채팅에 순차 적용(OpenAI 발표) + 데스크톱 앱 Work 체험 / Plus 이상: Work·Codex"
       },
-      "summary": "GPT-6 계열의 가볍고 빠른 모델. OpenAI는 10월 7일 발표에서 무료·Go 일반 채팅의 GPT-6을 GPT-6 Luna가 담당하며 10월 8일부터 순차 적용 중(여러 매체 보도, 계정마다 적용 시점이 다를 수 있고 도움말 문구는 아직 GPT-5.6 Luna로 표기). Anthropic 발표 자료에서는 Claude Haiku 5.5보다 대부분 지표가 낮게 비교됨(제조사 비교).",
+      "summary": "GPT-6 계열의 가볍고 빠른 모델. OpenAI는 10월 7일 발표에서 무료·Go 일반 채팅의 GPT-6을 GPT-6 Luna가 담당하며 10월 8일부터 순차 적용 중(여러 매체 보도, 계정마다 적용 시점이 다를 수 있고 도움말 문구는 아직 GPT-5.6 Luna로 표기). Anthropic 발표 자료에서는 Claude Haiku 5.5보다 대부분 지표가 낮게 비교됨(제조사 비교). Artificial Analysis 지능 지수 38(max)로 Claude Haiku 5.5(43)보다 낮게 측정됨.",
       "effortGuide": {
         "low": "무료 일반 채팅에서 기본 상태 그대로 질문하세요(GPT-6 Luna가 적용된 계정 기준).",
         "medium": "입력창의 Think(생각) 버튼이 있으면 켜세요. Work 모드라면 추론 수준 Medium.",
@@ -444,7 +444,7 @@
         "max": "무료 채팅에는 이 단계가 없어요. Work 모드의 가장 높은 추론 수준을 쓰되 한도를 빨리 씁니다."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-09",
+      "lastVerified": "2026-10-10",
       "sources": [
         {
           "title": "OpenAI — GPT-6 and Intelligent UI for everyone (2026-10-07)",
@@ -515,7 +515,7 @@
         "free": false,
         "plan": "Google AI Plus 이상 (10월 9일부터 무료 사용자는 Flash-Lite만 사용 가능으로 보도)"
       },
-      "summary": "Gemini 앱의 'Flash(만능)' 모델. 10월 9일부터 무료 사용자는 Flash-Lite(3.5 Flash-Lite로 보도)만 쓸 수 있고, Flash는 AI Plus 이상에서 제공된다고 여러 매체가 Google 도움말을 인용해 보도. 개인 계정의 Gemini 앱에만 해당(학교·회사 Workspace 계정과 API는 영향 없음으로 보도). 10월 중 노력(low·medium·high) 단계 추가 예정.",
+      "summary": "Gemini 앱의 'Flash(만능)' 모델. 10월 9일부터 무료 사용자는 Flash-Lite(3.5 Flash-Lite로 보도)만 쓸 수 있고, Flash는 AI Plus 이상에서 제공된다고 여러 매체가 Google 도움말을 인용해 보도(10월 9일부터 계정별로 며칠에 걸쳐 순차 적용). 개인 계정의 Gemini 앱에만 해당(학교·회사 Workspace 계정과 API는 영향 없음으로 보도). 10월 중 노력(low·medium·high) 단계 추가 예정.",
       "effortGuide": {
         "low": "모델 Flash-Lite 또는 Flash, 생각 수준 Standard. (무료는 Flash-Lite만)",
         "medium": "모델 Flash, 생각 수준 Standard(기본). AI Plus 이상 필요.",
@@ -524,7 +524,7 @@
         "max": "Flash에는 이 단계가 없어요. Extended를 쓰거나, AI Pro 이상이라면 Pro 모델을 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-09",
+      "lastVerified": "2026-10-10",
       "sources": [
         {
           "title": "Google — Gemini 3.8 Flash",
