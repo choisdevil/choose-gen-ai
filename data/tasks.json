@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T08:10:00+09:00",
+  "updatedAt": "2026-10-11T08:10:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -11,6 +11,11 @@
       "title": "수행평가 AI 활용 관리 방안 (교육부·시도교육청, 2025.12., 2026학년도 적용)",
       "summary": "AI 사용을 전면 금지하지 않고 ① 활용 범위 설정 ② 학생의 AI 활용 부분 표시 ③ 사전 교육 ④ 평가 설계 ⑤ 개인정보 보호의 5개 영역으로 관리. 학생은 식별 가능한 개인정보를 AI에 입력하지 않아야 함.",
       "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=294&boardSeq=104984&lev=0&m=020402"
+    },
+    {
+      "title": "교사의 수업·평가 지원을 위한 생성형 AI 활용 가이드라인 (한국교육과정평가원, 2026.10. 발표)",
+      "summary": "교사 2,740명 조사에서 약 63%가 수업·평가에 생성형 AI를 활용. 투명성·안전성·공정성·책임성·협력적 파트너의 5가지 윤리 원칙과 공통 지침·활용 지침을 제시하고, 학생 평가에 AI를 쓰더라도 결과의 신뢰성·공정성 검토와 최종 판단·책임은 교사가 지도록 함(보도 기준 요약).",
+      "url": "https://www.edupress.kr/news/articleView.html?idxno=21574"
     },
     {
       "title": "연령 제한 — ChatGPT",
@@ -46,7 +51,7 @@
             "paid": {
               "model": "claude-opus-5-5",
               "effort": "high",
-              "why": "9월 말 기준 Arena 텍스트 1위·Artificial Analysis 지능 지수 1위로 보고된 모델이라 긴 설계 문서를 한 번에 짜기에 알맞아요. 차시 흐름과 평가까지 엮으려면 high가 적당합니다."
+              "why": "Artificial Analysis 지능 지수 1위(58) 모델이라 긴 설계 문서를 한 번에 짜기에 알맞아요. 차시 흐름과 평가까지 엮으려면 high가 적당합니다."
             },
             "free": {
               "model": "claude-sonnet-5-5",

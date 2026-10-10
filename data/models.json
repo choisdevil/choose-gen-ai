@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-10T08:10:00+09:00",
+  "updatedAt": "2026-10-11T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -35,7 +35,7 @@
         "free": false,
         "plan": "Claude Pro 이상 (월 $20, 연간 결제 시 월 $17)"
       },
-      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. 9월 말 기준 Arena 텍스트 순위와 Artificial Analysis 지능 지수에서 1위로 보고됨. 한국어 인터페이스 공식 지원. 참고: Anthropic의 Claude for Teachers(인증 교사 1년 무료)는 미국 K-12 교사 전용이라 한국 교사는 해당되지 않음.",
+      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. Artificial Analysis 지능 지수 1위(58). Arena 텍스트는 9월 말 1위로 데뷔했고, 10월 초에는 Gemini 4 Argon 다음 2위권으로 보도됨. 한국어 인터페이스 공식 지원. 참고: Anthropic의 Claude for Teachers(인증 교사 1년 무료)는 미국 K-12 교사 전용이라 한국 교사는 해당되지 않음.",
       "effortGuide": {
         "low": "Claude에서 모델을 Opus 5.5로 고르고 노력(Effort)을 Low로 설정하세요.",
         "medium": "모델 Opus 5.5, 노력 Medium.",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-10",
+      "lastVerified": "2026-10-11",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-10",
+      "lastVerified": "2026-10-11",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -152,7 +152,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-10",
+      "lastVerified": "2026-10-11",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -444,7 +444,7 @@
         "max": "무료 채팅에는 이 단계가 없어요. Work 모드의 가장 높은 추론 수준을 쓰되 한도를 빨리 씁니다."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-10",
+      "lastVerified": "2026-10-11",
       "sources": [
         {
           "title": "OpenAI — GPT-6 and Intelligent UI for everyone (2026-10-07)",
@@ -477,14 +477,14 @@
       },
       "summary": "Gemini 앱의 'Pro(고급 추론)' 모델. ARC-AGI-2 77.1%(제조사 발표). 5월 발표된 Gemini 3.5 Pro는 9월 말까지 정식 제공되지 않은 것으로 보도됨. 10월 9일부터 Pro 모델은 AI Pro·Ultra 요금제에서만 제공(무료·AI Plus 제외)된다고 보도됨.",
       "effortGuide": {
-        "low": "모델 Pro, 생각 수준 Standard(기본).",
-        "medium": "모델 Pro, 생각 수준 Standard(기본).",
-        "high": "모델 Pro, 생각 수준 Extended.",
-        "xhigh": "모델 Pro, 생각 수준 Extended.",
-        "max": "모델 Pro, 생각 수준 Deep Think — 지금은 Google AI Ultra(만 18세 이상). 10월 중 AI Pro에도 Deep Think가 추가된다고 보도됨. 없으면 Extended."
+        "low": "모델 Pro, 노력 Low(새 메뉴가 없으면 생각 수준 Standard).",
+        "medium": "모델 Pro, 노력 Medium(또는 Standard).",
+        "high": "모델 Pro, 노력 High(기존 Extended 대체).",
+        "xhigh": "모델 Pro, 노력 High. Pro에는 그보다 위로 Deep Think만 있어요.",
+        "max": "모델 Pro, Deep Think — Google AI Ultra(만 18세 이상), 10월 중 AI Pro에도 추가된다고 보도됨. 없으면 노력 High."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-09",
+      "lastVerified": "2026-10-11",
       "sources": [
         {
           "title": "Google — Gemini 3.1 Pro",
@@ -501,6 +501,10 @@
         {
           "title": "9to5Google — Gemini 앱 요금제별 모델 제한 (2026-10-03)",
           "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
+        },
+        {
+          "title": "9to5Google — 무료 Gemini Auto 전환·노력 단계 (2026-10-09)",
+          "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/"
         }
       ]
     },
@@ -515,16 +519,16 @@
         "free": false,
         "plan": "Google AI Plus 이상 (10월 9일부터 무료 사용자는 Flash-Lite만 사용 가능으로 보도)"
       },
-      "summary": "Gemini 앱의 'Flash(만능)' 모델. 10월 9일부터 무료 사용자는 Flash-Lite(3.5 Flash-Lite로 보도)만 쓸 수 있고, Flash는 AI Plus 이상에서 제공된다고 여러 매체가 Google 도움말을 인용해 보도(10월 9일부터 계정별로 며칠에 걸쳐 순차 적용). 개인 계정의 Gemini 앱에만 해당(학교·회사 Workspace 계정과 API는 영향 없음으로 보도). 10월 중 노력(low·medium·high) 단계 추가 예정.",
+      "summary": "Gemini 앱의 'Flash(만능)' 모델. 10월 9일부터 무료 사용자는 모델을 직접 고를 수 없고 'Auto'만 쓸 수 있음 — 대부분 Flash-Lite가 답하고 어려운 질문만 Flash·Pro로 넘어갈 수 있다고 Google이 안내(9to5Google 보도). Flash를 직접 고르려면 AI Plus 이상 필요. 기존 'Extended' 대신 노력 Low·Medium·High 단계가 계정별로 순차 적용 중. 학교·회사 Workspace 계정과 API는 영향 없음으로 보도.",
       "effortGuide": {
-        "low": "모델 Flash-Lite 또는 Flash, 생각 수준 Standard. (무료는 Flash-Lite만)",
-        "medium": "모델 Flash, 생각 수준 Standard(기본). AI Plus 이상 필요.",
-        "high": "모델 Flash, 생각 수준 Extended. AI Plus 이상 필요.",
-        "xhigh": "모델 Flash, 생각 수준 Extended (Flash의 최대 단계).",
-        "max": "Flash에는 이 단계가 없어요. Extended를 쓰거나, AI Pro 이상이라면 Pro 모델을 고르세요."
+        "low": "모델 Flash(또는 무료는 Auto), 노력 Low.",
+        "medium": "모델 Flash, 노력 Medium. 무료는 Auto에서 노력만 고를 수 있어요.",
+        "high": "모델 Flash, 노력 High (기존 'Extended'를 대신하는 단계). 한도를 더 빨리 씁니다.",
+        "xhigh": "Flash에는 이 단계가 없어요. 노력 High를 쓰세요. 아직 새 메뉴가 안 보이면 생각 수준 Extended.",
+        "max": "Flash에는 이 단계가 없어요. AI Pro 이상이라면 Pro 모델 + Deep Think를 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-10",
+      "lastVerified": "2026-10-11",
       "sources": [
         {
           "title": "Google — Gemini 3.8 Flash",
@@ -549,6 +553,10 @@
         {
           "title": "Notebookcheck — Gemini 무료 사용자 Flash·Pro 제외 (10월 9일)",
           "url": "https://www.notebookcheck.net/Google-Gemini-drops-Flash-and-Pro-for-free-users-on-October-9.1415964.0.html"
+        },
+        {
+          "title": "9to5Google — 무료 Gemini Auto 전환·노력 단계 (2026-10-09)",
+          "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/"
         }
       ]
     },
