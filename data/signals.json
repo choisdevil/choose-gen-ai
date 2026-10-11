@@ -1,29 +1,29 @@
 {
-  "updatedAt": "2026-10-11T08:10:00+09:00",
-  "note": "10월 11일 수집: Anthropic 공식 페이지(뉴스룸·Haiku 5.5)는 직접 열어 확인했고, 나머지(OpenAI·Google·Arena·Artificial Analysis·X)는 네트워크 정책으로 원문을 열지 못해 웹 검색 결과 요약으로 확인했습니다. 순위·점수는 확인 날짜 기준이며, 출처마다 다른 수치는 적지 않았습니다. 게시 7일 이내 SNS 후기만 남겼고, 제조사·판매사 계정의 홍보성 글은 후기에서 뺐습니다. 교사 업무를 직접 다룬 최신 모델 후기는 찾지 못했습니다.",
+  "updatedAt": "2026-10-12T08:10:00+09:00",
+  "note": "10월 12일 수집: Anthropic 공식 페이지(뉴스룸·Haiku 5.5)는 직접 열어 확인했고, 나머지(OpenAI·Google·Arena·Artificial Analysis·X)는 네트워크 정책으로 원문을 열지 못해 웹 검색 결과 요약으로 확인했습니다. 순위·점수는 확인 날짜 기준이며, 출처마다 다른 수치는 적지 않았습니다. 게시 7일 이내 SNS 후기만 남겼고, 제조사·판매사 계정의 홍보성 글은 후기에서 뺐습니다. 교사 업무를 직접 다룬 최신 모델 후기는 찾지 못했습니다.",
   "benchmarks": [
     {
       "name": "Arena(구 LMArena) 텍스트 리더보드",
       "url": "https://x.com/arena/status/2103893011164017018",
-      "checkedAt": "2026-10-11",
-      "summary": "Claude Opus 5.5 (High)가 9월 26일 1509점으로 텍스트 아레나 1위 데뷔(Arena 발표). 10월 초 순위를 옮긴 2차 자료 2곳은 Gemini 4 Argon (High) 1525점 1위, Opus 5.5 약 1507점 2위권으로 정리 (Arena 원문 접속 차단으로 직접 확인 불가). 한국어 카테고리 순위는 확인하지 못함."
+      "checkedAt": "2026-10-12",
+      "summary": "Claude Opus 5.5 (High)가 9월 26일 1509점으로 텍스트 아레나 1위 데뷔(Arena 발표). 10월 초에는 Gemini 4 Argon이 약 1525점으로 1위라는 2차 자료가 여럿 있으나, 이후 순위가 바뀌었다는 보도도 있어 현재 순위는 확인 불가(Arena 원문 접속 차단). 한국어 카테고리 순위도 확인하지 못함."
     },
     {
       "name": "Artificial Analysis Intelligence Index",
       "url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
-      "checkedAt": "2026-10-11",
-      "summary": "Claude Opus 5.5 (max) 58점 1위(xhigh 56), Claude Sonnet 5.5 (max) 56점 2위, GPT-6 Astra (max) 53점, Claude Haiku 5.5 (max) 43점, Gemini 3.8 Flash 41점, GPT-6 Luna (max) 38점(37점 보도도 있음). 지수 버전에 따라 소수점이 다르게 보도됨."
+      "checkedAt": "2026-10-12",
+      "summary": "Claude Opus 5.5 (max) 58점 1위, Claude Sonnet 5.5 (max)·Opus 5.5 (xhigh) 56점, GPT-6 Astra (max) 53점, Claude Haiku 5.5 (max) 43점(과잉 거부 버그로 재측정 예정), Gemini 3.8 Flash 41점, GPT-6 Luna (max) 38점. 지수 버전에 따라 소수점이 다르게 보도됨."
     },
     {
       "name": "Anthropic 발표 — Claude Haiku 5.5 (제조사 수치)",
       "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "summary": "Anthropic 발표 표 기준 Haiku 5.5 / GPT-6 Luna / Sonnet 5.5: OSWorld 2.1 72.4% / 48.9% / 83.9%, GDPval-AA 1620 / 1437 / 1840, Terminal-Bench 4.0 39.2% / 16.4% / 70.6%. 제조사가 고른 비교라 독립 검증 전 참고용."
     },
     {
       "name": "2026 수능 LLM 풀이 (Korea Times 등 보도)",
       "url": "https://www.koreatimes.co.kr/business/tech-science/20260907/gpt-6-astra-aces-korean-college-entrance-exam",
-      "checkedAt": "2026-10-11",
+      "checkedAt": "2026-10-12",
       "summary": "개인 프로젝트 대시보드(공식 API·외부 도구 없음) 기준 GPT-6 Astra가 450점 만점(고난도 모드 448.5점), 나머지 모델은 2문제 이상 틀린 것으로 보도됨. GPT-5.6 Sol 등 다른 모델 점수는 보도마다 달라 확정하지 않음. 학습 데이터 시점 문제로 공개 검증이 부족하다는 지적도 있음."
     }
   ],
@@ -51,18 +51,6 @@
         "claude-haiku-5-5"
       ],
       "summary": "같은 프롬프트를 최고 추론 설정으로 돌렸을 때 Haiku 5.5는 27분·약 $0.8, Grok 4.7은 35분·약 $4.1이 들었고 Haiku 결과가 더 좋았다는 개인 후기(Claude Code, 코딩 과제). 교사 업무 대상은 아님."
-    },
-    {
-      "platform": "X",
-      "source": "X 공개 게시물 — GPT-6.1 Sol 사용 소감",
-      "url": "https://x.com/pankajkumar_dev/status/2106398584996548643",
-      "checkedAt": "2026-10-06",
-      "evidence": "검색 요약",
-      "relatedModels": [
-        "gpt-6-1-sol",
-        "claude-opus-5-5"
-      ],
-      "summary": "GPT-6.1 Sol은 비용 대비 좋은 모델이고 대부분의 작업을 처리할 만하지만, 3D 작업은 보통 2~3번 반복해야 해 효율이 떨어지며 3D는 Opus 5.5가 훨씬 낫다는 개인 후기. 교사 업무 대상은 아님."
     },
     {
       "source": "머니투데이 — 교사 생기부 AI 활용 설문",
