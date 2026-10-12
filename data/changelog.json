@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "date": "2026-10-13",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 11건 확인)",
+      "changes": [
+        "제외: Meta Muse Wonder(10월 12일 발표, AA 지능 지수 Full 56·기본 52) — Meta Muse 앱은 미국·캐나다에서만 제공되고 한국 출시 일정이 없다고 보도되어 목록에 넣지 않음",
+        "새 Claude·ChatGPT·Gemini 모델 없음: Anthropic 뉴스룸(직접 확인), OpenAI(10월 12일은 청소년용 ChatGPT 안전성 평가 보도), Google(업무용 에이전트·앱 연동 소식)",
+        "벤치마크 재확인: AA 지능 지수(Opus 58·Sonnet 56·Astra 53, Muse Wonder 추가), 수능 풀이 보도(Astra 450점)",
+        "SNS 후기: 새로 반영할 공개 후기 없음(Haiku 5.5 버그 수정 테스트 게시물은 요약에서 결과가 잘려 반영하지 않음). 교사 대상 후기는 찾지 못함",
+        "확인 불가: Arena 텍스트 현재 순위, GPT-6 Luna AA 점수(35~38 보도), ChatGPT GPT-5.5 종료(10월 14일 예정) 이후 Instant 안내 변화"
+      ]
+    },
+    {
       "date": "2026-10-12",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 10건 확인)",
       "changes": [
