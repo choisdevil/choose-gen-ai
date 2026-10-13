@@ -1,6 +1,19 @@
 {
   "entries": [
     {
+      "date": "2026-10-14",
+      "summary": "일일 갱신 — Gemini 4 Argon 추가(모델 20개), 추천 유지 (출처 약 12건 확인)",
+      "changes": [
+        "추가: Gemini 4 Argon — 10월 13일부터 Gemini 앱에서 AI Pro·Ultra 구독자에게 순차 제공(Google 릴리스 노트·9to5Google 보도, 원문 접속 차단으로 검색 요약 확인). 3.1 Pro를 대체하지 않고 함께 표시. AA 지능 지수 53(High)",
+        "추천은 유지 — Argon은 AA 지수 53으로 Opus 5.5(58)·Sonnet 5.5(56)보다 낮고 무료·AI Plus에서는 쓸 수 없음. 업무별 근거(교사 업무 후기·한국어 평가)가 쌓이면 대안 추천을 검토",
+        "ChatGPT: GPT-5.5가 10월 14일 ChatGPT·Work·Codex에서 종료(9월 15일 공지). GPT-5.6을 직접 고를 때 Instant 단계의 실제 모델은 확인 불가로 표시",
+        "벤치마크: AA 지능 지수 재확인(Argon 53 추가). Arena 텍스트는 Argon 1위 보도와 Opus 5.5 1위 게시물이 엇갈려 확인 불가 유지. 수능 풀이 보도(Astra 450점) 재확인",
+        "Claude: Anthropic 뉴스룸 직접 확인 — 10월 8일 이후 새 모델·앱 변경 없음",
+        "SNS 후기: 게시 7일이 지난 X 2건 삭제, 새로 반영한 공개 후기 없음, 교사 대상 후기는 찾지 못함",
+        "확인 불가: Argon의 앱 사용 한도·Deep Think 적용 여부, GPT-5.5 종료 후 GPT-5.6 Instant 동작, Arena 텍스트 현재 순위"
+      ]
+    },
+    {
       "date": "2026-10-13",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 11건 확인)",
       "changes": [
