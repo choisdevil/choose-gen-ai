@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "date": "2026-10-15",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 11건 확인)",
+      "changes": [
+        "새 모델·앱 변경 없음: Anthropic 뉴스룸(직접 확인, 10월 14일 싱가포르 사무소 발표뿐), Google(Gemini 4 Argon 개발자·기업 제공 확대), OpenAI(주 정부 소송 등 정책 보도)",
+        "GPT-5.6 Sol: OpenAI 도움말은 직접 고른 GPT-5.6이 유지된다고 하지만, 일부 Plus 계정 모델 메뉴에서 사라졌다는 사용자 보고·3차 자료가 있어 설명과 노력 안내에 '안 보이면 GPT-6의 같은 단계' 안내 추가(모델·추천은 유지, 공식 확인 시 재검토)",
+        "벤치마크 재확인: AA 지능 지수(Opus 58·Sonnet 56·Astra 53·Haiku 43·Gemini 3.8 Flash 41·Luna 38), 수능 풀이 보도(Astra 450점). Argon·Muse Wonder 점수는 오늘 재확인 못 함",
+        "SNS 후기: Gemini 4 Argon 글쓰기 관련 X 게시물이 있으나 대부분 재게시·주장 위주라 반영하지 않음. 교사 대상 후기는 찾지 못함",
+        "확인 불가: ChatGPT에서 GPT-5.6 Sol이 실제로 메뉴에 남아 있는지(계정·앱별 상이), Arena 텍스트 현재 순위, Argon 앱 사용 한도"
+      ]
+    },
+    {
       "date": "2026-10-14",
       "summary": "일일 갱신 — Gemini 4 Argon 추가(모델 20개), 추천 유지 (출처 약 12건 확인)",
       "changes": [

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-14T08:10:00+09:00",
+  "updatedAt": "2026-10-15T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-14",
+      "lastVerified": "2026-10-15",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-14",
+      "lastVerified": "2026-10-15",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-13",
+      "lastVerified": "2026-10-15",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -152,7 +152,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-14",
+      "lastVerified": "2026-10-15",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -179,16 +179,16 @@
         "free": false,
         "plan": "ChatGPT Plus 이상 (월 $20)"
       },
-      "summary": "10월 7일부터 ChatGPT 일반 채팅(Chat)의 모델 메뉴에서 'GPT-6'이 기본('Latest' 대체)이 되어 Plus 이상의 Instant~Extra High는 GPT-6 Sol이 담당. OpenAI 도움말에 따르면 GPT-5.6을 직접 고르면 계속 GPT-5.6 Sol로 쓸 수 있음. '2026 수능 LLM 풀이'에서 GPT-6 Astra 다음 상위권으로 보도됨(GPT-5.6 Sol 점수는 보도마다 448.5·446.5점으로 다름). 이전 Instant 단계를 맡던 GPT-5.5는 10월 14일 ChatGPT에서 종료(9월 공지)되어, GPT-5.6 선택 시 Instant 단계의 실제 모델은 확인하지 못함.",
+      "summary": "10월 7일부터 ChatGPT 일반 채팅(Chat)의 모델 메뉴에서 'GPT-6'이 기본('Latest' 대체)이 되어 Plus 이상의 Instant~Extra High는 GPT-6 Sol이 담당. OpenAI 도움말에 따르면 GPT-5.6을 직접 고르면 계속 GPT-5.6 Sol로 쓸 수 있음. '2026 수능 LLM 풀이'에서 GPT-6 Astra 다음 상위권으로 보도됨(GPT-5.6 Sol 점수는 보도마다 448.5·446.5점으로 다름). 이전 Instant 단계를 맡던 GPT-5.5는 10월 14일 ChatGPT에서 종료(9월 공지)되어, GPT-5.6 선택 시 Instant 단계의 실제 모델은 확인하지 못함. 단, GPT-6 전환 뒤 일부 Plus 계정(iOS 앱 등)의 모델 메뉴에서 GPT-5.6 Sol이 보이지 않는다는 사용자 보고와 3차 자료가 있어 공식 도움말과 엇갈림.",
       "effortGuide": {
-        "low": "모델 메뉴에서 GPT-5.6을 직접 고른 뒤 생각 강도 Instant. (GPT-6을 고르면 GPT-6 Sol이 답해요)",
-        "medium": "모델 메뉴에서 GPT-5.6 → 생각 강도 Medium.",
-        "high": "모델 메뉴에서 GPT-5.6 → 생각 강도 High (Plus에서 고를 수 있는 가장 높은 단계).",
+        "low": "모델 메뉴에서 GPT-5.6을 직접 고른 뒤 생각 강도 Instant. (GPT-6을 고르면 GPT-6 Sol이 답해요) 메뉴에 GPT-5.6이 보이지 않으면 GPT-6의 같은 단계를 쓰세요.",
+        "medium": "모델 메뉴에서 GPT-5.6 → 생각 강도 Medium. 메뉴에 GPT-5.6이 보이지 않으면 GPT-6의 같은 단계를 쓰세요.",
+        "high": "모델 메뉴에서 GPT-5.6 → 생각 강도 High (Plus에서 고를 수 있는 가장 높은 단계). 메뉴에 GPT-5.6이 보이지 않으면 GPT-6의 같은 단계를 쓰세요.",
         "xhigh": "생각 강도 Extra High — 기존 안내 기준 Pro·Business·Enterprise 전용. Plus라면 High를 쓰세요.",
         "max": "생각 강도 Pro — Pro 요금제 전용(GPT-6 메뉴에서는 GPT-6 Pro=Astra). Plus라면 High를 쓰세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-08",
+      "lastVerified": "2026-10-15",
       "sources": [
         {
           "title": "OpenAI — GPT-6 and Intelligent UI for everyone (2026-10-07)",
@@ -484,7 +484,7 @@
         "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. Deep Think가 Argon에도 적용되는지는 확인하지 못했어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-14",
+      "lastVerified": "2026-10-15",
       "sources": [
         {
           "title": "9to5Google — Gemini 앱에 Gemini 4 Argon (2026-10-13)",
