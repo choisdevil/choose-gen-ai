@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-16T08:10:00+09:00",
+  "updatedAt": "2026-10-17T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-16",
+      "lastVerified": "2026-10-17",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-16",
+      "lastVerified": "2026-10-17",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-15",
+      "lastVerified": "2026-10-17",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -152,7 +152,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-16",
+      "lastVerified": "2026-10-17",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -475,7 +475,7 @@
         "free": false,
         "plan": "Google AI Pro·Ultra (10월 13일부터 Gemini 앱에 순차 적용, 무료·AI Plus 제외)"
       },
-      "summary": "Google의 새 최상위 모델. 9월 30일 발표 후 보안 파트너에게만 제공되다가 10월 13일부터 Gemini 앱(웹·모바일)과 Search AI Mode에서 AI Pro·Ultra 구독자에게 순차 제공된다고 Google 릴리스 노트·9to5Google이 보도. 모델 메뉴에 3.5 Flash-Lite·3.8 Flash·3.1 Pro와 함께 표시(3.1 Pro를 대체하지 않음). Artificial Analysis 지능 지수 53(High)으로 GPT-6 Astra와 같고 Claude Opus 5.5(58)보다 낮음. 앱 사용 한도는 확인하지 못함.",
+      "summary": "Google의 새 최상위 모델. 9월 30일 발표 후 보안 파트너에게만 제공되다가 10월 13일부터 Gemini 앱(웹·모바일)과 Search AI Mode에서 AI Pro·Ultra 구독자에게 순차 제공된다고 Google 릴리스 노트·9to5Google이 보도. 모델 메뉴에 3.5 Flash-Lite·3.8 Flash·3.1 Pro와 함께 표시(3.1 Pro를 대체하지 않음). Artificial Analysis 지능 지수 53(High)으로 GPT-6 Astra와 같고 Claude Opus 5.5(58)보다 낮음. Google 공식 블로그·Gemini 앱 공식 계정도 출시를 알렸으나, 앱 사용 한도는 공개된 수치가 없음(일부 국가는 AI Pro 적용이 순차 진행으로 보도).",
       "effortGuide": {
         "low": "모델 메뉴에서 4 Argon → 노력 Low. (가벼운 일은 Flash가 더 빠르고 한도 부담이 적어요)",
         "medium": "모델 4 Argon → 노력 Medium.",
@@ -484,7 +484,7 @@
         "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. Deep Think가 Argon에도 적용되는지는 확인하지 못했어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-16",
+      "lastVerified": "2026-10-17",
       "sources": [
         {
           "title": "9to5Google — Gemini 앱에 Gemini 4 Argon (2026-10-13)",
@@ -497,6 +497,10 @@
         {
           "title": "Google — Gemini 4 Argon 발표",
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+        },
+        {
+          "title": "Google — Gemini 4 Argon is now available in the Gemini app",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
         }
       ]
     },

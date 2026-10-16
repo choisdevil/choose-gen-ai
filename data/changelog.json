@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-10-17",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 10건 확인)",
+      "changes": [
+        "새 모델·앱 변경 없음: Anthropic 뉴스룸(직접 확인, 10월 15일 이후 새 글 없음), OpenAI(GPT-Live-1.1 음성 모델 순차 적용·소송 보도), Google(Gemini 4 Argon 공식 블로그 출시 안내 — 출처 추가)",
+        "제외: Reflection Beam·Meta Muse Spark Open·Microsoft MAI-Base-2 등 10월 중순 발표 모델은 개발자용·오픈 가중치 모델이라 목록에 넣지 않음",
+        "벤치마크 재확인: AA 지능 지수(Opus 58·Sonnet 56·Astra/Fable 53·Haiku 43), 수능 풀이 보도(Astra 450점)",
+        "SNS 후기: Gemini 4 Argon에 대해 개발자 계정의 상반된 평가(코딩 실사용 비추천 vs 지식 업무 호평)가 있으나 대부분 코딩·홍보성이라 반영하지 않음. 교사 대상 후기는 찾지 못함",
+        "ChatGPT: 일부 집계 사이트가 GPT-6가 GPT-5.6 Sol·Luna를 대체했다고 적었으나 OpenAI 도움말과 엇갈려 기존 표시(메뉴에 없으면 GPT-6 사용 안내) 유지",
+        "확인 불가: Argon 앱 사용 한도 수치, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, Arena 텍스트 현재 순위"
+      ]
+    },
+    {
       "date": "2026-10-16",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 10건 확인)",
       "changes": [
