@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "date": "2026-10-18",
+      "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 9건 확인)",
+      "changes": [
+        "팁 추가(수업 PPT): ChatGPT Slides(10월 16일 출시 보도)는 Pro·Business·Enterprise 대상이라 Plus·무료에서는 쓸 수 없을 수 있음(3차 자료 기준, OpenAI 공식 문서는 확인 불가)",
+        "새 모델·앱 변경 없음: Anthropic 뉴스룸(직접 확인, 10월 15일 이후 새 글 없음), OpenAI(Chrome 탭 읽기·GPT-Live-1.1 음성·Slides), Google(Argon의 Antigravity 제공). DeepSeek·Reflection·Meta 오픈 가중치 모델은 개발자용이라 제외",
+        "벤치마크 재확인: AA 지능 지수(Opus 58·Sonnet 56·Astra 53·Haiku 43(max)/38(high)), 수능 풀이 보도(Astra 450점)",
+        "SNS 후기: 10월 교사 수업 후기는 찾지 못함(Gemini 요금제 개편 안내 글 등만 확인)",
+        "확인 불가: ChatGPT Slides 대상 요금제 공식 확인, GPT-5.6 Sol 메뉴 유지 여부, Argon 앱 한도, Arena 텍스트 현재 순위"
+      ]
+    },
+    {
       "date": "2026-10-17",
       "summary": "일일 갱신 — 모델 추가·삭제 없음, 추천 유지 (출처 약 10건 확인)",
       "changes": [
