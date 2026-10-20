@@ -1,6 +1,16 @@
 {
   "entries": [
     {
+      "date": "2026-10-21",
+      "summary": "변경 없음 — 모델·추천 유지 (10개 출처 확인)",
+      "changes": [
+        "새 모델·앱 변경 없음: Anthropic 뉴스룸(직접 확인, 10월 18일 이후 새 글 없음), Claude 요금제 페이지(직접 확인: 무료는 Sonnet·Haiku, Opus·Fable 제외, Pro 월 $20), OpenAI(10월 7일 GPT-6 이후 새 모델 없음), Google(Argon은 AI Pro·Ultra 전용, AI Plus는 11월 13일부터 Pro 선택 불가 재확인)",
+        "벤치마크 재확인: AA 지능 지수(Opus 58·Sonnet 56·Astra 53·Sol 48), 수능 풀이 보도(Astra 450점), Haiku 5.5 발표 표(직접 확인). 집계 사이트(benchlm)의 GPT-5.6 Sol 58.9%는 제공사 자체 보고·2차 자료 기반이라 반영하지 않음",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 한도·할인 가격 기간, Arena 텍스트 현재 순위(10월 2일 스냅숏 Argon 1525 1위 보도와 다른 보도가 엇갈림), Arena 이미지·영상 10월 순위"
+      ]
+    },
+    {
       "date": "2026-10-20",
       "summary": "변경 없음 — 모델·추천 유지 (8개 출처 확인)",
       "changes": [
