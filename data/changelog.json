@@ -1,6 +1,16 @@
 {
   "entries": [
     {
+      "date": "2026-10-22",
+      "summary": "변경 없음 — 모델·추천 유지 (11개 출처 확인)",
+      "changes": [
+        "새 모델·앱 변경 없음: Anthropic 뉴스룸(직접 확인, 10월 21일 새 글은 장기이익신탁 이사 선임), Claude 요금제(직접 확인: 무료 Sonnet·Haiku, Pro에서 Fable은 사용 크레딧), OpenAI(10월 21일 ChatGPT 무료·Go 광고 26개국 확대 — 모델 변경 아님), Google(Android Auto 개인 맞춤 기능, Argon은 AI Pro·Ultra 전용, AI Plus 11월 13일 Pro 선택 불가 재확인)",
+        "벤치마크 재확인: AA 지능 지수(AA 지표 페이지 검색 요약: Opus 58·Sonnet 56), 수능 풀이 보도(Astra 450·GPT-5.6 Sol 448.5/446.5 엇갈림·Fable 5.1 447.5·Gemini 3.1 Pro 445), Haiku 5.5 발표 표(직접 확인). Arena 텍스트에 10월 15일 집계 스냅숏을 덧붙였지만 순위는 계속 확인 불가",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Gemini 앱의 Argon 사용 한도, Arena 텍스트 현재 순위, Arena 이미지·영상 10월 순위"
+      ]
+    },
+    {
       "date": "2026-10-21",
       "summary": "변경 없음 — 모델·추천 유지 (10개 출처 확인)",
       "changes": [
