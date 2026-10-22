@@ -1,6 +1,16 @@
 {
   "entries": [
     {
+      "date": "2026-10-23",
+      "summary": "변경 없음 — 모델·추천 유지 (11개 출처 확인)",
+      "changes": [
+        "새 모델·앱 변경 없음: Anthropic 뉴스룸(직접 확인, 10월 22일 새 글은 Agent Skills 기부·생명과학 연구자 모집), Claude 요금제(직접 확인), OpenAI(10월 21일 광고 확대 이후 새 모델 없음), Google(Maps CarPlay·Android Auto Gemini, Argon AI Pro·Ultra 전용, AI Plus 11월 13일 Pro 선택 불가 재확인)",
+        "벤치마크 재확인: AA 지능 지수(AA 목록 기준 Opus 58 1위·Sonnet 56), 수능 풀이 보도(Astra 450), Haiku 5.5 발표 표(직접 확인). Arena 텍스트 설명을 집계 사이트들의 10월 15일 순서(Argon·Muse Wonder·Opus 5.5)로 갱신 — 오차 범위 안이라 추천 근거로 쓰지 않음",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Gemini 앱의 Argon 사용 한도, GPT-6 Astra의 현재 AA 점수(2차 보도 53점만 확인), Arena 원문 순위, Arena 이미지·영상 10월 순위"
+      ]
+    },
+    {
       "date": "2026-10-22",
       "summary": "변경 없음 — 모델·추천 유지 (11개 출처 확인)",
       "changes": [
