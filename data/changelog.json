@@ -1,6 +1,16 @@
 {
   "entries": [
     {
+      "date": "2026-10-25",
+      "summary": "변경 없음 — 모델·추천 유지 (12개 출처 확인)",
+      "changes": [
+        "새 모델·앱 변경 없음: Anthropic 뉴스룸·Claude 요금제·Haiku 5.5 발표(직접 확인, 10월 22일 이후 새 글 없음), OpenAI(10월 22일 Enterprise·Edu 워크스페이스 프로필 등 기능 추가뿐), Google(Argon의 Deep Think 대체 안내 재확인 — 보도상 도움말은 Argon을 AI Pro·Ultra에서 제공하고 Ultra 한도가 더 높다고 설명)",
+        "벤치마크 재확인: AA 지능 지수(Opus 58·Sonnet 56·Astra·Fable 5.1 53, 보도 기준), Arena 텍스트(Argon 1524 1위·Opus 5.5 약 1508 3위, 10월 17일 스냅숏 보도), 수능 풀이(Astra 450), Haiku 5.5 발표 표(직접 확인)",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도 수치, Arena 이미지·영상 10월 순위"
+      ]
+    },
+    {
       "date": "2026-10-24",
       "summary": "변경 없음 — 모델·추천 유지, Gemini Deep Think 대체 예정 안내 반영 (13개 출처 확인)",
       "changes": [
