@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "date": "2026-10-28",
+      "summary": "GPT-6.1 Terra(ChatGPT Work) 추가 — 추천 유지 (14개 출처 확인)",
+      "changes": [
+        "모델 추가: GPT-6.1 Terra — 10월 26일 OpenAI 발표, Plus·Pro·Enterprise·Edu의 ChatGPT Work·Codex에서 제공(일반 채팅 제외). openai.com 원문은 네트워크 정책으로 열지 못해 검색 요약(9to5Mac·BleepingComputer 등)으로 확인 → verification: search-summary. 근거가 부족해 추천에는 아직 쓰지 않음",
+        "기타 새 소식(모델 변경 아님): Anthropic 10월 26일 IPO S-1 제출·10월 27일 미국 GSA 정부 고객 할인(직접 확인), Google Gemini Live 버튼·Android 화면 개편",
+        "벤치마크 재확인: AA 지능 지수(Opus 5.5 57.6·Sonnet 5.5 56.0·Astra 52.7 — 10월 17·23일 기준 보도), Arena 텍스트(Argon 1위, 10월 22일 기준 보도), 수능 풀이(Astra 450·GPT-5.6 448.5), Haiku 5.5 발표 표(직접 확인)",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: GPT-6.1 Terra의 AA 지능 지수·앱 추론 단계 이름·Business 요금제 제공 여부, 10월 27일(KST) 정기 갱신 미실행, Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도, Opus 5.5 현재 Arena 텍스트 순위"
+      ]
+    },
+    {
       "date": "2026-10-26",
       "summary": "변경 없음 — 모델·추천 유지 (12개 출처 확인)",
       "changes": [
