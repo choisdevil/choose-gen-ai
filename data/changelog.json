@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-10-29",
+      "summary": "Artificial Analysis 지수 v5 반영 — 모델 추가·삭제 없음, 추천 모델 유지(이유 문구만 수정) (15개 출처 확인)",
+      "changes": [
+        "벤치마크: Artificial Analysis가 10월 27일 지능 지수 v5로 개편 — Opus 5.5 58·Astra 57·GPT-6.1 Sol 55·Sonnet 5.5 54·Terra 51·Argon 50·Haiku 5.5 36. 추천 이유와 모델 설명의 v4.3 수치(Sonnet 56 ‘2위’, Astra 53, 6.1 Sol 52, Haiku 43, Luna 38, Argon 53, GPT-6 Sol 48)를 v5 수치로 교체. 무료 추천 이유의 ‘가장 높아요’는 v5에서 비교 대상 전체 점수를 확인하지 못해 ‘높은 편’으로 완화",
+        "Google Gemini 4 Carbon(10월 28일 발표, v5 59점 1위)은 보안 파트너에게만 단계적으로 제공되고 Gemini 앱 제공 일정이 없어 목록에 추가하지 않음. Opus 5.5 설명은 ‘앱으로 쓸 수 있는 모델 중 1위’로 고침",
+        "새 소식(모델 변경 아님): Anthropic AI for Science 확대(10월 28일, 직접 확인), Google Connected Apps 개발자 플랫폼 미리보기·학생 허브 몰입형 탐구, OpenAI 소송 보도",
+        "GPT-6.1 Terra: 일반 채팅 제외·Work·Codex 제공 재확인, v5 51점 추가",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: v5 기준 Gemini 무료(Flash-Lite)·GPT-6 Luna(max) 점수, GPT-6.1 Terra의 Business 제공 여부, Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도, Arena 텍스트 현재 순위"
+      ]
+    },
+    {
       "date": "2026-10-28",
       "summary": "GPT-6.1 Terra(ChatGPT Work) 추가 — 추천 유지 (14개 출처 확인)",
       "changes": [
