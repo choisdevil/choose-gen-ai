@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T08:20:00+09:00",
+  "updatedAt": "2026-10-30T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-10-29",
+      "lastVerified": "2026-10-30",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-29",
+      "lastVerified": "2026-10-30",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-10-29",
+      "lastVerified": "2026-10-30",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -152,7 +152,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-10-29",
+      "lastVerified": "2026-10-30",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -387,7 +387,7 @@
         "free": false,
         "plan": "ChatGPT Plus·Pro·Enterprise·Edu (Work·Codex, 요금제·지역·워크스페이스 설정에 따라 순차 제공)"
       },
-      "summary": "10월 26일 공개된 OpenAI의 중간급 모델(Luna < Terra < Sol < Astra). 컴퓨터 사용·시각 추론·문서 작업에 맞췄고, API 가격은 GPT-5.6 Terra·GPT-6.1 Sol의 절반이라고 발표. OpenAI는 가장 복잡한 코딩에는 GPT-6.1 Sol이나 GPT-6 Astra를 권함. ChatGPT Work(데스크톱 앱의 Work 모드)와 Codex에서 고를 수 있고 일반 채팅 창에는 없음. Artificial Analysis 지능 지수 v5에서 51점(max)으로 보고됨. 플랜은 Business 포함으로 적은 보도도 있음(확인 불가).",
+      "summary": "10월 26일 공개된 OpenAI의 중간급 모델(Luna < Terra < Sol < Astra). 컴퓨터 사용·시각 추론·문서 작업에 맞췄고, API 가격은 GPT-5.6 Terra·GPT-6.1 Sol의 절반이라고 발표. OpenAI는 가장 복잡한 코딩에는 GPT-6.1 Sol이나 GPT-6 Astra를 권함. ChatGPT Work(데스크톱 앱의 Work 모드)와 Codex에서 고를 수 있고 일반 채팅 창에는 없음. Artificial Analysis 지능 지수는 이전 v4.3.2 기준 48점(max)으로 확인됐고 v5 점수는 확인 불가. 플랜은 Business 포함으로 적은 보도도 있음(확인 불가).",
       "effortGuide": {
         "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6.1 Terra → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
         "medium": "Work 모드 → 모델 GPT-6.1 Terra → 추론 수준 중간(Medium).",
@@ -396,7 +396,7 @@
         "max": "Work 모드 → 모델 GPT-6.1 Terra → 가장 높은 추론 수준. 더 어려운 작업이면 같은 Work 모드에서 GPT-6.1 Sol을 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-29",
+      "lastVerified": "2026-10-30",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.1 Terra",
@@ -423,7 +423,7 @@
         "free": false,
         "plan": "ChatGPT Plus 이상 (Work·Codex)"
       },
-      "summary": "10월 7일부터 ChatGPT Plus·Pro·Business·Enterprise 일반 채팅(Chat)의 'GPT-6' 메뉴(Instant·Medium·High·Extra High)를 담당(Intelligent UI: 차트·버튼 등 상호작용 답변). Work·Codex에서도 계속 제공. 후속 GPT-6.1 Sol은 Work·Codex 전용. Artificial Analysis 지능 지수 v5 비교 페이지 기준 42점(High).",
+      "summary": "10월 7일부터 ChatGPT Plus·Pro·Business·Enterprise 일반 채팅(Chat)의 'GPT-6' 메뉴(Instant·Medium·High·Extra High)를 담당(Intelligent UI: 차트·버튼 등 상호작용 답변). Work·Codex에서도 계속 제공. 후속 GPT-6.1 Sol은 Work·Codex 전용. Artificial Analysis 지능 지수 v5 점수는 확인 불가.",
       "effortGuide": {
         "low": "일반 채팅의 모델 메뉴에서 GPT-6 → 생각 강도 Instant.",
         "medium": "모델 GPT-6 → 생각 강도 Medium.",
@@ -471,7 +471,7 @@
         "free": true,
         "plan": "무료·Go: 10월 8일부터 일반 채팅에 순차 적용(OpenAI 발표) + 데스크톱 앱 Work 체험 / Plus 이상: Work·Codex"
       },
-      "summary": "GPT-6 계열의 가볍고 빠른 모델. OpenAI는 10월 7일 발표에서 무료·Go 일반 채팅의 GPT-6을 GPT-6 Luna가 담당하며 10월 8일부터 순차 적용 중(여러 매체 보도, 계정마다 적용 시점이 다를 수 있고 도움말 문구는 아직 GPT-5.6 Luna로 표기). Anthropic 발표 자료에서는 Claude Haiku 5.5보다 대부분 지표가 낮게 비교됨(제조사 비교). Artificial Analysis 지능 지수 v5 비교 페이지 기준 21점(High)으로 Claude Haiku 5.5(36)보다 낮게 보고됨.",
+      "summary": "GPT-6 계열의 가볍고 빠른 모델. OpenAI는 10월 7일 발표에서 무료·Go 일반 채팅의 GPT-6을 GPT-6 Luna가 담당하며 10월 8일부터 순차 적용 중(여러 매체 보도, 계정마다 적용 시점이 다를 수 있고 도움말 문구는 아직 GPT-5.6 Luna로 표기). Anthropic 발표 자료에서는 Claude Haiku 5.5보다 대부분 지표가 낮게 비교됨(제조사 비교). Artificial Analysis 지능 지수 v5 점수는 확인 불가(Claude Haiku 5.5는 v5 36점).",
       "effortGuide": {
         "low": "무료 일반 채팅에서 기본 상태 그대로 질문하세요(GPT-6 Luna가 적용된 계정 기준).",
         "medium": "입력창의 Think(생각) 버튼이 있으면 켜세요. Work 모드라면 추론 수준 Medium.",
@@ -511,7 +511,7 @@
         "free": false,
         "plan": "Google AI Pro·Ultra (10월 13일부터 Gemini 앱에 순차 적용, 무료·AI Plus 제외)"
       },
-      "summary": "Google의 새 최상위 모델. 9월 30일 발표 후 보안 파트너에게만 제공되다가 10월 13일부터 Gemini 앱(웹·모바일)과 Search AI Mode에서 AI Pro·Ultra 구독자에게 순차 제공된다고 Google 릴리스 노트·9to5Google이 보도. 모델 메뉴에 3.5 Flash-Lite·3.8 Flash·3.1 Pro와 함께 표시(3.1 Pro를 대체하지 않음). Artificial Analysis 지능 지수 v5에서 50점(High)으로 Claude Opus 5.5(58)·GPT-6 Astra(57)보다 낮음. 10월 28일 발표된 후속 Gemini 4 Carbon(v5 59점)은 보안 파트너에게만 제공 중이고 앱 제공 일정은 미정. Google 공식 블로그·Gemini 앱 공식 계정도 출시를 알렸으나, 앱 사용 한도는 공개된 수치가 없음(일부 국가는 AI Pro 적용이 순차 진행으로 보도).",
+      "summary": "Google의 새 최상위 모델. 9월 30일 발표 후 보안 파트너에게만 제공되다가 10월 13일부터 Gemini 앱(웹·모바일)과 Search AI Mode에서 AI Pro·Ultra 구독자에게 순차 제공된다고 Google 릴리스 노트·9to5Google이 보도. 모델 메뉴에 3.5 Flash-Lite·3.8 Flash·3.1 Pro와 함께 표시(3.1 Pro를 대체하지 않음). Artificial Analysis 지능 지수 v5 점수는 오늘 재확인하지 못함(v5에서 Claude Opus 5.5 58점·GPT-6 Astra 57점). 10월 28일 발표된 후속 Gemini 4 Carbon(v5 59점)은 보안 파트너에게만 제공 중이고 앱 제공 일정은 미정. Google 공식 블로그·Gemini 앱 공식 계정도 출시를 알렸으나, 앱 사용 한도는 공개된 수치가 없음(일부 국가는 AI Pro 적용이 순차 진행으로 보도).",
       "effortGuide": {
         "low": "모델 메뉴에서 4 Argon → 노력 Low. (가벼운 일은 Flash가 더 빠르고 한도 부담이 적어요)",
         "medium": "모델 4 Argon → 노력 Medium.",
@@ -520,7 +520,7 @@
         "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. Deep Think가 Argon에도 적용되는지는 확인하지 못했어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-29",
+      "lastVerified": "2026-10-30",
       "sources": [
         {
           "title": "9to5Google — Gemini 앱에 Gemini 4 Argon (2026-10-13)",
@@ -560,7 +560,7 @@
         "max": "모델 Pro, Deep Think — Google AI Ultra(만 18세 이상), 10월 중 AI Pro에도 추가된다고 보도됨. 10월 22일 보도에 따르면 AI Ultra 앱 안내에 “Argon이 곧 Deep Think를 대체”한다고 떠 있어(시기 확인 불가), 메뉴에 Deep Think가 없으면 Gemini 4 Argon이나 노력 High를 쓰세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-29",
+      "lastVerified": "2026-10-30",
       "sources": [
         {
           "title": "Google — Gemini 3.1 Pro",
@@ -612,7 +612,7 @@
         "max": "Flash에는 이 단계가 없어요. AI Pro 이상이라면 Pro 모델 + Deep Think를 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-29",
+      "lastVerified": "2026-10-30",
       "sources": [
         {
           "title": "Google — Gemini 3.8 Flash",

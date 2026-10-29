@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "date": "2026-10-30",
+      "summary": "변경 없음 — 모델·추천 유지, 재확인 못한 지수 숫자 삭제 (13개 출처 확인)",
+      "changes": [
+        "새 모델·앱 변경 없음: Anthropic 뉴스룸·Claude 요금제·Haiku 5.5 발표(직접 확인, 10월 28일 이후 새 글 없음), OpenAI(iCloud 메일·캘린더 연결 등 기능 추가), Google(Gemini 채팅에서 생성 문서·PDF 편집, Connected Apps 플랫폼)",
+        "AA 지능 지수 v5 재확인: Opus 5.5 58·Astra 57·6.1 Sol 55·Sonnet 5.5 54·Haiku 5.5 36. 어제 적은 GPT-6.1 Terra 51·Gemini 4 Argon 50·GPT-6 Sol 42·GPT-6 Luna 21은 오늘 재확인하지 못해 모델 설명·추천 이유에서 뺌(Terra는 AA 모델 페이지의 v4.3.2 48점만 확인)",
+        "Arena 텍스트(Argon 1위, 10월 22일 스냅숏 분석), 수능 풀이(Astra 450·GPT-5.6 448.5), AI Plus 11월 13일 Pro 선택 불가 재확인",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: GPT-6.1 Terra·Gemini 4 Argon·GPT-6 Sol·Luna의 v5 점수, Gemini 4 Carbon 59점의 AA 원문 확인, Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도"
+      ]
+    },
+    {
       "date": "2026-10-29",
       "summary": "Artificial Analysis 지수 v5 반영 — 모델 추가·삭제 없음, 추천 모델 유지(이유 문구만 수정) (15개 출처 확인)",
       "changes": [

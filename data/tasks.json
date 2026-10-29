@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-10-29T08:20:00+09:00",
+  "updatedAt": "2026-10-30T08:10:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -277,7 +277,7 @@
             "free": {
               "model": "claude-sonnet-5-5",
               "effort": "high",
-              "why": "무료 요금제에서 쓸 수 있는 모델 중 Artificial Analysis 지능 지수가 높은 편이에요(v5 54점, GPT-6 Luna (High) 21점). 노력 선택지가 없으면 기본값으로 쓰고 '단계별로 검토해 줘'라고 요청하세요."
+              "why": "무료 요금제에서 쓸 수 있는 모델 중 Artificial Analysis 지능 지수가 높은 편이에요(v5 54점). 노력 선택지가 없으면 기본값으로 쓰고 '단계별로 검토해 줘'라고 요청하세요."
             }
           },
           "alternatives": [
