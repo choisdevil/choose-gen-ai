@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "date": "2026-11-01",
+      "summary": "변경 없음 — 모델·추천 유지 (12개 출처 확인)",
+      "changes": [
+        "새 모델·앱 변경 없음: Anthropic 뉴스룸·Claude 요금제·Haiku 5.5 발표(직접 확인, 10월 28일 이후 새 글 없음), OpenAI(Pro $100·$200·$500·Business Premium의 Work·Codex 한도 2배, 청소년 무기 정보 제한 — 모델 변경 아님), Google(10월 28~30일 Connected Apps·Android 화면 개편 이후 새 소식 없음)",
+        "AA 지능 지수 v5 재확인: Opus 5.5 58·Astra 57·GPT-6.1 Sol 55·Sonnet 5.5 54(AA 모델 페이지)·Argon 50, Gemini 4 Carbon 59 1위(AA 발표, 보안 파트너 전용)",
+        "Arena 텍스트(Argon 1위, 10월 8일 스냅숏), 수능 풀이(Astra 450·GPT-5.6 448.5), AI Plus 11월 13일 Pro 선택 불가 재확인",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Haiku 5.5·GPT-6.1 Terra·GPT-6 Sol·Luna의 v5 점수, Arena 텍스트 10월 하순 순위, Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도"
+      ]
+    },
+    {
       "date": "2026-10-31",
       "summary": "변경 없음 — 모델·추천 유지 (13개 출처 확인)",
       "changes": [
