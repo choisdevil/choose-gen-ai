@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-11-03",
+      "summary": "변경 없음 — 모델·추천 유지 (12개 출처 확인)",
+      "changes": [
+        "새 모델 없음: Anthropic 뉴스룸·Claude 요금제·Haiku 5.5 발표(직접 확인, 10월 28일 이후 새 글 없음)",
+        "OpenAI: 11월 2일 TechCrunch 보도 — ChatGPT의 Chat·Work 탭을 일부 사용자부터 합칠 예정(Codex는 데스크톱 앱에서 별도 유지). 아직 일부 대상 시험이라 ‘Work 모드에서 고르기’ 안내는 유지하고, 적용되면 effortGuide를 고칠 예정. 12월 31일부터 ChatGPT·Codex 사용 한도 통합 보도(BigGo)",
+        "Google: 생성한 문서·PDF·스프레드시트를 채팅 안에서 편집(무료 포함, 모바일 앱은 PDF만), Android의 Chat/Task 선택 옵션 제거 검토 보도 — 모델 변경 아님",
+        "AA 지능 지수 v5 재확인: Carbon 59·Opus 5.5 58·Astra 57·GPT-6.1 Sol 55(AA 페이지·발표), Sonnet 5.5 54.2·Argon 50.4(집계 사이트). Arena 텍스트 Argon 1위(10월 22일 기준), 수능 풀이 재확인",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Chat·Work 탭 통합 일정·대상, ChatGPT·Codex 한도 통합의 요금제별 수치, Haiku 5.5·GPT-6.1 Terra·GPT-6 Sol·Luna의 v5 점수, Arena 텍스트 11월 순위, Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도"
+      ]
+    },
+    {
       "date": "2026-11-02",
       "summary": "변경 없음 — 모델·추천 유지 (12개 출처 확인)",
       "changes": [
