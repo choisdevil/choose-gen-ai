@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T08:10:00+09:00",
+  "updatedAt": "2026-11-06T08:20:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -35,7 +35,7 @@
         "free": false,
         "plan": "Claude Pro 이상 (월 $20, 연간 결제 시 월 $17)"
       },
-      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. Artificial Analysis 지능 지수 v5(10월 27일 개편)에서 58점으로 앱에서 쓸 수 있는 모델 중 1위(일반 공개 전인 Gemini 4 Carbon이 59점). Arena 텍스트는 9월 말 1위로 데뷔했고, 10월 초에는 Gemini 4 Argon이 1위라는 2차 보도가 있어 현재 순위는 확인 불가. 한국어 인터페이스 공식 지원. 참고: Anthropic의 Claude for Teachers(인증 교사 1년 무료)는 미국 K-12 교사 전용이라 한국 교사는 해당되지 않음.",
+      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. Artificial Analysis 지능 지수 v5(10월 27일 개편) 발표 때 58점 1위였고, 11월 AA 리더보드(v5.0.1)에서는 59점으로 일반 공개 전인 Gemini 4 Carbon(60점) 다음이며 앱에서 쓸 수 있는 모델 중 1위. Arena 텍스트는 9월 말 1위로 데뷔했고, 10월 초에는 Gemini 4 Argon이 1위라는 2차 보도가 있어 현재 순위는 확인 불가. 한국어 인터페이스 공식 지원. 참고: Anthropic의 Claude for Teachers(인증 교사 1년 무료)는 미국 K-12 교사 전용이라 한국 교사는 해당되지 않음.",
       "effortGuide": {
         "low": "Claude에서 모델을 Opus 5.5로 고르고 노력(Effort)을 Low로 설정하세요.",
         "medium": "모델 Opus 5.5, 노력 Medium.",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-05",
+      "lastVerified": "2026-11-06",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-05",
+      "lastVerified": "2026-11-06",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-11-05",
+      "lastVerified": "2026-11-06",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -152,7 +152,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-05",
+      "lastVerified": "2026-11-06",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -511,7 +511,7 @@
         "free": false,
         "plan": "Google AI Pro·Ultra (10월 13일부터 Gemini 앱에 순차 적용, 무료·AI Plus 제외)"
       },
-      "summary": "Google의 새 최상위 모델. 9월 30일 발표 후 보안 파트너에게만 제공되다가 10월 13일부터 Gemini 앱(웹·모바일)과 Search AI Mode에서 AI Pro·Ultra 구독자에게 순차 제공된다고 Google 릴리스 노트·9to5Google이 보도. 모델 메뉴에 3.5 Flash-Lite·3.8 Flash·3.1 Pro와 함께 표시(3.1 Pro를 대체하지 않음). Artificial Analysis 지능 지수 v5에서 50점(High)으로 Claude Opus 5.5(58)·GPT-6 Astra(57)보다 낮음. 10월 28일 발표된 후속 Gemini 4 Carbon(v5 59점)은 보안 파트너에게만 제공 중이고 앱 제공 일정은 미정. Google 공식 블로그·Gemini 앱 공식 계정도 출시를 알렸으나, 앱 사용 한도는 공개된 수치가 없음(일부 국가는 AI Pro 적용이 순차 진행으로 보도).",
+      "summary": "Google의 새 최상위 모델. 9월 30일 발표 후 보안 파트너에게만 제공되다가 10월 13일부터 Gemini 앱(웹·모바일)과 Search AI Mode에서 AI Pro·Ultra 구독자에게 순차 제공된다고 Google 릴리스 노트·9to5Google이 보도. 모델 메뉴에 3.5 Flash-Lite·3.8 Flash·3.1 Pro와 함께 표시(3.1 Pro를 대체하지 않음). Artificial Analysis 지능 지수 v5 발표 기준 50점(High)으로 Claude Opus 5.5(58)·GPT-6 Astra(57)보다 낮음. 10월 28일 발표된 후속 Gemini 4 Carbon(v5 59점)은 보안 파트너에게만 제공 중이고 앱 제공 일정은 미정. Google 공식 블로그·Gemini 앱 공식 계정도 출시를 알렸으나, 앱 사용 한도는 공개된 수치가 없음(일부 국가는 AI Pro 적용이 순차 진행으로 보도).",
       "effortGuide": {
         "low": "모델 메뉴에서 4 Argon → 노력 Low. (가벼운 일은 Flash가 더 빠르고 한도 부담이 적어요)",
         "medium": "모델 4 Argon → 노력 Medium.",
@@ -520,7 +520,7 @@
         "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. Deep Think가 Argon에도 적용되는지는 확인하지 못했어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-05",
+      "lastVerified": "2026-11-06",
       "sources": [
         {
           "title": "9to5Google — Gemini 앱에 Gemini 4 Argon (2026-10-13)",
@@ -560,7 +560,7 @@
         "max": "모델 Pro, Deep Think — Google AI Ultra(만 18세 이상), 10월 중 AI Pro에도 추가된다고 보도됨. 10월 22일 보도에 따르면 AI Ultra 앱 안내에 “Argon이 곧 Deep Think를 대체”한다고 떠 있어(시기 확인 불가), 메뉴에 Deep Think가 없으면 Gemini 4 Argon이나 노력 High를 쓰세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-05",
+      "lastVerified": "2026-11-06",
       "sources": [
         {
           "title": "Google — Gemini 3.1 Pro",
@@ -612,7 +612,7 @@
         "max": "Flash에는 이 단계가 없어요. AI Pro 이상이라면 Pro 모델 + Deep Think를 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-05",
+      "lastVerified": "2026-11-06",
       "sources": [
         {
           "title": "Google — Gemini 3.8 Flash",
@@ -677,17 +677,17 @@
       ]
     },
     {
-      "id": "chatgpt-images-2-5",
-      "name": "ChatGPT Images 2.5",
+      "id": "chatgpt-images-2-6",
+      "name": "ChatGPT Images 2.6",
       "vendor": "OpenAI",
       "product": "ChatGPT",
       "url": "https://chatgpt.com",
-      "released": "2026-09-08",
+      "released": "2026-11-04",
       "access": {
         "free": true,
-        "plan": "무료 포함 (무료는 생성 한도가 낮음)"
+        "plan": "무료 포함 (OpenAI 발표 기준 ChatGPT 모든 요금제, 요금제별 생성 한도는 확인 불가)"
       },
-      "summary": "ChatGPT 이미지 생성 모델(API명 GPT Image 2.5). 그림을 그리면 이미지로 바꿔 주는 @Sketch 도구 추가. Arena 텍스트→이미지·이미지 편집 1위, Artificial Analysis 텍스트→이미지 1위로 보고됨.",
+      "summary": "11월 4일 OpenAI가 공개한 ChatGPT 이미지 생성 업데이트(Images 2.5 후속). 프롬프트·이미지로 움직이는 GIF 만들기(순차 적용), 사람·반려동물·캐릭터 참조 이미지 저장 후 재사용, 장면 계획 정도를 조절하는 설정, SVG 내보내기가 추가됐다고 보도됨. ChatGPT·Codex의 모든 요금제(웹·데스크톱·모바일)에서 제공. 2.6의 Arena·Artificial Analysis 이미지 순위는 아직 확인하지 못함.",
       "effortGuide": {
         "low": "이미지 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
         "medium": "이미지 생성에는 노력 설정이 없어요. 기본 그대로 쓰세요.",
@@ -696,15 +696,19 @@
         "max": "노력 설정은 없어요. 대신 크기·글자·색·대상 연령을 구체적으로 적으세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-10-02",
+      "lastVerified": "2026-11-06",
       "sources": [
         {
-          "title": "OpenAI — Introducing ChatGPT Images 2.5",
-          "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
+          "title": "OpenAI (X) — Introducing ChatGPT Images 2.6 (2026-11-04)",
+          "url": "https://x.com/OpenAI/status/2118124944928432327"
         },
         {
-          "title": "Artificial Analysis — Text-to-Image 리더보드",
-          "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image"
+          "title": "OpenAI 개발자 커뮤니티 — ChatGPT Images 2.6 발표",
+          "url": "https://community.openai.com/t/images-upgraded-introducing-chatgpt-images-2-6/1412901"
+        },
+        {
+          "title": "OpenAI — Introducing ChatGPT Images 2.5 (이전 버전)",
+          "url": "https://openai.com/index/introducing-chatgpt-images-2-5/"
         }
       ]
     },

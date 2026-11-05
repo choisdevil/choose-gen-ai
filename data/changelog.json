@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-11-06",
+      "summary": "ChatGPT Images 2.5 → 2.6 교체(이미지 추천 4곳), Opus 5.5 지수 59점으로 갱신 (13개 출처 확인)",
+      "changes": [
+        "모델 교체: ChatGPT Images 2.5 삭제, ChatGPT Images 2.6 추가 — 11월 4일 OpenAI 발표(공식 X·개발자 커뮤니티, 검색 요약 확인). ChatGPT·Codex 모든 요금제 제공, GIF 만들기(순차 적용)·참조 이미지 저장·SVG 내보내기 추가 보도. id를 chatgpt-images-2-6으로 바꾸고 이미지 과제 추천 4곳(유료 2·무료 2)과 안내문 삽화 대안 1곳이 새 모델을 가리키도록 수정",
+        "이미지 추천 이유 수정: 2.5 기준 ‘Arena·AA 이미지 1위’ 문구는 2.6에 대해 확인되지 않아 삭제하고, 확인된 기능(참조 이미지 저장, SVG 내보내기)으로 바꿈",
+        "AA 지능 지수: 11월 AA 리더보드(v5.0.1)에서 Opus 5.5 (Max) 59점·Gemini 4 Carbon (High) 60점. Opus 추천 이유 3곳과 모델 설명의 58점을 59점(11월 리더보드)으로 고침 — 앱에서 쓸 수 있는 모델 중 1위는 그대로",
+        "기타(모델 변경 아님): Anthropic 뉴스룸·요금제·Haiku 5.5 발표 직접 확인(10월 28일 이후 새 글 없음), Google Gemini Omni 1.2 Flash(11월 5일, API·Google Vids·기업용 — 소비자 Gemini 앱 제공은 확인 불가라 반영 안 함), OpenAI 데이터센터 약속·광고 입찰 변경",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: ChatGPT Images 2.6의 요금제별 생성 한도·이미지 순위, Gemini Omni 1.2 Flash의 Gemini 앱 적용 여부, Arena 텍스트 현재 1위, Haiku 5.5·GPT-6.1 Terra·GPT-6 Sol·Luna의 v5 점수, Chat·Work 탭 통합 일정, Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도"
+      ]
+    },
+    {
       "date": "2026-11-05",
       "summary": "변경 없음 — 모델·추천 유지 (12개 출처 확인)",
       "changes": [
