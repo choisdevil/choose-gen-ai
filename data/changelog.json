@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-11-07",
+      "summary": "Gemini Omni 1.2 Flash 반영(영상 추천 이유 수정) — 모델 추가·삭제 없음 (14개 출처 확인)",
+      "changes": [
+        "Gemini Omni Flash(영상): 11월 5일 Omni 1.2 Flash 공개, Google Gemini 공식 X 기준 Gemini 앱에서 모든 Google AI 구독자에게 순차 적용(대화형 수정), 15초 영상은 Ultra만. 모델 설명과 영상 과제 유료 추천 이유를 1.2 기준으로 고침(추천 모델은 그대로)",
+        "ChatGPT Images 2.6: 같은 날 공개된 API 모델 기준 Arena 텍스트→이미지 Sunburst 2위(1409)·Flare 4위 보도를 모델 설명·signals에 추가. 무료 한도는 OpenAI가 공개하지 않음(‘제한적’으로만 표기 보도)",
+        "AA 리더보드 재확인: Carbon (High) 60·Opus 5.5 (Max) 59·Carbon (Medium) 58·Opus 5.5 (Xhigh) 57·GPT-6 Astra (Max) 57",
+        "새 모델 없음: Anthropic 뉴스룸·요금제·Haiku 5.5 발표(직접 확인), OpenAI(소송 보도 등), Google(Chat/Task 버튼 검토 보도)",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Arena 텍스트·영상 현재 1위, ChatGPT 앱이 쓰는 Images 2.6 API 모델, Images 2.6 무료 한도, Omni 1.2 Flash의 AI Plus 적용 시점, Haiku 5.5·GPT-6.1 Terra·GPT-6 Sol·Luna의 v5 점수, Chat·Work 탭 통합 일정, Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도"
+      ]
+    },
+    {
       "date": "2026-11-06",
       "summary": "ChatGPT Images 2.5 → 2.6 교체(이미지 추천 4곳), Opus 5.5 지수 59점으로 갱신 (13개 출처 확인)",
       "changes": [

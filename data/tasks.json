@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T08:20:00+09:00",
+  "updatedAt": "2026-11-07T08:20:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -1098,7 +1098,7 @@
             "paid": {
               "model": "gemini-omni-flash",
               "effort": "low",
-              "why": "Arena 텍스트→영상 순위 1위로 발표된 Gemini Omni 계열 모델이에요(Omni 1.1 Flash, 8월 발표). OpenAI Sora 앱은 2026년 4월에 종료됐어요."
+              "why": "Gemini 앱의 영상 모델이 11월 5일 Omni 1.2 Flash로 바뀌어 대화로 장면을 여러 번 고칠 수 있어요(이전 1.1은 8월 Arena 텍스트→영상 1위). OpenAI Sora 앱은 2026년 4월에 종료됐어요."
             },
             "free": {
               "model": "youtube-create-omni",
