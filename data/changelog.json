@@ -1,6 +1,17 @@
 {
   "entries": [
     {
+      "date": "2026-11-09",
+      "summary": "변경 없음 — 모델·추천 유지 (12개 출처 확인)",
+      "changes": [
+        "새 모델 없음: Anthropic 뉴스룸·요금제·Haiku 5.5 발표(직접 확인, 10월 28일 이후 새 글 없음), OpenAI(Images 2.6·Chat/Work 통합 계획 재확인, 청소년용 ChatGPT 새 버전 보도), Google(‘Gemini for Google’ 기업용 에이전트 메뉴 유출 보도 — 미발표, 반영 안 함)",
+        "AA 지능 지수 v5.0.1 페이지(검색 요약): Gemini 4 Carbon (High) 60·Claude Opus 5.5 (Max) 59·Carbon (Medium) 58 재확인. 발표 당시 기사들은 Opus 58로 적어 시점 차이를 signals에 그대로 둠",
+        "AI Plus 11월 13일 Pro 선택 불가(계정별 날짜 다름), 수능 풀이(Astra 450·GPT-5.6 448.5) 재확인. Arena 텍스트 현재 1위는 예측시장(구글 우세) 외 확인 불가",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Arena 텍스트·이미지 현재 순위, Images 2.6 무료 한도, Omni 1.2 Flash의 요금제별 앱 적용, Haiku 5.5·GPT-6.1 Terra·GPT-6 Sol·Luna의 v5 점수, Chat·Work 탭 통합 일정, Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도"
+      ]
+    },
+    {
       "date": "2026-11-08",
       "summary": "변경 없음 — 모델·추천 유지, 재확인 못한 이미지 순위 문구 삭제 (12개 출처 확인)",
       "changes": [
