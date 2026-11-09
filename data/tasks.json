@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T08:10:00+09:00",
+  "updatedAt": "2026-11-10T08:30:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -51,7 +51,7 @@
             "paid": {
               "model": "claude-opus-5-5",
               "effort": "high",
-              "why": "Artificial Analysis 지능 지수 v5에서 앱으로 쓸 수 있는 모델 중 1위(59점, 11월 리더보드)라 긴 설계 문서를 한 번에 짜기에 알맞아요. 차시 흐름과 평가까지 엮으려면 high가 적당합니다."
+              "why": "Artificial Analysis 지능 지수 v5에서 59점(11월 리더보드)으로 최상위권이라 긴 설계 문서를 한 번에 짜기에 알맞아요. 차시 흐름과 평가까지 엮으려면 high가 적당합니다."
             },
             "free": {
               "model": "claude-sonnet-5-5",
@@ -272,7 +272,7 @@
             "paid": {
               "model": "claude-opus-5-5",
               "effort": "xhigh",
-              "why": "앱으로 쓸 수 있는 모델 중 종합 벤치마크 1위(Artificial Analysis 지능 지수 v5 59점, max 노력, 11월 리더보드). 노력을 높일수록 점수가 오르는 모델이고, 문항 세트는 오류를 줄이는 게 중요해 xhigh를 권합니다."
+              "why": "종합 벤치마크 최상위권 모델(Artificial Analysis 지능 지수 v5 59점, max 노력, 11월 리더보드). 노력을 높일수록 점수가 오르는 모델이고, 문항 세트는 오류를 줄이는 게 중요해 xhigh를 권합니다."
             },
             "free": {
               "model": "claude-sonnet-5-5",
@@ -966,7 +966,7 @@
             "paid": {
               "model": "claude-opus-5-5",
               "effort": "xhigh",
-              "why": "연구 설계·분석처럼 여러 단계 추론이 필요한 일이에요. Opus 5.5는 Artificial Analysis 지능 지수 v5에서 앱으로 쓸 수 있는 모델 중 1위(59점, max 노력, 11월 리더보드)이고 노력을 올릴수록 점수가 높아지는 모델이에요."
+              "why": "연구 설계·분석처럼 여러 단계 추론이 필요한 일이에요. Opus 5.5는 Artificial Analysis 지능 지수 v5에서 59점(max 노력, 11월 리더보드)으로 최상위권이고 노력을 올릴수록 점수가 높아지는 모델이에요."
             },
             "free": {
               "model": "claude-sonnet-5-5",
@@ -976,9 +976,9 @@
           },
           "alternatives": [
             {
-              "model": "claude-fable-5-1",
+              "model": "claude-fable-5-2",
               "effort": "high",
-              "why": "Humanity's Last Exam(도구 사용) 65.0%로 발표된 상위 모델. Pro 사용 크레딧이나 Max 요금제가 있을 때."
+              "why": "Humanity's Last Exam(도구 사용) 74.2%로 발표된 Anthropic 최신 상위 모델(11월 9일, 제조사 수치). 무료 요금제에는 없고 Pro는 사용 크레딧(11월 16일까지는 주간 한도 50%까지 포함), Max는 포함."
             },
             {
               "model": "perplexity",

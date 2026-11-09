@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-11-10",
+      "summary": "Claude Fable 5.2 추가(연구 과제 대안 교체), Opus 5.5 ‘1위’ 표현 완화 (13개 출처 확인)",
+      "changes": [
+        "모델 추가: Claude Fable 5.2 — 11월 9일 Anthropic 발표(원문 직접 확인). 유료 요금제 전용(무료 제외), Pro·Team 표준 좌석은 사용 크레딧이지만 11월 9~16일엔 주간 한도의 50%까지 포함, Max·프리미엄 좌석은 리셋 1~3회 제공(Claude 도움말). Fable 5.1은 메뉴에 계속 남아 있어 삭제하지 않음. Mythos 5.2는 검증 기관 전용이라 제외",
+        "추천 변경: 연구·논문 과제 대안을 Fable 5.1 → Fable 5.2로 교체(근거: 제조사 발표 HLE 도구 사용 74.2%, signals에 추가)",
+        "Opus 5.5 추천 이유 3곳·설명: Fable 5.2의 AA 지수가 아직 없어 ‘앱으로 쓸 수 있는 모델 중 1위’를 ‘59점으로 최상위권’으로 완화",
+        "기타: Gemini ‘메모리 요약’(미국 영어·구독자), AI Plus 11월 13일 Pro 선택 불가 재확인, OpenAI 광고 대시보드 시험 — 모델 변경 아님. AA v5.0.1(Carbon 60·Opus 59)·수능 풀이 재확인",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Fable 5.2의 AA 지수·Arena 순위, 출시 주간 이후 Pro 사용 크레딧 단가, Arena 텍스트 현재 1위(11월 3일 Carbon 1528 1위라는 2차 보도만 있음), Images 2.6 무료 한도, Haiku 5.5·GPT-6.1 Terra·GPT-6 Sol·Luna의 v5 점수, Chat·Work 탭 통합 일정, Deep Think 종료 시점, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제, Argon 앱 사용 한도"
+      ]
+    },
+    {
       "date": "2026-11-09",
       "summary": "변경 없음 — 모델·추천 유지 (12개 출처 확인)",
       "changes": [
