@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-11-11",
+      "summary": "Gemini 4 Carbon 추가·Gemini 3.1 Pro 삭제(대안 2곳 Argon으로 교체), Fable 5.2 지수 65점 반영 (14개 출처 확인)",
+      "changes": [
+        "모델 추가: Gemini 4 Carbon — 11월 10일 9to5Google 보도(검색 요약): Gemini 앱에서 AI Ultra 전용, 메뉴 ‘가장 복잡한 작업’. 노력 단계·한도는 확인 불가로 표기",
+        "모델 삭제: Gemini 3.1 Pro — 같은 보도에서 Carbon 출시와 함께 앱 메뉴에서 빠짐. 이를 쓰던 대안 2곳(자료 조사, 긴 문서 요약)을 Gemini 4 Argon(AI Pro 이상)으로 교체. Gemini Flash 최대 노력 안내도 Argon/Carbon 기준으로 고침",
+        "Claude Fable 5.2: Artificial Analysis 모델 페이지 기준 지능 지수 65점(max)으로 가장 높음 — 모델 설명·signals 반영. Opus 5.5 설명의 ‘Fable 5.2 지수 미확인’ 문구 갱신. Fable 5.1의 HLE 수치는 발표마다 달라(65.0%/65.6%) 삭제",
+        "기타: Anthropic IPO 로드쇼(11월 10일, 모델 변경 아님), OpenAI 기업 프로필·비즈니스 에이전트(미국), Google Gemini Intelligence 기기 확대",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Gemini 앱 공식 릴리스 노트 원문(gemini.google 접속 차단), Carbon의 노력 단계·사용 한도, Deep Think 존속 여부, Fable 5.2의 Arena 순위, Arena 텍스트 현재 1위, Images 2.6 무료 한도, Chat·Work 탭 통합 일정, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-10",
       "summary": "Claude Fable 5.2 추가(연구 과제 대안 교체), Opus 5.5 ‘1위’ 표현 완화 (13개 출처 확인)",
       "changes": [

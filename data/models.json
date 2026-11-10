@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:30:00+09:00",
+  "updatedAt": "2026-11-11T08:30:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -35,7 +35,7 @@
         "free": false,
         "plan": "Claude Pro 이상 (월 $20, 연간 결제 시 월 $17)"
       },
-      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. Artificial Analysis 지능 지수 v5(10월 27일 개편) 발표 때 58점 1위였고, 11월 AA 리더보드(v5.0.1)에서는 59점으로 일반 공개 전인 Gemini 4 Carbon(60점) 다음. 11월 9일 나온 Fable 5.2의 지수는 아직 확인되지 않음. Arena 텍스트는 9월 말 1위로 데뷔했고, 10월 초에는 Gemini 4 Argon이 1위라는 2차 보도가 있어 현재 순위는 확인 불가. 한국어 인터페이스 공식 지원. 참고: Anthropic의 Claude for Teachers(인증 교사 1년 무료)는 미국 K-12 교사 전용이라 한국 교사는 해당되지 않음.",
+      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. Artificial Analysis 지능 지수 v5(10월 27일 개편) 발표 때 58점 1위였고, 11월 AA 리더보드(v5.0.1)에서는 59점으로 일반 공개 전인 Gemini 4 Carbon(60점) 다음. 11월 9일 나온 Fable 5.2는 65점(max)으로 더 높음 — Fable은 무료 제외·Pro는 사용 크레딧. Arena 텍스트는 9월 말 1위로 데뷔했고, 10월 초에는 Gemini 4 Argon이 1위라는 2차 보도가 있어 현재 순위는 확인 불가. 한국어 인터페이스 공식 지원. 참고: Anthropic의 Claude for Teachers(인증 교사 1년 무료)는 미국 K-12 교사 전용이라 한국 교사는 해당되지 않음.",
       "effortGuide": {
         "low": "Claude에서 모델을 Opus 5.5로 고르고 노력(Effort)을 Low로 설정하세요.",
         "medium": "모델 Opus 5.5, 노력 Medium.",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-10",
+      "lastVerified": "2026-11-11",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-10",
+      "lastVerified": "2026-11-11",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -111,7 +111,7 @@
         "free": false,
         "plan": "Claude Pro(사용 크레딧 필요 — 11월 9~16일 출시 주간에는 주간 한도의 50%까지 포함)·Max 이상, 무료 요금제 제외"
       },
-      "summary": "11월 9일 Anthropic이 공개한 Fable 후속 모델로 ‘어려운 기술 작업용 최상위 모델’로 소개. 제조사 발표 기준 Humanity's Last Exam(도구 사용) 74.2%(Opus 5.5 67.7%, Fable 5.1 65.0%), FrontierSWE v2 69.9%, Fable 5.1보다 출력 최대 30% 빠름. Anthropic은 일상 작업에는 Opus 5.5부터 쓰라고 권함. 함께 발표된 Mythos 5.2는 검증 프로그램 기관 전용이라 목록에 넣지 않음. Artificial Analysis 지수는 아직 확인되지 않음.",
+      "summary": "11월 9일 Anthropic이 공개한 Fable 후속 모델로 ‘어려운 기술 작업용 최상위 모델’로 소개. 제조사 발표 기준 Humanity's Last Exam(도구 사용) 74.2%(Opus 5.5 67.7%), FrontierSWE v2 69.9%, Fable 5.1보다 출력 최대 30% 빠름. Anthropic은 일상 작업에는 Opus 5.5부터 쓰라고 권함. 함께 발표된 Mythos 5.2는 검증 프로그램 기관 전용이라 목록에 넣지 않음. Artificial Analysis 지능 지수 v5.0.1에서 65점(max)으로 측정돼 Opus 5.5(59)·Gemini 4 Carbon보다 높음(xhigh·high 62, medium 56).",
       "effortGuide": {
         "low": "모델 Fable 5.2, 노력 Low.",
         "medium": "모델 Fable 5.2, 노력 Medium (Claude 앱 기본값).",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.2, 노력 Max. 사용 크레딧·한도를 빨리 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-10",
+      "lastVerified": "2026-11-11",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Fable 5.2 and Claude Mythos 5.2",
@@ -133,6 +133,10 @@
         {
           "title": "Claude 요금제",
           "url": "https://claude.com/pricing"
+        },
+        {
+          "title": "Artificial Analysis — Claude Fable 5.2 (max)",
+          "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
         }
       ]
     },
@@ -147,7 +151,7 @@
         "free": false,
         "plan": "Claude Pro(사용 크레딧 필요)·Max 이상"
       },
-      "summary": "Anthropic의 상위 모델. Humanity's Last Exam 65.0%(도구 사용, 제조사 발표). Anthropic은 Opus 5.5가 대부분의 작업에서 Fable 5.1 수준이라고 밝힘. 11월 9일 후속 Fable 5.2가 나왔지만, Anthropic 지원 문서 기준 5.1도 모델 메뉴에서 계속 고를 수 있음.",
+      "summary": "Anthropic의 상위 모델. Humanity's Last Exam(도구 사용) 점수는 5.1 발표(65.0%)와 5.2 발표 비교표(65.6%)가 달라 적지 않음. Anthropic은 Opus 5.5가 대부분의 작업에서 Fable 5.1 수준이라고 밝힘. 11월 9일 후속 Fable 5.2가 나왔지만, Anthropic 지원 문서 기준 5.1도 모델 메뉴에서 계속 고를 수 있음.",
       "effortGuide": {
         "low": "모델 Fable 5.1, 노력 Low.",
         "medium": "모델 Fable 5.1, 노력 Medium (Claude.ai 기본값).",
@@ -156,7 +160,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-11-10",
+      "lastVerified": "2026-11-11",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -188,7 +192,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-10",
+      "lastVerified": "2026-11-11",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -537,6 +541,42 @@
       ]
     },
     {
+      "id": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "vendor": "Google",
+      "product": "Gemini",
+      "url": "https://gemini.google.com",
+      "released": "2026-11-10 (Gemini 앱)",
+      "access": {
+        "free": false,
+        "plan": "Google AI Ultra 전용 (Gemini 앱·AI Mode·Antigravity)"
+      },
+      "summary": "Google의 최상위 모델. 10월 28일 보안 파트너에게 먼저 공개된 뒤 11월 10일부터 Gemini 앱에서 AI Ultra 구독자에게 순차 제공(모델 메뉴 ‘가장 복잡한 작업’). Google은 Argon은 일상적인 코딩·지식 업무, Carbon은 더 어려운 문제용으로 안내. Artificial Analysis 지능 지수 v5에서 59~60점(버전·시점에 따라 다름)으로 측정됐고, 11월 9일 나온 Claude Fable 5.2(65)가 더 높음. 앱 사용 한도·노력 단계 구성은 확인 불가.",
+      "effortGuide": {
+        "low": "모델 메뉴에서 4 Carbon(가장 복잡한 작업) 선택. 노력 단계 구성은 확인하지 못했어요 — 가벼운 일은 Flash·Argon이 한도 부담이 적어요.",
+        "medium": "모델 4 Carbon. 노력 메뉴가 있으면 Medium.",
+        "high": "모델 4 Carbon. 노력 메뉴가 있으면 High.",
+        "xhigh": "모델 4 Carbon, 보이는 가장 높은 노력 단계. 단계 구성은 확인 불가.",
+        "max": "모델 4 Carbon, 보이는 가장 높은 노력 단계. 단계 구성은 확인 불가."
+      },
+      "verification": "search-summary",
+      "lastVerified": "2026-11-11",
+      "sources": [
+        {
+          "title": "9to5Google — Gemini 4 Carbon rolling out to Gemini app for AI Ultra (2026-11-10)",
+          "url": "https://9to5google.com/2026/11/10/gemini-app-4-carbon/"
+        },
+        {
+          "title": "Google — Gemini 4 Carbon: our next frontier model",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+        },
+        {
+          "title": "Artificial Analysis — Gemini 4 Carbon is the new #1 on Intelligence Index v5",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1"
+        }
+      ]
+    },
+    {
       "id": "gemini-4-argon",
       "name": "Gemini 4 Argon",
       "vendor": "Google",
@@ -547,16 +587,16 @@
         "free": false,
         "plan": "Google AI Pro·Ultra (10월 13일부터 Gemini 앱에 순차 적용, 무료·AI Plus 제외)"
       },
-      "summary": "Google의 새 최상위 모델. 9월 30일 발표 후 보안 파트너에게만 제공되다가 10월 13일부터 Gemini 앱(웹·모바일)과 Search AI Mode에서 AI Pro·Ultra 구독자에게 순차 제공된다고 Google 릴리스 노트·9to5Google이 보도. 모델 메뉴에 3.5 Flash-Lite·3.8 Flash·3.1 Pro와 함께 표시(3.1 Pro를 대체하지 않음). Artificial Analysis 지능 지수 v5 발표 기준 50점(High)으로 Claude Opus 5.5(58)·GPT-6 Astra(57)보다 낮음. 10월 28일 발표된 후속 Gemini 4 Carbon(v5 59점)은 보안 파트너에게만 제공 중이고 앱 제공 일정은 미정. Google 공식 블로그·Gemini 앱 공식 계정도 출시를 알렸으나, 앱 사용 한도는 공개된 수치가 없음(일부 국가는 AI Pro 적용이 순차 진행으로 보도).",
+      "summary": "Google의 Gemini 4 모델. 10월 13일부터 Gemini 앱(웹·모바일)과 Search AI Mode에서 AI Pro·Ultra 구독자에게 제공(무료·AI Plus 제외). 11월 10일 9to5Google 보도: 앱 모델 메뉴에서 4 Argon은 ‘코드·분석’, 상위 Gemini 4 Carbon은 ‘가장 복잡한 작업’(AI Ultra 전용)으로 표시되고, Gemini 3.1 Pro는 메뉴에서 빠짐 — AI Pro 구독자는 Argon이 최상위 선택지. Artificial Analysis 지능 지수 v5 발표 기준 50점(High). 앱 사용 한도는 공개된 수치가 없음.",
       "effortGuide": {
         "low": "모델 메뉴에서 4 Argon → 노력 Low. (가벼운 일은 Flash가 더 빠르고 한도 부담이 적어요)",
         "medium": "모델 4 Argon → 노력 Medium.",
         "high": "모델 4 Argon → 노력 High (Argon의 가장 높은 단계로 보도).",
         "xhigh": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요.",
-        "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. Deep Think가 Argon에도 적용되는지는 확인하지 못했어요."
+        "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. AI Ultra라면 메뉴의 Gemini 4 Carbon(가장 복잡한 작업)을 고를 수 있어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-10",
+      "lastVerified": "2026-11-11",
       "sources": [
         {
           "title": "9to5Google — Gemini 앱에 Gemini 4 Argon (2026-10-13)",
@@ -573,58 +613,10 @@
         {
           "title": "Google — Gemini 4 Argon is now available in the Gemini app",
           "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/"
-        }
-      ]
-    },
-    {
-      "id": "gemini-3-1-pro",
-      "name": "Gemini 3.1 Pro",
-      "vendor": "Google",
-      "product": "Gemini",
-      "url": "https://gemini.google.com",
-      "released": "2026-02-19",
-      "access": {
-        "free": false,
-        "plan": "Google AI Pro·Ultra (무료는 10월 9일부터 제외, AI Plus는 이메일 안내 기준 11월 13일부터 Pro 선택 불가)"
-      },
-      "summary": "Gemini 앱의 'Pro(고급 추론)' 모델. ARC-AGI-2 77.1%(제조사 발표). 5월 발표된 Gemini 3.5 Pro는 9월 말까지 정식 제공되지 않은 것으로 보도됨. 무료 사용자는 10월 9일부터 Pro를 고를 수 없고, AI Plus는 Google이 보낸 이메일 기준 11월 13일부터 Gemini 앱·AI Mode에서 Pro 선택이 막힌다고 보도됨(계정별로 날짜가 다를 수 있음). 10월 13일부터 AI Pro·Ultra에서는 상위 모델 Gemini 4 Argon도 함께 고를 수 있음.",
-      "effortGuide": {
-        "low": "모델 Pro, 노력 Low(새 메뉴가 없으면 생각 수준 Standard).",
-        "medium": "모델 Pro, 노력 Medium(또는 Standard).",
-        "high": "모델 Pro, 노력 High(기존 Extended 대체).",
-        "xhigh": "모델 Pro, 노력 High. Pro에는 그보다 위로 Deep Think만 있어요.",
-        "max": "모델 Pro, Deep Think — Google AI Ultra(만 18세 이상), 10월 중 AI Pro에도 추가된다고 보도됨. 10월 22일 보도에 따르면 AI Ultra 앱 안내에 “Argon이 곧 Deep Think를 대체”한다고 떠 있어(시기 확인 불가), 메뉴에 Deep Think가 없으면 Gemini 4 Argon이나 노력 High를 쓰세요."
-      },
-      "verification": "search-summary",
-      "lastVerified": "2026-11-10",
-      "sources": [
-        {
-          "title": "Google — Gemini 3.1 Pro",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
         },
         {
-          "title": "9to5Google — Gemini 앱 생각 수준 (2026-05-17)",
-          "url": "https://9to5google.com/2026/05/17/gemini-app-thinking-level/"
-        },
-        {
-          "title": "Gemini 도움말 — Deep Think",
-          "url": "https://support.google.com/gemini/answer/16345172"
-        },
-        {
-          "title": "9to5Google — Gemini 앱 요금제별 모델 제한 (2026-10-03)",
-          "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
-        },
-        {
-          "title": "9to5Google — 무료 Gemini Auto 전환·노력 단계 (2026-10-09)",
-          "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/"
-        },
-        {
-          "title": "9to5Google — AI Plus 11월 Pro 제외 (2026-10-14)",
-          "url": "https://9to5google.com/2026/10/14/gemini-ai-plus-loses-pro-november/"
-        },
-        {
-          "title": "9to5Google — 개인 맞춤 지능 Maps 확대·Deep Think 대체 안내 (2026-10-22)",
-          "url": "https://9to5google.com/2026/10/22/gemini-personal-intelligence-maps/"
+          "title": "9to5Google — Gemini 4 Carbon 앱 출시(Ultra), Argon 유지 (2026-11-10)",
+          "url": "https://9to5google.com/2026/11/10/gemini-app-4-carbon/"
         }
       ]
     },
@@ -645,10 +637,10 @@
         "medium": "모델 Flash, 노력 Medium. 무료는 Auto에서 노력만 고를 수 있어요.",
         "high": "모델 Flash, 노력 High (기존 'Extended'를 대신하는 단계). 한도를 더 빨리 씁니다.",
         "xhigh": "Flash에는 이 단계가 없어요. 노력 High를 쓰세요. 아직 새 메뉴가 안 보이면 생각 수준 Extended.",
-        "max": "Flash에는 이 단계가 없어요. AI Pro 이상이라면 Pro 모델 + Deep Think를 고르세요."
+        "max": "Flash에는 이 단계가 없어요. AI Pro 이상이면 Gemini 4 Argon(노력 High), AI Ultra라면 Gemini 4 Carbon을 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-10",
+      "lastVerified": "2026-11-11",
       "sources": [
         {
           "title": "Google — Gemini 3.8 Flash",

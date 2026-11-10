@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T08:30:00+09:00",
+  "updatedAt": "2026-11-11T08:30:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -898,9 +898,9 @@
               "why": "간단한 사실 확인은 Pro Search로 충분해요."
             },
             {
-              "model": "gemini-3-1-pro",
+              "model": "gemini-4-argon",
               "effort": "high",
-              "why": "Google AI Pro 구독이 있다면 Gemini의 Deep Research도 대안이에요."
+              "why": "Google AI Pro 이상 구독이 있다면 Gemini 4 Argon과 Deep Research도 대안이에요(11월 10일 Gemini 3.1 Pro가 메뉴에서 빠짐)."
             }
           ],
           "tips": [
@@ -937,9 +937,9 @@
           },
           "alternatives": [
             {
-              "model": "gemini-3-1-pro",
+              "model": "gemini-4-argon",
               "effort": "medium",
-              "why": "Google 드라이브에 자료가 있다면 Gemini로 바로 불러오기 편해요."
+              "why": "Google 드라이브에 자료가 있다면 Gemini(AI Pro 이상은 4 Argon)로 바로 불러오기 편해요."
             }
           ],
           "tips": [
