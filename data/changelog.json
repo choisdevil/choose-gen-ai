@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-11-12",
+      "summary": "변경 없음 — 모델·추천 유지 (13개 출처 확인)",
+      "changes": [
+        "새 모델 없음: Anthropic 뉴스룸(직접 확인, 11월 10일 IPO 로드쇼 이후 새 글 없음), Claude 요금제(직접 확인: Fable은 무료 제외·Pro 사용 크레딧·Max 주간 한도 절반까지 포함), Fable 5.2 발표 수치 재확인(직접 확인)",
+        "Google: Gemini 4 Carbon AI Ultra 전용 앱 출시·Gemini 3.1 Pro 메뉴 삭제 재확인(9to5Google·Analytics Insight 등, 검색 요약). 어제 반영한 Carbon 추가·3.1 Pro 삭제 유지",
+        "OpenAI(모델 변경 아님): Businesses in ChatGPT 베타(기업 프로필·에이전트), ChatGPT Standard·Advanced 음성 모드 12월 11일 종료 예정 보도",
+        "벤치마크: AA 기준 Fable 5.2 65점 1위 재확인(Carbon보다 5점·Opus 5.5보다 6점 높음, 과제당 비용 약 2.6배). Fable 5.2 발표의 OSWorld 비교에 Carbon 81.5%·Astra 79.5% 추가. 수능 풀이 재확인",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Gemini 앱 공식 릴리스 노트 원문, Carbon의 노력 단계·한도, Fable 5.2의 Arena 순위, Arena 텍스트 현재 1위, Images 2.6 무료 한도, Chat·Work 탭 통합 일정, Deep Think 존속 여부, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-11",
       "summary": "Gemini 4 Carbon 추가·Gemini 3.1 Pro 삭제(대안 2곳 Argon으로 교체), Fable 5.2 지수 65점 반영 (14개 출처 확인)",
       "changes": [
