@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T08:10:00+09:00",
+  "updatedAt": "2026-11-13T08:30:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -99,9 +99,9 @@
           },
           "alternatives": [
             {
-              "model": "gemini-flash",
+              "model": "gemini-4-hydrogen",
               "effort": "medium",
-              "why": "Google 문서·Classroom을 주로 쓴다면 Gemini로 만들어 옮기기 편해요. 10월 9일부터 Flash는 Google AI Plus 이상에서만 쓸 수 있어요(무료는 Flash-Lite)."
+              "why": "Google 문서·Classroom을 주로 쓴다면 Gemini로 만들어 옮기기 편해요. 11월 12일부터 일상용 모델이 Gemini 4 Hydrogen으로 바뀌었고, 무료는 직접 고를 수 없어 Auto가 필요할 때만 연결돼요."
             },
             {
               "model": "gpt-6-luna",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T08:10:00+09:00",
+  "updatedAt": "2026-11-13T08:30:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-12",
+      "lastVerified": "2026-11-13",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-12",
+      "lastVerified": "2026-11-13",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.2, 노력 Max. 사용 크레딧·한도를 빨리 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-12",
+      "lastVerified": "2026-11-13",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Fable 5.2 and Claude Mythos 5.2",
@@ -160,7 +160,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-11-12",
+      "lastVerified": "2026-11-13",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -192,7 +192,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-12",
+      "lastVerified": "2026-11-13",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -553,14 +553,14 @@
       },
       "summary": "Google의 최상위 모델. 10월 28일 보안 파트너에게 먼저 공개된 뒤 11월 10일부터 Gemini 앱에서 AI Ultra 구독자에게 순차 제공(모델 메뉴 ‘가장 복잡한 작업’). Google은 Argon은 일상적인 코딩·지식 업무, Carbon은 더 어려운 문제용으로 안내. Artificial Analysis 지능 지수 v5에서 59~60점(버전·시점에 따라 다름)으로 측정됐고, 11월 9일 나온 Claude Fable 5.2(65)가 더 높음. 앱 사용 한도·노력 단계 구성은 확인 불가.",
       "effortGuide": {
-        "low": "모델 메뉴에서 4 Carbon(가장 복잡한 작업) 선택. 노력 단계 구성은 확인하지 못했어요 — 가벼운 일은 Flash·Argon이 한도 부담이 적어요.",
+        "low": "모델 메뉴에서 4 Carbon(가장 복잡한 작업) 선택. 노력 단계 구성은 확인하지 못했어요 — 가벼운 일은 Hydrogen·Argon이 한도 부담이 적어요.",
         "medium": "모델 4 Carbon. 노력 메뉴가 있으면 Medium.",
         "high": "모델 4 Carbon. 노력 메뉴가 있으면 High.",
         "xhigh": "모델 4 Carbon, 보이는 가장 높은 노력 단계. 단계 구성은 확인 불가.",
         "max": "모델 4 Carbon, 보이는 가장 높은 노력 단계. 단계 구성은 확인 불가."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-12",
+      "lastVerified": "2026-11-13",
       "sources": [
         {
           "title": "9to5Google — Gemini 4 Carbon rolling out to Gemini app for AI Ultra (2026-11-10)",
@@ -589,14 +589,14 @@
       },
       "summary": "Google의 Gemini 4 모델. 10월 13일부터 Gemini 앱(웹·모바일)과 Search AI Mode에서 AI Pro·Ultra 구독자에게 제공(무료·AI Plus 제외). 11월 10일 9to5Google 보도: 앱 모델 메뉴에서 4 Argon은 ‘코드·분석’, 상위 Gemini 4 Carbon은 ‘가장 복잡한 작업’(AI Ultra 전용)으로 표시되고, Gemini 3.1 Pro는 메뉴에서 빠짐 — AI Pro 구독자는 Argon이 최상위 선택지. Artificial Analysis 지능 지수 v5 발표 기준 50점(High). 앱 사용 한도는 공개된 수치가 없음.",
       "effortGuide": {
-        "low": "모델 메뉴에서 4 Argon → 노력 Low. (가벼운 일은 Flash가 더 빠르고 한도 부담이 적어요)",
+        "low": "모델 메뉴에서 4 Argon → 노력 Low. (가벼운 일은 Gemini 4 Hydrogen이 더 빠르다고 Google이 안내)",
         "medium": "모델 4 Argon → 노력 Medium.",
         "high": "모델 4 Argon → 노력 High (Argon의 가장 높은 단계로 보도).",
         "xhigh": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요.",
         "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. AI Ultra라면 메뉴의 Gemini 4 Carbon(가장 복잡한 작업)을 고를 수 있어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-12",
+      "lastVerified": "2026-11-13",
       "sources": [
         {
           "title": "9to5Google — Gemini 앱에 Gemini 4 Argon (2026-10-13)",
@@ -621,54 +621,42 @@
       ]
     },
     {
-      "id": "gemini-flash",
-      "name": "Gemini Flash (AI Plus 이상 · 3.8)",
+      "id": "gemini-4-hydrogen",
+      "name": "Gemini 4 Hydrogen (일상용 · Flash 후속)",
       "vendor": "Google",
       "product": "Gemini",
       "url": "https://gemini.google.com",
-      "released": "2026-09-02 (3.8 Flash)",
+      "released": "2026-11-12",
       "access": {
         "free": false,
-        "plan": "Google AI Plus 이상 (10월 9일부터 무료 사용자는 Flash-Lite만 사용 가능으로 보도)"
+        "plan": "Gemini 앱에서 직접 선택은 유료 구독(Google 구독 페이지·일부 보도는 AI Plus 이상, 다른 보도는 AI Pro 이상으로 엇갈림). 무료는 Auto가 필요할 때 Hydrogen으로 연결"
       },
-      "summary": "Gemini 앱의 'Flash(만능)' 모델. 10월 9일부터 무료 사용자는 모델을 직접 고를 수 없고 'Auto'만 쓸 수 있음 — 대부분 Flash-Lite가 답하고 어려운 질문만 Flash·Pro로 넘어갈 수 있다고 Google이 안내(9to5Google 보도). Flash를 직접 고르려면 AI Plus 이상 필요. 기존 'Extended' 대신 노력 Low·Medium·High 단계가 계정별로 순차 적용 중. 학교·회사 Workspace 계정과 API는 영향 없음으로 보도.",
+      "summary": "11월 12일 Google이 공개한 Gemini 4 계열의 빠른 일상용 모델로 Gemini 3.8 Flash를 대체(‘Flash’ 이름 종료 보도). Google 공식 블로그: 빠른 코딩·에이전트 작업용이며 Gemini 3.8 Flash보다 작업을 2.5배 빨리 끝낸다고 발표(제조사 수치), 깊은 추론은 Carbon·Argon 담당. Gemini 앱 모델 메뉴에서 ‘일상적인 도움’으로 표시된다는 보도. 무료 사용자는 직접 고를 수 없고 Auto 모델 선택이 적절하다고 판단할 때 Hydrogen이 답함. Google 검색 AI Mode 기본 모델. 노력 단계 구성은 확인 불가.",
       "effortGuide": {
-        "low": "모델 Flash(또는 무료는 Auto), 노력 Low.",
-        "medium": "모델 Flash, 노력 Medium. 무료는 Auto에서 노력만 고를 수 있어요.",
-        "high": "모델 Flash, 노력 High (기존 'Extended'를 대신하는 단계). 한도를 더 빨리 씁니다.",
-        "xhigh": "Flash에는 이 단계가 없어요. 노력 High를 쓰세요. 아직 새 메뉴가 안 보이면 생각 수준 Extended.",
-        "max": "Flash에는 이 단계가 없어요. AI Pro 이상이면 Gemini 4 Argon(노력 High), AI Ultra라면 Gemini 4 Carbon을 고르세요."
+        "low": "모델 메뉴에서 4 Hydrogen(일상적인 도움) 선택(무료는 Auto). 노력 메뉴가 있으면 Low — 단계 구성은 확인하지 못했어요.",
+        "medium": "모델 4 Hydrogen. 노력 메뉴가 있으면 Medium. 무료는 Auto.",
+        "high": "모델 4 Hydrogen, 보이는 높은 노력 단계. 한도를 더 빨리 씁니다.",
+        "xhigh": "Hydrogen은 빠른 일상용 모델이에요. 더 깊은 추론이 필요하면 AI Pro 이상은 Gemini 4 Argon을 고르세요.",
+        "max": "AI Pro 이상이면 Gemini 4 Argon(노력 High), AI Ultra라면 Gemini 4 Carbon을 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-12",
+      "lastVerified": "2026-11-13",
       "sources": [
         {
-          "title": "Google — Gemini 3.8 Flash",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/"
+          "title": "Google — Introducing Gemini 4 Hydrogen (2026-11-12)",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
         },
         {
-          "title": "Android Authority — 모든 사용자에게 Extended thinking",
-          "url": "https://www.androidauthority.com/google-gemini-extended-thinking-everyone-3673702/"
+          "title": "Google AI (X) — Gemini 4 Hydrogen 발표",
+          "url": "https://x.com/GoogleAI/status/2120940683233984862"
         },
         {
-          "title": "DataNorth — Gemini 3.6 Flash",
-          "url": "https://datanorth.ai/news/google-releases-gemini-3-6-flash"
+          "title": "9to5Google — Gemini 4 Hydrogen, rolling out to Gemini app (2026-11-12)",
+          "url": "https://9to5google.com/2026/11/12/gemini-4-hydrogen-launch/"
         },
         {
-          "title": "9to5Google — Gemini 앱 요금제별 모델 제한 (2026-10-03)",
-          "url": "https://9to5google.com/2026/10/03/gemini-model-limits-oct-26/"
-        },
-        {
-          "title": "Gemini 도움말 — Google AI 구독자 한도·업그레이드",
-          "url": "https://support.google.com/gemini/answer/16275805?hl=en"
-        },
-        {
-          "title": "Notebookcheck — Gemini 무료 사용자 Flash·Pro 제외 (10월 9일)",
-          "url": "https://www.notebookcheck.net/Google-Gemini-drops-Flash-and-Pro-for-free-users-on-October-9.1415964.0.html"
-        },
-        {
-          "title": "9to5Google — 무료 Gemini Auto 전환·노력 단계 (2026-10-09)",
-          "url": "https://9to5google.com/2026/10/09/gemini-auto-free-users/"
+          "title": "Google — Gemini 구독 플랜",
+          "url": "https://gemini.google/subscriptions/"
         }
       ]
     },
