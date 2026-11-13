@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T08:30:00+09:00",
+  "updatedAt": "2026-11-14T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-13",
+      "lastVerified": "2026-11-14",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-13",
+      "lastVerified": "2026-11-14",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.2, 노력 Max. 사용 크레딧·한도를 빨리 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-13",
+      "lastVerified": "2026-11-14",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Fable 5.2 and Claude Mythos 5.2",
@@ -160,7 +160,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-11-13",
+      "lastVerified": "2026-11-14",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -192,7 +192,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-13",
+      "lastVerified": "2026-11-14",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -560,7 +560,7 @@
         "max": "모델 4 Carbon, 보이는 가장 높은 노력 단계. 단계 구성은 확인 불가."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-13",
+      "lastVerified": "2026-11-14",
       "sources": [
         {
           "title": "9to5Google — Gemini 4 Carbon rolling out to Gemini app for AI Ultra (2026-11-10)",
@@ -596,7 +596,7 @@
         "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. AI Ultra라면 메뉴의 Gemini 4 Carbon(가장 복잡한 작업)을 고를 수 있어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-13",
+      "lastVerified": "2026-11-14",
       "sources": [
         {
           "title": "9to5Google — Gemini 앱에 Gemini 4 Argon (2026-10-13)",
@@ -629,9 +629,9 @@
       "released": "2026-11-12",
       "access": {
         "free": false,
-        "plan": "Gemini 앱에서 직접 선택은 유료 구독(Google 구독 페이지·일부 보도는 AI Plus 이상, 다른 보도는 AI Pro 이상으로 엇갈림). 무료는 Auto가 필요할 때 Hydrogen으로 연결"
+        "plan": "Google AI Plus 이상에서 직접 선택(Notebookcheck·Google 구독 페이지 보도 기준). 무료는 직접 고를 수 없고 Auto가 필요할 때만 Hydrogen으로 연결, Auto를 끄면 Flash-Lite"
       },
-      "summary": "11월 12일 Google이 공개한 Gemini 4 계열의 빠른 일상용 모델로 Gemini 3.8 Flash를 대체(‘Flash’ 이름 종료 보도). Google 공식 블로그: 빠른 코딩·에이전트 작업용이며 Gemini 3.8 Flash보다 작업을 2.5배 빨리 끝낸다고 발표(제조사 수치), 깊은 추론은 Carbon·Argon 담당. Gemini 앱 모델 메뉴에서 ‘일상적인 도움’으로 표시된다는 보도. 무료 사용자는 직접 고를 수 없고 Auto 모델 선택이 적절하다고 판단할 때 Hydrogen이 답함. Google 검색 AI Mode 기본 모델. 노력 단계 구성은 확인 불가.",
+      "summary": "11월 12일 Google이 공개한 Gemini 4 계열의 빠른 일상용 모델로 Gemini 3.8 Flash를 대체(‘Flash’ 이름 종료 보도). Google 공식 블로그: 빠른 코딩·에이전트 작업용이며 Gemini 3.8 Flash보다 작업을 2.5배 빨리 끝낸다고 발표(제조사 수치), 깊은 추론은 Carbon·Argon 담당. Gemini 앱 모델 메뉴에서 ‘일상적인 도움’으로 표시된다는 보도. 무료 사용자는 직접 고를 수 없고 Auto 모델 선택이 적절하다고 판단할 때 Hydrogen이 답함(Auto를 끄면 Flash-Lite). AI Plus 이상은 직접 선택 가능하다고 보도(11월 13일 Notebookcheck). Google 검색 AI Mode 기본 모델. 노력 단계 구성은 확인 불가.",
       "effortGuide": {
         "low": "모델 메뉴에서 4 Hydrogen(일상적인 도움) 선택(무료는 Auto). 노력 메뉴가 있으면 Low — 단계 구성은 확인하지 못했어요.",
         "medium": "모델 4 Hydrogen. 노력 메뉴가 있으면 Medium. 무료는 Auto.",
@@ -640,7 +640,7 @@
         "max": "AI Pro 이상이면 Gemini 4 Argon(노력 High), AI Ultra라면 Gemini 4 Carbon을 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-13",
+      "lastVerified": "2026-11-14",
       "sources": [
         {
           "title": "Google — Introducing Gemini 4 Hydrogen (2026-11-12)",
@@ -657,6 +657,10 @@
         {
           "title": "Google — Gemini 구독 플랜",
           "url": "https://gemini.google/subscriptions/"
+        },
+        {
+          "title": "Notebookcheck — Gemini 4 Hydrogen: What free users and Google AI Plus get",
+          "url": "https://www.notebookcheck.net/Gemini-4-Hydrogen-What-free-users-and-Google-AI-Plus-get.1449493.0.html"
         }
       ]
     },

@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-11-14",
+      "summary": "변경 없음 — 모델·추천 유지, Gemini 4 Hydrogen 이용 요금제 보완 (13개 출처 확인)",
+      "changes": [
+        "Gemini 4 Hydrogen: 어제 ‘AI Plus 이상/AI Pro 이상’으로 엇갈렸던 직접 선택 요금제를 Notebookcheck(11월 13일)·Google 구독 페이지 보도 기준 ‘AI Plus 이상’으로 정리. 무료는 Auto로만 연결(Auto 끄면 Flash-Lite)",
+        "Claude: 뉴스룸·요금제·Fable 5.2 발표·Haiku 5.5 발표 직접 확인(11월 10일 이후 새 글 없음, 요금제 표: Fable 무료 제외·Pro 크레딧·Max 주간 한도 50%)",
+        "AA 지능 지수 재확인: Fable 5.2 65·Carbon 60. Hydrogen 점수는 집계 사이트 1곳(53.9%)뿐이라 반영하지 않음",
+        "기타(모델 변경 아님): OpenAI ChatGPT Wallet(미국 Pro 대상 에이전트 결제), Google Gemini–Google Wallet 은행 계좌 연결·CarPlay",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Hydrogen 노력 단계·AA 지수, Gemini 3.1 Pro 메뉴 존속 여부(보도 엇갈림), Gemini 앱 공식 릴리스 노트 원문, Carbon 노력 단계·한도, Fable 5.2 Arena 순위, Arena 텍스트 현재 1위(10월 15일 Argon 1위가 최신 확인분), Images 2.6 무료 한도, Chat·Work 탭 통합 일정, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-13",
       "summary": "Gemini Flash(3.8) → Gemini 4 Hydrogen 교체(문서 과제 대안 1곳) (15개 출처 확인)",
       "changes": [
