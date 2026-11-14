@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-11-15",
+      "summary": "변경 없음 — 모델·추천 유지 (14개 출처 확인)",
+      "changes": [
+        "Claude: 뉴스룸·요금제·Fable 5.2 발표·Haiku 5.5 발표 직접 확인(11월 10일 이후 새 글 없음, 요금제 표 변동 없음: Fable 무료 제외·Pro 크레딧·Max 주간 한도 절반까지). Fable 5.2 발표문의 ‘이번 주 유료 구독자 추가 사용량’ 프로모션 문구 유지 확인",
+        "AA 지능 지수 재확인: Fable 5.2 65(max)·xhigh/high 62, Carbon 60, Opus 5.5 59(v5.0.1), v5 발표 당시 Opus 58·GPT-6 Astra 57·GPT-6.1 Sol 55·Sonnet 5.5 54·Argon 50",
+        "Gemini: Hydrogen 11월 12일 출시·무료 Auto 연결 보도 재확인, Carbon은 AI Ultra 전용 유지. 새 모델 발표 없음",
+        "OpenAI: 11월 13일 ChatGPT Wallet 외 새 모델·메뉴 변경 보도 없음",
+        "SNS 후기: 새로 반영한 공개 후기 없음(교사 대상 최신 보도는 KICE 조사·AI 채점 연구 등 모델 비교가 아니어서 반영하지 않음)",
+        "확인 불가: Hydrogen 노력 단계·AA 지수, Gemini 3.1 Pro 메뉴 존속 여부(보도 엇갈림), Gemini 앱 공식 릴리스 노트 원문, Carbon 노력 단계·한도, Fable 5.2 Arena 순위, Arena 텍스트 현재 1위(11월 2일 Carbon 1528점 1위라는 집계 사이트 보도 1건뿐이라 미반영, 10월 17일 Argon 1524점이 최신 확인분), Images 2.6 무료 한도, Chat·Work 탭 통합 일정, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-14",
       "summary": "변경 없음 — 모델·추천 유지, Gemini 4 Hydrogen 이용 요금제 보완 (13개 출처 확인)",
       "changes": [
