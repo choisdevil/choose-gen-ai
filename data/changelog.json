@@ -1,6 +1,19 @@
 {
   "entries": [
     {
+      "date": "2026-11-16",
+      "summary": "모델 유지, 추천 이유의 AA 점수 표기 수정 9곳 (16개 출처 확인)",
+      "changes": [
+        "AA 지능 지수: 오늘 Opus 5.5 59점(11월 갱신)을 다시 확인하지 못해 추천 이유 3곳·모델 설명을 오늘 확인된 ‘v5 발표 때 58점으로 1위’로 바꿈",
+        "AA 지능 지수: Sonnet 5.5 점수가 출처마다 54·55·56점으로 엇갈려 추천 이유 6곳·모델 설명에서 숫자를 빼고 ‘상위권’으로만 표기",
+        "AA 재확인: Fable 5.2 65(max)·62(xhigh·high)·56(medium), Carbon 59(AA 발표)·Fable 5.2보다 5점 낮음, v5 발표 당시 Opus 58·Astra 57·GPT-6.1 Sol 55·Argon 50",
+        "Claude: 뉴스룸·요금제·Fable 5.2 발표·Haiku 5.5 발표 직접 확인(11월 10일 이후 제목 있는 새 글 없음, 요금제 표 변동 없음). Fable 5.2 Pro 출시 프로모션은 11월 16일 23:59(미국 태평양시)까지라는 보도(검색 요약) — 이후 Pro는 사용 크레딧",
+        "OpenAI·Google: 11월 13~14일 ChatGPT Wallet, Gemini–Google Wallet·CarPlay 외 새 모델·메뉴 변경 보도 없음. Gemini 앱 ‘Chat/Task 선택’ 변경을 되돌릴 수 있다는 Android Authority 보도(미확정)",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Opus 5.5 AA 11월 갱신 점수, Sonnet 5.5 AA v5 점수(54~56 엇갈림), Hydrogen 노력 단계·AA 지수, Gemini 3.1 Pro 메뉴 존속 여부, Gemini 앱 공식 릴리스 노트 원문, Carbon 노력 단계·한도, Fable 5.2 Arena 순위, Arena 텍스트 현재 1위(Arena 홈 검색 요약은 Argon, 11월 2일 Carbon 1528점 보도 1건 — 날짜 불명·출처 1곳이라 미반영), Images 2.6 무료 한도, Chat·Work 탭 통합 일정, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-15",
       "summary": "변경 없음 — 모델·추천 유지 (14개 출처 확인)",
       "changes": [
