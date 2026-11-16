@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T08:10:00+09:00",
+  "updatedAt": "2026-11-17T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -109,7 +109,7 @@
       "released": "2026-11-09",
       "access": {
         "free": false,
-        "plan": "Claude Pro(사용 크레딧 필요 — 11월 9~16일 출시 주간에는 주간 한도의 50%까지 포함)·Max 이상, 무료 요금제 제외"
+        "plan": "Claude Pro(사용 크레딧 필요 — 출시 프로모션으로 11월 16일 23:59 미국 태평양시, 한국 17일 오후 5시 전후까지만 주간 한도의 50%까지 포함)·Max 이상(주간 한도의 절반까지 포함), 무료 요금제 제외"
       },
       "summary": "11월 9일 Anthropic이 공개한 Fable 후속 모델로 ‘어려운 기술 작업용 최상위 모델’로 소개. 제조사 발표 기준 Humanity's Last Exam(도구 사용) 74.2%(Opus 5.5 67.7%), FrontierSWE v2 69.9%, Fable 5.1보다 출력 최대 30% 빠름. Anthropic은 일상 작업에는 Opus 5.5부터 쓰라고 권함. 함께 발표된 Mythos 5.2는 검증 프로그램 기관 전용이라 목록에 넣지 않음. Artificial Analysis 지능 지수 v5.0.1에서 65점(max)으로 측정돼 Opus 5.5·Gemini 4 Carbon보다 높음(xhigh·high 62, medium 56).",
       "effortGuide": {
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.2, 노력 Max. 사용 크레딧·한도를 빨리 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Fable 5.2 and Claude Mythos 5.2",
@@ -160,7 +160,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -192,7 +192,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -352,7 +352,7 @@
         "max": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher, 최고 단계). 한도를 빨리 쓰니 꼭 필요한 일에만."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "OpenAI — GPT-6 Astra",
@@ -392,7 +392,7 @@
         "max": "Work 모드 → 모델 GPT-6.1 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.1 Sol",
@@ -560,7 +560,7 @@
         "max": "모델 4 Carbon, 보이는 가장 높은 노력 단계. 단계 구성은 확인 불가."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "9to5Google — Gemini 4 Carbon rolling out to Gemini app for AI Ultra (2026-11-10)",
@@ -596,7 +596,7 @@
         "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. AI Ultra라면 메뉴의 Gemini 4 Carbon(가장 복잡한 작업)을 고를 수 있어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "9to5Google — Gemini 앱에 Gemini 4 Argon (2026-10-13)",
@@ -640,7 +640,7 @@
         "max": "AI Pro 이상이면 Gemini 4 Argon(노력 High), AI Ultra라면 Gemini 4 Carbon을 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-16",
+      "lastVerified": "2026-11-17",
       "sources": [
         {
           "title": "Google — Introducing Gemini 4 Hydrogen (2026-11-12)",

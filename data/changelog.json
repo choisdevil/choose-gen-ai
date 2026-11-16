@@ -1,6 +1,18 @@
 {
   "entries": [
     {
+      "date": "2026-11-17",
+      "summary": "모델·추천 유지, Claude Fable 5.2 이용 요금제 문구 보완 (15개 출처 확인)",
+      "changes": [
+        "Claude Fable 5.2: Pro 출시 프로모션 종료 시각을 ‘11월 16일 23:59 미국 태평양시(한국 17일 오후 5시 전후)’로 명시하고 Max는 ‘주간 한도의 절반까지 포함’을 덧붙임(Claude 요금제 표 직접 확인, 종료 시각은 Notebookcheck 등 검색 요약). 종료 후 Pro는 사용 크레딧으로 이용",
+        "Claude: 뉴스룸·요금제·Fable 5.2 발표·Haiku 5.5 발표 직접 확인(11월 10일 이후 제목 있는 새 글 없음, 제조사 수치 변동 없음)",
+        "AA 지능 지수 재확인: Fable 5.2 65(max)·62(xhigh·high), Carbon 59~60, v5 발표 당시 Opus 58·Astra 57·GPT-6.1 Sol 55·Argon 50. 수능 풀이(GPT-6 Astra 450점) 재확인",
+        "기타(모델 변경 아님): OpenAI 연구자 대상 ChatGPT Plus 지원금 5만 건(11월 23일 신청), LVMH 미디어 제휴; Gemini 새 지역 음성 66종·Google Wallet 연결(미국)",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Opus 5.5 AA 11월 갱신 점수(어제에 이어 59 재확인 실패, 오늘 검색에선 1건 언급뿐), Sonnet 5.5 AA v5 점수(54~56 엇갈림), Hydrogen 노력 단계·AA 지수, Gemini 3.1 Pro 앱 메뉴 존속 여부(11월 자료 없음), Gemini 앱 공식 릴리스 노트 원문, Carbon 노력 단계·한도, Fable 5.2 Arena 순위, Arena 텍스트 현재 1위(11월 2일 Carbon 1528·Argon 1520 보도 1건뿐이라 미반영), Images 2.6 무료 한도, Chat·Work 탭 통합 일정, ChatGPT의 GPT-5.6 Sol 메뉴 유지 여부, ChatGPT Slides 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-16",
       "summary": "모델 유지, 추천 이유의 AA 점수 표기 수정 9곳 (16개 출처 확인)",
       "changes": [
