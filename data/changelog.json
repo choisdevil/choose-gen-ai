@@ -1,6 +1,21 @@
 {
   "entries": [
     {
+      "date": "2026-11-18",
+      "summary": "GPT-6.2 Astra·GPT-6.2 Sol 추가, ChatGPT Work 대안 추천 5곳 교체 (19개 출처 확인)",
+      "changes": [
+        "추가: GPT-6.2 Astra·GPT-6.2 Sol(11월 17일 출시, ChatGPT Work·Codex 전용, Plus·Pro·Enterprise·Edu) — OpenAI 공식 X·SiliconANGLE·OpenAI 개발자 커뮤니티 검색 요약 기준",
+        "추천: 대안 추천의 GPT-6.1 Sol 3곳(슬라이드·퀴즈 웹앱·스프레드시트)을 GPT-6.2 Sol로, GPT-6 Astra 2곳(계획서·보고서, 학술 연구)을 GPT-6.2 Astra로 교체 — AA 지수 6.2 Astra 62(6 Astra 57), 6.2 Sol 57(6.1 Sol 55), 같은 Work 모드·요금제",
+        "유지: 문항 검토 대안의 GPT-6 Astra는 수능 풀이 만점 근거가 그 모델 기준이라 그대로 둠. GPT-6 Astra·GPT-6.1 Sol은 앱에서 내려갔다는 공식 정보가 없어 목록에 남김",
+        "Claude Fable 5.2: 11월 16일 Pro 출시 프로모션 종료 반영 — Pro는 사용 크레딧, Max는 주간 한도의 절반까지(요금제 표 직접 확인)",
+        "AA 지능 지수: GPT-6.2 Astra 62(max)·2위, GPT-6.2 Sol 57(max) 추가(AA 모델 페이지·AA 공식 X 검색 요약). Fable 5.2 65 1위 유지",
+        "Arena 텍스트: Gemini 4 Carbon (High) 1528점(예비) 1위·Argon 1520점 2위 보도를 여러 2차 출처에서 확인해 signals에 반영(Arena 원문 미확인). 수능 풀이(GPT-6 Astra 450점) 재확인",
+        "기타(모델 변경 아님): Gemini ‘Tasks’(전화·구매 대행, Hydrogen 기반)가 한국 포함 6개국 무료 사용자로 확대, Gemini 기록 끈 대화 보관 72시간→약 2개월, 학습 제외 설정 분리. 캘리포니아 주정부 OpenAI 소송, 연구자용 ChatGPT 지원 20만 명으로 확대",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: GPT-6.2 Astra·Sol의 Work 메뉴 추론 단계 이름과 Plus 사용 한도, GPT-6 Astra·GPT-6.1 Sol 메뉴 정리 일정(‘레거시’ 표시는 사용자 보도 1건), Opus 5.5 AA 11월 갱신 점수(오늘 비교 글 2건에 59로 나오나 AA 원문 미확인), Sonnet 5.5 AA v5 점수, Hydrogen 노력 단계·AA 지수, Gemini 3.1 Pro 앱 메뉴 존속 여부, Carbon 노력 단계·한도, Fable 5.2 Arena 순위, Images 2.6 무료 한도, Chat·Work 탭 통합 일정, ChatGPT Slides 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-17",
       "summary": "모델·추천 유지, Claude Fable 5.2 이용 요금제 문구 보완 (15개 출처 확인)",
       "changes": [

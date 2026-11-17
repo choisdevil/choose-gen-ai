@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T08:10:00+09:00",
+  "updatedAt": "2026-11-18T08:10:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -146,9 +146,9 @@
               "why": "교과서 PDF·자료를 올려 그 내용만으로 슬라이드를 만들고 PPTX로 내보낼 수 있어요."
             },
             {
-              "model": "gpt-6-1-sol",
+              "model": "gpt-6-2-sol",
               "effort": "high",
-              "why": "ChatGPT Plus 사용자라면 Work 모드에서 GPT-6.1 Sol로 프레젠테이션 파일을 완성본으로 받을 수 있어요(Work는 문서·스프레드시트·프레젠테이션을 만들어 주는 에이전트)."
+              "why": "ChatGPT Plus 사용자라면 Work 모드에서 GPT-6.2 Sol로 프레젠테이션 파일을 완성본으로 받을 수 있어요(Work는 문서·스프레드시트·프레젠테이션을 만들어 주는 에이전트, 11월 17일 나온 6.1 Sol 후속)."
             },
             {
               "model": "gpt-6-luna",
@@ -234,9 +234,9 @@
               "why": "ChatGPT를 주로 쓴다면 생각 강도 High로 같은 작업이 가능해요."
             },
             {
-              "model": "gpt-6-1-sol",
+              "model": "gpt-6-2-sol",
               "effort": "high",
-              "why": "ChatGPT Work는 웹앱도 만들어 줘요. OpenAI는 GPT-6.1 Sol이 에이전트 코딩에서 GPT-6 Sol보다 개선됐다고 발표했어요."
+              "why": "ChatGPT Work는 웹앱도 만들어 줘요. GPT-6.2 Sol은 일상 코딩용으로 소개됐고, 코딩 평가(FrontierCode 2.0)에서 GPT-6.2 Astra와 0.5점 차이라고 보도됐어요."
             }
           ],
           "tips": [
@@ -685,9 +685,9 @@
               "why": "ChatGPT Plus 사용자라면 파일을 올려 표 정리를 맡길 수 있어요."
             },
             {
-              "model": "gpt-6-1-sol",
+              "model": "gpt-6-2-sol",
               "effort": "medium",
-              "why": "ChatGPT Work는 스프레드시트를 직접 만들어 주는 에이전트예요. Plus 이상이면 GPT-6.1 Sol로 표 작업을 맡길 수 있어요."
+              "why": "ChatGPT Work는 스프레드시트를 직접 만들어 주는 에이전트예요. Plus 이상이면 GPT-6.2 Sol로 표 작업을 맡길 수 있어요."
             }
           ],
           "tips": [
@@ -728,9 +728,9 @@
               "why": "ChatGPT Plus 사용자라면 생각 강도 High로 대체할 수 있어요."
             },
             {
-              "model": "gpt-6-astra-work",
+              "model": "gpt-6-2-astra-work",
               "effort": "high",
-              "why": "Plus 요금제도 Work 모드에서 OpenAI 최상위 모델 GPT-6 Astra로 긴 보고서를 문서 파일로 완성할 수 있어요(Work 사용 한도 차감)."
+              "why": "Plus 요금제도 Work 모드에서 OpenAI 최상위 모델 GPT-6.2 Astra로 긴 보고서를 문서 파일로 완성할 수 있어요(Work 사용 한도 차감)."
             }
           ],
           "tips": [
@@ -986,9 +986,9 @@
               "why": "선행연구 찾기는 출처를 붙여 주는 Deep Research가 편해요."
             },
             {
-              "model": "gpt-6-astra-work",
+              "model": "gpt-6-2-astra-work",
               "effort": "high",
-              "why": "ChatGPT Plus 사용자라면 Work 모드에서 GPT-6 Astra로 연구 자료를 정리한 문서를 받을 수 있어요(Artificial Analysis 지능 지수 v5 57점)."
+              "why": "ChatGPT Plus 사용자라면 Work 모드에서 GPT-6.2 Astra로 연구 자료를 정리한 문서를 받을 수 있어요(Artificial Analysis 지능 지수 62점, max 노력)."
             }
           ],
           "tips": [
