@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T08:10:00+09:00",
+  "updatedAt": "2026-11-19T08:10:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -236,7 +236,7 @@
             {
               "model": "gpt-6-2-sol",
               "effort": "high",
-              "why": "ChatGPT Work는 웹앱도 만들어 줘요. GPT-6.2 Sol은 일상 코딩용으로 소개됐고, 코딩 평가(FrontierCode 2.0)에서 GPT-6.2 Astra와 0.5점 차이라고 보도됐어요."
+              "why": "ChatGPT Work는 웹앱도 만들어 줘요. GPT-6.2 Sol은 일상 코딩용으로 소개됐어요. 다만 AA 코딩 에이전트 지수가 이전 Sol보다 3점 낮다는 보도가 있어, 복잡한 앱이면 같은 Work 모드의 GPT-6.2 Astra를 고려하세요."
             }
           ],
           "tips": [

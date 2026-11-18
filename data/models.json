@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-18T08:10:00+09:00",
+  "updatedAt": "2026-11-19T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.2, 노력 Max. 사용 크레딧·한도를 빨리 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Fable 5.2 and Claude Mythos 5.2",
@@ -160,7 +160,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -192,7 +192,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -352,7 +352,7 @@
         "max": "Work 모드 → 모델 GPT-6.2 Astra → 가장 높은 추론 수준. 한도를 빨리 쓰니 꼭 필요한 일에만."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.2 Astra and Sol",
@@ -387,7 +387,7 @@
         "free": false,
         "plan": "ChatGPT Plus·Pro·Enterprise·Edu (Work·Codex, Free·Go 제외)"
       },
-      "summary": "11월 17일 OpenAI가 공개한 GPT-6.1 Sol 후속 모델로 ‘일상적인 코딩·글쓰기·여러 단계 업무용’으로 소개. ChatGPT Work(데스크톱 앱의 Work 모드)와 Codex에서만 고를 수 있고 일반 채팅 창에는 없음. OpenAI는 같은 유료 요금제에서 GPT-6.1 Sol보다 더 많은 작업을 처리할 수 있다고 발표. Artificial Analysis 지능 지수 v5.0.1에서 57점(max)으로 GPT-6.1 Sol(55)보다 2점 높음(xhigh 56, high 55, medium 53, low 41), 과제당 비용 약 $1. Pro 200·Pro 500은 Ultrafast로 쓸 수 있음.",
+      "summary": "11월 17일 OpenAI가 공개한 GPT-6.1 Sol 후속 모델로 ‘일상적인 코딩·글쓰기·여러 단계 업무용’으로 소개. ChatGPT Work(데스크톱 앱의 Work 모드)와 Codex에서만 고를 수 있고 일반 채팅 창에는 없음. OpenAI는 같은 유료 요금제에서 GPT-6.1 Sol보다 더 많은 작업을 처리할 수 있다고 발표. Artificial Analysis 지능 지수 v5.0.1에서 57점(max)으로 GPT-6.1 Sol(55)보다 2점 높음(xhigh 56, high 55, medium 53, low 41), 과제당 비용 약 $1. 다만 AA 코딩 에이전트 지수는 이전 Sol보다 3점 낮다는 보도가 있음(Xenospectrum). Work 새 대화의 기본 모델이며 소비자 요금제 기본 추론 단계는 Light라는 OpenAI 학습 페이지 요약이 있음. Pro 200·Pro 500은 Ultrafast로 쓸 수 있음.",
       "effortGuide": {
         "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6.2 Sol → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
         "medium": "Work 모드 → 모델 GPT-6.2 Sol → 추론 수준 중간(Medium).",
@@ -396,7 +396,7 @@
         "max": "Work 모드 → 모델 GPT-6.2 Sol → 가장 높은 추론 수준. 더 어려운 작업이면 같은 Work 모드에서 GPT-6.2 Astra를 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.2 Astra and Sol",
@@ -417,6 +417,14 @@
         {
           "title": "Artificial Analysis — GPT-6.2 Sol",
           "url": "https://artificialanalysis.ai/models/gpt-6-2-sol"
+        },
+        {
+          "title": "Xenospectrum — GPT-6.2 Sol 지수·코딩 지수",
+          "url": "https://xenospectrum.com/en/gpt-6-2-astra-sol/"
+        },
+        {
+          "title": "OpenAI Learn — GPT-6.2 Astra·Sol",
+          "url": "https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol"
         }
       ]
     },
@@ -431,7 +439,7 @@
         "free": false,
         "plan": "ChatGPT Plus 이상 (Work·Codex 사용 한도에서 차감, 5시간·주간 한도)"
       },
-      "summary": "OpenAI 최상위 모델. Plus 요금제는 일반 채팅이 아니라 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 쓸 수 있음(일반 채팅의 GPT-6 Pro는 Pro 이상). '2026 수능 LLM 풀이'에서 유일하게 450점 만점으로 보도됨. Artificial Analysis 지능 지수 v5에서 57점(max)으로 보고됨. 11월 17일 후속 GPT-6.2 Astra(62점)가 같은 Work·Codex에 나왔고, GPT-6 Astra도 Ultrafast 대상 목록 등에 남아 있어 함께 둠(메뉴 정리 일정은 확인 불가). 9월 30일 신설된 Pro 500 요금제($500/월)에서는 더 빠른 서비스 단계인 Astra Ultrafast를 Work·Codex에서 고를 수 있음(Pro 500 전용).",
+      "summary": "OpenAI 최상위 모델. Plus 요금제는 일반 채팅이 아니라 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex에서 쓸 수 있음(일반 채팅의 GPT-6 Pro는 Pro 이상). '2026 수능 LLM 풀이'에서 유일하게 450점 만점으로 보도됨. Artificial Analysis 지능 지수 v5에서 57점(max)으로 보고됨. 11월 17일 후속 GPT-6.2 Astra(62점)가 같은 Work·Codex에 나왔고, GPT-6 Astra도 OpenAI 도움말(Business)에 Work 선택지로 남아 있어 함께 둠(메뉴 정리 일정은 확인 불가). 9월 30일 신설된 Pro 500 요금제($500/월)에서는 더 빠른 서비스 단계인 Astra Ultrafast를 Work·Codex에서 고를 수 있음(Pro 500 전용).",
       "effortGuide": {
         "low": "데스크톱 앱 Work 모드 → 모델 GPT-6 Astra → 추론 수준 낮음(Lower).",
         "medium": "Work 모드 → GPT-6 Astra → 추론 수준 중간(Medium).",
@@ -440,7 +448,7 @@
         "max": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher, 최고 단계). 한도를 빨리 쓰니 꼭 필요한 일에만."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "OpenAI — GPT-6 Astra",
@@ -471,7 +479,7 @@
         "free": false,
         "plan": "ChatGPT Plus 이상 (Work·Codex, Free·Go 제외)"
       },
-      "summary": "9월 29일 DevDay에서 공개. GPT-6 Sol보다 에이전트 작업·컴퓨터 사용·전문 업무가 개선됐다고 OpenAI가 발표. Artificial Analysis 지능 지수 v5에서 55점(max)으로 GPT-6 Astra(57)보다 2점 낮게 보고됨. 11월 17일 같은 가격의 후속 GPT-6.2 Sol(57점)이 나왔고, 6.1은 Work 메뉴에 레거시로 남아 있다는 사용자 보도가 있음(확인 불가). OpenAI 공식 X 계정 기준 Plus·Pro·Business·Enterprise·Edu에서 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex로 제공되며, 일반 채팅과 Free·Go 요금제에는 없음.",
+      "summary": "9월 29일 DevDay에서 공개. GPT-6 Sol보다 에이전트 작업·컴퓨터 사용·전문 업무가 개선됐다고 OpenAI가 발표. Artificial Analysis 지능 지수 v5에서 55점(max)으로 GPT-6 Astra(57)보다 2점 낮게 보고됨. 11월 17일 같은 가격의 후속 GPT-6.2 Sol(57점)이 나왔고, 6.1 Sol은 OpenAI 도움말(Enterprise)에 Work 선택지로 남아 있음(메뉴 정리 일정은 확인 불가). OpenAI 공식 X 계정 기준 Plus·Pro·Business·Enterprise·Edu에서 ChatGPT Work(데스크톱 앱의 Work 모드, 문서·스프레드시트·프레젠테이션·웹앱을 완성해 주는 에이전트)와 Codex로 제공되며, 일반 채팅과 Free·Go 요금제에는 없음.",
       "effortGuide": {
         "low": "ChatGPT 데스크톱 앱에서 Work 모드로 전환 → 모델 GPT-6.1 Sol → 추론 수준을 가장 낮은 단계로. (일반 채팅 창에는 이 모델이 없어요)",
         "medium": "Work 모드 → 모델 GPT-6.1 Sol → 추론 수준 중간(Medium).",
@@ -480,7 +488,7 @@
         "max": "Work 모드 → 모델 GPT-6.1 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.1 Sol",
@@ -648,7 +656,7 @@
         "max": "모델 4 Carbon, 보이는 가장 높은 노력 단계. 단계 구성은 확인 불가."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "9to5Google — Gemini 4 Carbon rolling out to Gemini app for AI Ultra (2026-11-10)",
@@ -684,7 +692,7 @@
         "max": "Argon에는 이 단계가 없어요. 노력 High를 쓰세요. AI Ultra라면 메뉴의 Gemini 4 Carbon(가장 복잡한 작업)을 고를 수 있어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "9to5Google — Gemini 앱에 Gemini 4 Argon (2026-10-13)",
@@ -728,7 +736,7 @@
         "max": "AI Pro 이상이면 Gemini 4 Argon(노력 High), AI Ultra라면 Gemini 4 Carbon을 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-18",
+      "lastVerified": "2026-11-19",
       "sources": [
         {
           "title": "Google — Introducing Gemini 4 Hydrogen (2026-11-12)",
