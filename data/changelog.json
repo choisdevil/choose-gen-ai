@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "date": "2026-11-20",
+      "summary": "Gemini 4 Neon 추가·Gemini 4 Argon 삭제(앱에서 대체), 대안 추천 2곳 교체 (20개 출처 확인)",
+      "changes": [
+        "추가: Gemini 4 Neon(11월 19일, Google AI Pro·Ultra, Gemini 앱 모델 메뉴 ‘더 깊은 분석’) — Google 블로그·Gemini 앱 공식 X·The Next Web 등 검색 요약 기준. AA 지수 61(xhigh) 3위",
+        "삭제: Gemini 4 Argon — Neon이 앱 모델 메뉴에서 Argon 자리를 대체했다는 공식 X·다수 보도(Antigravity 문서에는 아직 Argon이 남아 있으나 이 사이트는 소비자 앱 기준)",
+        "추천: Argon을 쓰던 대안 2곳(최신 정보 조사, 긴 문서 요약)을 Gemini 4 Neon으로 교체(같은 AI Pro 이상 요금제, AA 61 대 Argon 50). Hydrogen·Carbon의 노력 안내에서 Argon 언급을 Neon으로 바꿈",
+        "Gemini 3.1 Pro 앱 메뉴 존속 여부: Neon 출시 보도에서 3.1 Pro도 앱에서 빠졌다고 보도돼 기존 ‘확인 불가’ 항목을 정리(이미 11월 11일 목록에서 삭제됨)",
+        "재확인: AA v5 발표 당시 Opus 5.5 58(AA 발표), GPT-6.2 Sol 57이 GPT-6 Astra와 같고 GPT-6.1 Sol보다 2점 높다는 AA 기사 요약(→Astra 57·6.1 Sol 55와 일치), 수능 GPT-6 Astra 450점(Korea Times), AA GPT-6.2 Astra 62(2위)·GPT-6.2 Sol 57(AA 기사), Arena 텍스트 Carbon 1528(예비)·Argon 1520, Claude 공식 페이지 4곳(요금제·Fable 5.2·Haiku 5.5 수치 변동 없음). Fable 5.2 65는 오늘 검색에선 ‘1위’로만 확인되고 AA 원문 숫자는 GPT-6.2 기사 요약 경유. signals의 Argon 50점은 오늘 재확인되지 않아 뺌",
+        "기타(모델 변경 아님): Anthropic ‘IPO 가격 결정’(11월 18일), Gemini Mac 앱 컴퓨터 사용(미국 영어, AI Plus 이상), ChatGPT Live Dictation 전 요금제",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: Gemini 4 Neon 앱 사고 단계 구성(3단계·4단계 보도 엇갈림)·사용 한도, Neon 적용 완료 시점, GPT-6.2 Work 메뉴 추론 단계 전체 이름과 Plus 사용 한도, GPT-6 Astra·GPT-6.1 Sol 메뉴 정리 일정, Opus 5.5 AA 11월 갱신 점수(오늘 AA 관련 요약에 59로 언급), Sonnet 5.5 AA v5 점수, Hydrogen 노력 단계·AA 지수, Carbon 노력 단계·한도, Fable 5.2 Arena 순위, Images 2.6 무료 한도, Chat·Work 탭 통합 일정, ChatGPT Slides 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-19",
       "summary": "모델·추천 유지, GPT-6.2 Sol 설명·퀴즈 웹앱 대안 이유 보완 (18개 출처 확인)",
       "changes": [
