@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T08:10:00+09:00",
+  "updatedAt": "2026-11-21T08:10:00+09:00",
   "guidelines": [
     {
       "title": "학교생활기록 작성 및 관리지침 (교육부훈령 제555호, 2026.3.1. 시행)",
@@ -900,7 +900,7 @@
             {
               "model": "gemini-4-neon",
               "effort": "high",
-              "why": "Google AI Pro 이상 구독이 있다면 Gemini 4 Neon(11월 19일 Argon 대체)과 Deep Research도 대안이에요."
+              "why": "Google AI Pro 이상 구독이 있다면 Gemini 4 Neon(11월 18일 Argon 대체)과 Deep Research도 대안이에요."
             }
           ],
           "tips": [

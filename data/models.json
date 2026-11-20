@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T08:10:00+09:00",
+  "updatedAt": "2026-11-21T08:10:00+09:00",
   "effortLevels": [
     {
       "id": "low",
@@ -35,7 +35,7 @@
         "free": false,
         "plan": "Claude Pro 이상 (월 $20, 연간 결제 시 월 $17)"
       },
-      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. Artificial Analysis 지능 지수 v5(10월 27일 개편) 발표 때 58점(max)으로 1위였고, 이후 측정된 Gemini 4 Carbon(59~60점)과 11월 9일 나온 Fable 5.2(65점, max)가 더 높음 — Fable은 무료 제외·Pro는 사용 크레딧. Arena 텍스트는 9월 말 1위로 데뷔했고, 10월 초에는 Gemini 4 Argon이 1위라는 2차 보도가 있어 현재 순위는 확인 불가. 한국어 인터페이스 공식 지원. 참고: Anthropic의 Claude for Teachers(인증 교사 1년 무료)는 미국 K-12 교사 전용이라 한국 교사는 해당되지 않음.",
+      "summary": "Anthropic의 Claude 5.5 계열 첫 모델. Artificial Analysis 지능 지수 v5(10월 27일 개편) 발표 때 58점(max)으로 1위였고(11월 AA 비교 페이지에서는 59점), 이후 측정된 Gemini 4 Carbon(59~60점)과 11월 9일 나온 Fable 5.2(65점, max)가 더 높음 — Fable은 무료 제외·Pro는 사용 크레딧. Arena 텍스트는 9월 말 1위로 데뷔했고, 10월 초에는 Gemini 4 Argon이 1위라는 2차 보도가 있어 현재 순위는 확인 불가. 한국어 인터페이스 공식 지원. 참고: Anthropic의 Claude for Teachers(인증 교사 1년 무료)는 미국 K-12 교사 전용이라 한국 교사는 해당되지 않음.",
       "effortGuide": {
         "low": "Claude에서 모델을 Opus 5.5로 고르고 노력(Effort)을 Low로 설정하세요.",
         "medium": "모델 Opus 5.5, 노력 Medium.",
@@ -44,7 +44,7 @@
         "max": "모델 Opus 5.5, 노력 Max. 응답이 느리고 사용량을 많이 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "Anthropic — Claude Opus 5.5",
@@ -84,7 +84,7 @@
         "max": "모델 Sonnet 5.5, 노력 Max. 선택지가 없으면 가장 높은 단계를 쓰세요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "Anthropic — Claude Sonnet 5.5",
@@ -120,7 +120,7 @@
         "max": "모델 Fable 5.2, 노력 Max. 사용 크레딧·한도를 빨리 씁니다."
       },
       "verification": "official",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Fable 5.2 and Claude Mythos 5.2",
@@ -160,7 +160,7 @@
         "max": "모델 Fable 5.1, 노력 Max."
       },
       "verification": "official",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "Anthropic — Claude Fable 5.1",
@@ -192,7 +192,7 @@
         "max": "모델 Haiku 5.5, 노력 Max. 복잡한 결과물이 필요하면 Haiku보다 Sonnet 5.5·Opus 5.5가 알맞아요."
       },
       "verification": "official",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "Anthropic — Introducing Claude Haiku 5.5",
@@ -352,7 +352,7 @@
         "max": "Work 모드 → 모델 GPT-6.2 Astra → 가장 높은 추론 수준. 한도를 빨리 쓰니 꼭 필요한 일에만."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.2 Astra and Sol",
@@ -396,7 +396,7 @@
         "max": "Work 모드 → 모델 GPT-6.2 Sol → 가장 높은 추론 수준. 더 어려운 작업이면 같은 Work 모드에서 GPT-6.2 Astra를 고르세요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.2 Astra and Sol",
@@ -448,7 +448,7 @@
         "max": "Work 모드 → GPT-6 Astra → 추론 수준 높음(Higher, 최고 단계). 한도를 빨리 쓰니 꼭 필요한 일에만."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "OpenAI — GPT-6 Astra",
@@ -488,7 +488,7 @@
         "max": "Work 모드 → 모델 GPT-6.1 Sol → 가장 높은 추론 수준. OpenAI는 높은 단계가 항상 더 나은 결과를 내지는 않는다고 안내해요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "OpenAI — Introducing GPT-6.1 Sol",
@@ -656,7 +656,7 @@
         "max": "모델 4 Carbon, 보이는 가장 높은 노력 단계. 단계 구성은 확인 불가."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "9to5Google — Gemini 4 Carbon rolling out to Gemini app for AI Ultra (2026-11-10)",
@@ -678,21 +678,21 @@
       "vendor": "Google",
       "product": "Gemini 앱",
       "url": "https://gemini.google.com",
-      "released": "2026-11-19",
+      "released": "2026-11-18",
       "access": {
         "free": false,
         "plan": "Google AI Pro·Ultra (Gemini 앱 Chat·Tasks의 모델 메뉴 ‘더 깊은 분석’, 웹·모바일·데스크톱, 며칠에 걸쳐 순차 적용 보도). 무료·AI Plus는 Hydrogen"
       },
-      "summary": "11월 19일 Google이 공개한 Gemini 4 중간급 모델로 코딩·지식 업무용. Gemini 앱 모델 메뉴의 ‘더 깊은 분석(Deeper analysis)’ 자리에서 Gemini 4 Argon을 대체(Gemini 앱 공식 X·9to5Google·The Next Web 보도, Gemini 3.1 Pro도 앱에서 빠졌다는 보도). Artificial Analysis 지능 지수 v5.0.1에서 61점(xhigh)으로 Fable 5.2(65)·GPT-6.2 Astra(62)에 이어 3위, Gemini 4 Carbon(60, high)보다 1점 높음(high 60, medium 55, low 44). 과제당 비용은 xhigh 기준 약 $6.44. 앱의 사고 단계는 ‘Low·Medium·High’라는 보도와 ‘Extra High 포함 4단계’라는 보도가 엇갈림.",
+      "summary": "11월 18일 Google이 공개한(앱 반영은 18~19일 보도) Gemini 4 중간급 모델로 코딩·지식 업무용. Gemini 앱 모델 메뉴의 ‘더 깊은 분석(Deeper analysis)’ 자리에서 Gemini 4 Argon을 대체(Gemini 앱 공식 X·9to5Google·The Next Web 보도, Gemini 3.1 Pro도 앱에서 빠졌다는 보도). Artificial Analysis 지능 지수 v5.0.1에서 61점(xhigh)으로 Fable 5.2(65)·GPT-6.2 Astra(62)에 이어 3위, Gemini 4 Carbon(60, high)보다 1점 높음(high 60, medium 55, low 44). 과제당 비용은 xhigh 기준 약 $6.44. 9to5Google은 Hydrogen처럼 사고 단계가 Low·Medium·High·Extra High 4단계라고 보도(‘Low·Medium·High 3단계’라는 다른 보도도 있음). Arena 텍스트 11월 18일 스냅숏에서 1518점(High)으로 3위.",
       "effortGuide": {
         "low": "Gemini 앱 모델 메뉴에서 4 Neon(더 깊은 분석) → 사고 수준 Low. 가벼운 일은 Hydrogen이 더 빨라요.",
         "medium": "모델 4 Neon → 사고 수준 Medium.",
         "high": "모델 4 Neon → 사고 수준 High.",
-        "xhigh": "모델 4 Neon → 보이는 가장 높은 사고 수준(Extra High가 있다는 보도와 High가 최고라는 보도가 엇갈려요).",
-        "max": "모델 4 Neon → 보이는 가장 높은 사고 수준. AI Ultra라면 Gemini 4 Carbon(가장 복잡한 작업)도 고를 수 있어요."
+        "xhigh": "모델 4 Neon → 사고 수준 Extra High(9to5Google 보도 기준 최고 단계, 메뉴에 없으면 High).",
+        "max": "모델 4 Neon → Extra High가 가장 높은 단계예요(별도 max 없음). AI Ultra라면 Gemini 4 Carbon(가장 복잡한 작업)도 고를 수 있어요."
       },
       "verification": "search-summary",
-      "lastVerified": "2026-11-20",
+      "lastVerified": "2026-11-21",
       "sources": [
         {
           "title": "Google — Introducing Gemini 4 Neon",
@@ -709,6 +709,14 @@
         {
           "title": "Artificial Analysis — Gemini 4 Neon",
           "url": "https://artificialanalysis.ai/models/gemini-4-neon"
+        },
+        {
+          "title": "9to5Google — Gemini 4 Neon 발표·Argon 대체 (2026-11-18)",
+          "url": "https://9to5google.com/2026/11/18/gemini-4-neon-announcement/"
+        },
+        {
+          "title": "Artificial Analysis — Gemini 4 Neon 지능 지수",
+          "url": "https://artificialanalysis.ai/articles/gemini-4-neon-intelligence-gain"
         }
       ]
     },
