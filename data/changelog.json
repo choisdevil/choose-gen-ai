@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "date": "2026-11-23",
+      "summary": "모델·추천 유지, Gemini 4 Hydrogen AA 지수 추가 (16개 출처 확인)",
+      "changes": [
+        "Gemini 4 Hydrogen: AA 지능 지수 54(xhigh)·51(high)·41(medium)·27(low)를 설명과 signals에 추가 — AA 출시 페이지·OfficeChai·Let's Data Science가 일치(검색 요약)",
+        "AA 재확인: Fable 5.2 65, GPT-6.2 Astra 62(2위), Gemini 4 Neon 61(Extra High)·60(High), Carbon 60, Opus 5.5 59, GPT-6.2 Sol 57",
+        "Arena 텍스트 재확인(Arena 페이지 검색 요약, 11월 18일 갱신): Carbon 1526·Argon 1521·Neon 1518(±10)",
+        "Claude: 공식 페이지 4곳 직접 확인 — 요금제·Fable 5.2·Haiku 5.5 수치 변동 없음, 뉴스룸 새 글 없음(IPO 관련 11월 18·20일까지)",
+        "수능 풀이: GPT-6 Astra 450점(Korea Times) 재확인",
+        "기타(모델 변경 아님): ChatGPT Space(문서·프레젠테이션 작업 공간)를 Plus로 확대했다는 보도(11월 21일, 2차 출처), Gemini 구독을 외부 에이전트 도구에서 12월 2일부터 쓸 수 있다는 암시(미확정), Gemini GIF 만들기(Omni 1.2 Flash 기반)",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: ChatGPT Space Plus 확대(OpenAI 원문 미확인)·ChatGPT Slides 대상 요금제, Gemini 4 Neon 앱 사용 한도·순차 적용 완료 시점, GPT-6.2 Work 메뉴 추론 단계 전체 이름과 Plus 사용 한도, GPT-6 Astra·GPT-6.1 Sol 메뉴 정리 일정, Sonnet 5.5 AA v5 점수(오늘 Hydrogen 기사에 55로 언급, 기존 54~56 엇갈림), Hydrogen 앱 노력 단계, Carbon 노력 단계·한도, Fable 5.2·GPT-6.2 Arena 순위, Images 2.6 무료 한도, Chat·Work 탭 통합 일정"
+      ]
+    },
+    {
       "date": "2026-11-22",
       "summary": "변경 없음 — 모델·추천 유지 (14개 출처 확인)",
       "changes": [
