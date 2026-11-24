@@ -1,6 +1,21 @@
 {
   "entries": [
     {
+      "date": "2026-11-25",
+      "summary": "모델·추천 유지, GPT-6.2 Sol Chat 탭 요금제 보완 (17개 출처 확인)",
+      "changes": [
+        "GPT-6.2 Sol: Chat 탭 적용이 유료 요금제만이고 Free·Go는 제외라는 보도(Notebookcheck·MacRumors)로 요금제 문구 보완",
+        "GPT-5.6 Sol: 12월 23일 Chat·Work·Codex 종료 예정을 MacRumors·AI Weekly 보도로 재확인 — 아직 사용 가능해 유료 추천 유지, 종료 전 대체 추천 재평가 예정",
+        "AA 재확인: Fable 5.2 65, GPT-6.2 Astra 62(2위), Gemini 4 Neon 61(xhigh, 3위), Carbon 60, Opus 5.5 59, GPT-6.2 Sol 57, Hydrogen 54(xhigh)",
+        "Arena 텍스트 재확인: Carbon 1526·Argon 1521·Neon 1518(±10, 11월 18일 갱신)",
+        "수능 풀이: GPT-6 Astra 450점(Korea Times) 재확인",
+        "Claude: 공식 페이지 4곳 직접 확인 — 요금제·Fable 5.2·Haiku 5.5 수치 변동 없음, 뉴스룸 새 글 없음(IPO 관련 11월 18·20일까지)",
+        "기타(모델 변경 아님): ChatGPT iCloud 메일·캘린더 플러그인, Dots 전용 이메일 준비(미출시); Gemini 기록 보관·학습 사용 설정 분리, Google 검색 AI Mode–Wallet 연결 시작. Gemini 4 Neon의 Workspace 확대는 X 게시물 1건뿐이라 미반영",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: GPT-5.6 Sol 종료 공지 OpenAI 원문, GPT-6.2 Sol Chat 탭 추론 단계 메뉴 구성, Gemini 4 Neon 앱 사용 한도·Workspace 제공, GPT-6.2 Work 추론 단계 이름·Plus 한도, Sonnet 5.5 AA 점수(55 보도, 엇갈림), Hydrogen 앱 노력 단계, Carbon 노력 단계·한도, Fable 5.2·GPT-6.2 Arena 순위, Images 2.6 무료 한도, ChatGPT Slides·Space 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-24",
       "summary": "모델·추천 유지, GPT-6.2 Sol Chat 탭 확대·GPT-5.6 Sol 종료 예정 반영 (17개 출처 확인)",
       "changes": [
