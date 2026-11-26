@@ -1,6 +1,20 @@
 {
   "entries": [
     {
+      "date": "2026-11-27",
+      "summary": "모델·추천 유지, GPT-6.2 사용 한도 변경 소식 반영 (18개 출처 확인)",
+      "changes": [
+        "GPT-6.2 Astra·Sol: OpenAI가 출시 때 사용량 집계 오류를 고쳐 같은 작업이 한도를 더 쓰게 됨(Astra 최대 40%, Sol 25% 빨리 한도 도달), 유료 구독자 1회 초기화 — Notebookcheck·TechRadar 보도를 설명에 추가. 이에 따라 GPT-6.2 Astra 대안 추천의 ‘Work 사용 한도 차감’ 안내는 유지",
+        "Chat·Work 통합(일부 Pro 시험, 12월 확대 예정)·GPT-5.6 Sol 12월 23일 종료 예정 보도 재확인(TechCrunch 등)",
+        "AA 재확인: Fable 5.2 65, GPT-6.2 Astra 62(2위), Neon 61(xhigh), Opus 5.5 59, GPT-6.2 Sol 57, Hydrogen 54(xhigh). Arena 텍스트: Carbon 1526·Argon 1521·Neon 1518(11월 18일 갱신, 날짜 없는 다른 페이지엔 Carbon 1527)",
+        "수능 풀이: GPT-6 Astra 450점(Korea Times) 재확인",
+        "Claude: 공식 페이지 4곳 직접 확인 — 요금제·Fable 5.2·Haiku 5.5 수치 변동 없음, 뉴스룸 새 글 없음",
+        "기타(모델 변경 아님): Google Home에서 Gemini 응답 최대 20% 빨라짐(11월 25일 앱 업데이트)",
+        "SNS 후기: 새로 반영한 공개 후기 없음",
+        "확인 불가: GPT-6.2 한도 변경의 OpenAI 원문, Plus 5시간당 메시지 수(Codex 가격 페이지 인용 보도 1건: Astra 6~50·Sol 17~180, 미반영), Chat·Work 통합의 Plus 적용 시점·한도 수치, GPT-5.6 Sol 종료 공지 원문, GPT-6.2 Sol Chat 탭 추론 단계 메뉴, Neon 앱 사용 한도, Sonnet 5.5 AA 점수, Hydrogen 앱 노력 단계, Carbon 노력 단계·한도, Fable 5.2·GPT-6.2 Arena 순위, Images 2.6 무료 한도, ChatGPT Slides·Space 대상 요금제"
+      ]
+    },
+    {
       "date": "2026-11-26",
       "summary": "모델·추천 유지, ChatGPT Chat·Work 통합 시험 소식 반영 (18개 출처 확인)",
       "changes": [
